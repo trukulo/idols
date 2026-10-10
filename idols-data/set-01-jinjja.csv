@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+jinjja,IDOL,41,JNJ-DV-1001,"Jiodi - PakJunhyon",Debut,2,1,0,d6,d4,VOZ,BAILE,WARCRY,F,1.png,1
+jinjja,IDOL,42,JNJ-DV-1002,"Jiodi - KimTewu",Rising,2,1,1,d6,d6,BAILE,VOZ,SABOTAGE,F,2.png,1
+jinjja,IDOL,43,JNJ-DV-1003,"Jiodi - SonHoyon",Star,2,2,1,d8,d8,VOZ,BAILE,FAST,F,3.png,1
+jinjja,IDOL,44,JNJ-DV-1004,"Jiodi - DeniAn",Debut,2,1,0,d6,d4,BAILE,VOZ,WARCRY,F,4.png,1
+jinjja,IDOL,45,JNJ-DV-1005,"Pi - Pio",Rising,2,1,1,d6,d6,BAILE,VOZ,SABOTAGE,F,5.png,1
+jinjja,IDOL,46,JNJ-DV-1006,"Pak Jiyun",Legend,1,2,2,d10,d10,VOZ,BAILE,FAST,F,6.png,1
+jinjja,IDOL,47,JNJ-DV-1007,"Wonda - Soni",Debut,2,1,0,d6,d4,VOZ,BAILE,BLOODRUSH,F,7.png,1
+jinjja,IDOL,48,JNJ-DV-1008,"Wonda - Yubin",Debut,2,1,0,d6,d4,BAILE,VOZ,BLOODRUSH,F,8.png,1
+jinjja,IDOL,49,JNJ-DV-1009,"TsuPiemu - Junho",Debut,2,1,0,d6,d4,BAILE,VOZ,RALLY,F,9.png,1
+jinjja,PRODUCER,50,JNJ-PR-1010,"Pak Jinyon",Rising,2,1,1,d8,d6,BAILE,VOZ,RALLY,M,10.png,1
+jinjja,PRODUCER,51,JNJ-PR-1011,"Sim Unji",Rising,2,1,1,d6,d8,BAILE,VOZ,SCOUT,M,11.png,1
+jinjja,PRODUCER,52,JNJ-PR-1012,"BurakkuAisu Rado",Star,2,2,1,d8,d8,BAILE,VOZ,GUARDIAN,M,12.png,1
+jinjja,PRODUCER,53,JNJ-PR-1013,"BurakkuAisu Kyu",Star,2,2,1,d8,d8,VOZ,BAILE,GUARDIAN,M,13.png,1
+jinjja,PRODUCER,54,JNJ-PR-1014,"Kobii",Debut,2,1,0,d6,d4,VOZ,BAILE,SCOUT,M,14.png,1
+jinjja,PRODUCER,55,JNJ-PR-1015,"Amadillo",Debut,2,1,0,d6,d4,BAILE,VOZ,LAST STAND,M,15.png,1
+jinjja,EVENT,56,JNJ-EV-1016,"Canción ♪ El single de debut",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,LAST STAND,F,16.png,1
+jinjja,EVENT,57,JNJ-EV-1017,"Baile ♪ El concurso de baile escolar",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,HEX,F,17.png,1
+jinjja,EVENT,58,JNJ-EV-1018,"Entrevista ♪ El programa de radio",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,HEX,F,18.png,1
+jinjja,EVENT,59,JNJ-EV-1019,"Firma ♪ La firma de discos",Star,2,3,1,d6+2,d4+2,VOZ,BAILE,CHARGED,F,19.png,1
+jinjja,EVENT,60,JNJ-EV-1020,"Live ♪ El directo en la television",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,VERSATIL,F,20.png,1
+jinjja,EVENT,61,JNJ-EV-1021,"Photobook ♪ El photobook de verano",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,VERSATIL,F,21.png,1
+jinjja,EVENT,62,JNJ-EV-1022,"Stream ♪ El nº1 en Music Bank",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,COUNTDOWN,F,22.png,1
+jinjja,EVENT,63,JNJ-EV-1023,"Concierto ♪ En el estadio",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,COUNTDOWN,F,23.png,1
+jinjja,EVENT,64,JNJ-EV-1024,"Fotos ♪ La sesion de portada",Legend,1,3,2,d4+3,d6+3,BAILE,VOZ,CHARGED,F,24.png,1

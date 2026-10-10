@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+heuk,IDOL,61,HUK-DV-2001,"TsuEnI - ShiiEru",Debut,2,1,0,d4,d6,BAILE,VOZ,COUNTDOWN,F,25.png,2
+heuk,IDOL,62,HUK-DV-2002,"TsuEnI - Pomu",Debut,2,1,0,d4,d6,VOZ,BAILE,COUNTDOWN,F,26.png,2
+heuk,IDOL,63,HUK-DV-2003,"TsuEnI - Dara",Legend,1,3,2,d10,d10,BAILE,VOZ,CHARGED,F,27.png,2
+heuk,IDOL,64,HUK-DV-2004,"Uina - Mino",Debut,2,1,0,d4,d6,BAILE,VOZ,WARCRY,F,28.png,2
+heuk,IDOL,65,HUK-DV-2005,"Uina - KanSunyun",Legend,1,3,2,d10,d10,VOZ,BAILE,CHARGED,F,29.png,2
+heuk,IDOL,66,HUK-DV-2006,"Aikon - Biai",Debut,2,1,0,d4,d6,BAILE,VOZ,WARCRY,F,30.png,2
+heuk,IDOL,67,HUK-DV-2007,"Aikon - Bobi",Debut,2,1,0,d4,d6,VOZ,BAILE,VERSATIL,F,31.png,2
+heuk,IDOL,68,HUK-DV-2008,"BurakkuPinku - Jeny",Rising,2,1,1,d6,d6,VOZ,BAILE,GUARDIAN,F,32.png,2
+heuk,IDOL,69,HUK-DV-2009,"BurakkuPinku - Risa",Rising,2,1,1,d6,d6,VOZ,BAILE,GUARDIAN,F,33.png,2
+heuk,PRODUCER,70,HUK-PR-2010,"Tedi Paku",Rising,2,1,1,d6,d8,BAILE,VOZ,VERSATIL,M,34.png,2
+heuk,PRODUCER,71,HUK-PR-2011,"Beku",Debut,2,1,0,d6,d4,BAILE,VOZ,RALLY,M,35.png,2
+heuk,PRODUCER,72,HUK-PR-2012,"DigiPi",Rising,2,1,1,d8,d6,VOZ,BAILE,RALLY,M,36.png,2
+heuk,PRODUCER,73,HUK-PR-2013,"Airupurei",Star,2,2,1,d8,d8,VOZ,BAILE,FAST,M,37.png,2
+heuk,PRODUCER,74,HUK-PR-2014,"MirEniamu",Debut,2,1,0,d6,d4,BAILE,VOZ,SCOUT,M,38.png,2
+heuk,PRODUCER,75,HUK-PR-2015,"Biguton",Debut,2,1,0,d4,d6,VOZ,BAILE,SCOUT,M,39.png,2
+heuk,EVENT,76,HUK-EV-2016,"Baile ♪ La coreografia del momento",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,BLOODRUSH,F,40.png,2
+heuk,EVENT,77,HUK-EV-2017,"Entrevista ♪ Prensa internacional",Star,2,2,1,d4+2,d6+2,BAILE,VOZ,FAST,F,41.png,2
+heuk,EVENT,78,HUK-EV-2018,"Firma ♪ La firma de albumes",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,BLOODRUSH,F,42.png,2
+heuk,EVENT,79,HUK-EV-2019,"Live ♪ Concierto en el club",Star,2,2,1,d6+2,d4+2,BAILE,VOZ,SABOTAGE,F,43.png,2
+heuk,EVENT,80,HUK-EV-2020,"Photobook ♪ De estudio",Star,2,2,1,d6+2,d4+2,BAILE,VOZ,SABOTAGE,F,44.png,2
+heuk,EVENT,81,HUK-EV-2021,"Stream ♪ El directo en la plataforma",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,LAST STAND,F,45.png,2
+heuk,EVENT,82,HUK-EV-2022,"Concierto ♪ La gira mundial",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,LAST STAND,F,46.png,2
+heuk,EVENT,83,HUK-EV-2023,"Fotos ♪ La portada de moda de calle",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,HEX,F,47.png,2
+heuk,EVENT,84,HUK-EV-2024,"Canción ♪ La cancion del aniversario",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,HEX,F,48.png,2

@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+heuk,IDOL,61,HUK-DV-5001,"Somi",Legend,1,2,2,d10,d10,BAILE,VOZ,FAST,F,97.png,5
+heuk,IDOL,62,HUK-DV-5002,"Zion.T",Rising,2,2,1,d6,d6,BAILE,VOZ,CHARGED,F,98.png,5
+heuk,IDOL,63,HUK-DV-5003,"Lee Hi",Debut,2,1,0,d6,d4,VOZ,BAILE,BLOODRUSH,F,99.png,5
+heuk,IDOL,64,HUK-DV-5004,"BigBan - Deson",Debut,2,1,0,d4,d6,VOZ,BAILE,BLOODRUSH,F,100.png,5
+heuk,IDOL,65,HUK-DV-5005,"Uina - JinU",Debut,2,1,0,d4,d6,BAILE,VOZ,VERSATIL,F,101.png,5
+heuk,IDOL,66,HUK-DV-5006,"Gumi",Star,2,2,1,d8,d8,VOZ,BAILE,FAST,F,102.png,5
+heuk,IDOL,67,HUK-DV-5007,"Sebun",Debut,2,1,0,d4,d6,BAILE,VOZ,VERSATIL,F,103.png,5
+heuk,IDOL,68,HUK-DV-5008,"Sekusukisu - Jiwon",Rising,2,2,1,d6,d6,VOZ,BAILE,CHARGED,F,104.png,5
+heuk,IDOL,69,HUK-DV-5009,"Masto U",Debut,2,1,0,d6,d4,VOZ,BAILE,LAST STAND,F,105.png,5
+heuk,PRODUCER,70,HUK-PR-5010,"Bryan Chase",Debut,2,1,0,d4,d6,VOZ,BAILE,LAST STAND,M,106.png,5
+heuk,PRODUCER,71,HUK-PR-5011,"DJ Tukutz",Star,2,2,1,d8,d8,BAILE,VOZ,SABOTAGE,M,107.png,5
+heuk,PRODUCER,72,HUK-PR-5012,"Yoo Gun-hyung",Rising,2,1,1,d8,d6,VOZ,BAILE,SCOUT,M,108.png,5
+heuk,PRODUCER,73,HUK-PR-5013,"Asahi",Rising,2,1,1,d8,d6,BAILE,VOZ,SCOUT,M,109.png,5
+heuk,PRODUCER,74,HUK-PR-5014,"Yoshi",Rising,2,1,1,d8,d6,BAILE,VOZ,RALLY,M,110.png,5
+heuk,PRODUCER,75,HUK-PR-5015,"Son Sung-deuk",Debut,2,1,0,d6,d4,VOZ,BAILE,RALLY,M,111.png,5
+heuk,EVENT,76,HUK-EV-5016,"Live ♪ El primer disco en solitario",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,112.png,5
+heuk,EVENT,77,HUK-EV-5017,"Photobook ♪ La gira en solitario",Star,2,2,1,d6+2,d4+2,BAILE,VOZ,SABOTAGE,F,113.png,5
+heuk,EVENT,78,HUK-EV-5018,"Stream ♪ El concierto acustico",Star,2,2,1,d4+2,d6+2,VOZ,BAILE,GUARDIAN,F,114.png,5
+heuk,EVENT,79,HUK-EV-5019,"Concierto ♪ El estudio propio",Legend,1,2,2,d4+3,d6+3,BAILE,VOZ,GUARDIAN,F,115.png,5
+heuk,EVENT,80,HUK-EV-5020,"Fotos ♪ La reunion de la casa",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,116.png,5
+heuk,EVENT,81,HUK-EV-5021,"Canción ♪ El disco de versiones",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,WARCRY,F,117.png,5
+heuk,EVENT,82,HUK-EV-5022,"Baile ♪ El dueto con una leyenda",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,WARCRY,F,118.png,5
+heuk,EVENT,83,HUK-EV-5023,"Entrevista ♪ La banda sonora",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,HEX,F,119.png,5
+heuk,EVENT,84,HUK-EV-5024,"Firma ♪ El regreso a las tablas",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,HEX,F,120.png,5

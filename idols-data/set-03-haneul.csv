@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+haneul,IDOL,1,HNL-DV-3001,"Tugete - Bomgyu",Star,2,2,1,d8,d8,BAILE,VOZ,SABOTAGE,F,49.png,3
+haneul,IDOL,2,HNL-DV-3002,"Tugete - HueningKai",Rising,2,1,1,d6,d6,VOZ,BAILE,GUARDIAN,F,50.png,3
+haneul,IDOL,3,HNL-DV-3003,"Tugete - Tehyon",Rising,2,1,1,d6,d6,VOZ,BAILE,GUARDIAN,F,51.png,3
+haneul,IDOL,4,HNL-DV-3004,"EnHaipen - Jongwon",Star,2,2,1,d8,d8,BAILE,VOZ,SABOTAGE,F,52.png,3
+haneul,IDOL,5,HNL-DV-3005,"EnHaipen - Sunhun",Star,2,3,1,d8,d8,BAILE,VOZ,CHARGED,F,53.png,3
+haneul,IDOL,6,HNL-DV-3006,"EnHaipen - Hiseung",Rising,2,1,1,d6,d8,VOZ,BAILE,BLOODRUSH,F,54.png,3
+haneul,IDOL,7,HNL-DV-3007,"Seventi - Hosi",Debut,2,1,0,d4,d6,VOZ,BAILE,BLOODRUSH,F,55.png,3
+haneul,IDOL,8,HNL-DV-3008,"NuJeans - Minjy",Debut,2,1,0,d6,d4,BAILE,VOZ,HEX,F,56.png,3
+haneul,IDOL,9,HNL-DV-3009,"LSerafim - Chaeu",Legend,1,3,2,d10,d10,VOZ,BAILE,CHARGED,F,57.png,3
+haneul,PRODUCER,10,HNL-PR-3010,"A dora",Debut,2,1,0,d4,d6,BAILE,VOZ,HEX,M,58.png,3
+haneul,PRODUCER,11,HNL-PR-3011,"Goseuturupu",Debut,2,1,0,d6,d4,BAILE,VOZ,RALLY,M,59.png,3
+haneul,PRODUCER,12,HNL-PR-3012,"Furantsu",Debut,2,1,0,d6,d4,BAILE,VOZ,RALLY,M,60.png,3
+haneul,PRODUCER,13,HNL-PR-3013,"Goldeun",Legend,1,2,2,d10,d10,VOZ,BAILE,FAST,M,61.png,3
+haneul,PRODUCER,14,HNL-PR-3014,"Voll Sikkusutin",Debut,2,1,0,d4,d6,BAILE,VOZ,LAST STAND,M,62.png,3
+haneul,PRODUCER,15,HNL-PR-3015,"Jiko",Star,2,2,1,d8,d8,BAILE,VOZ,FAST,M,63.png,3
+haneul,EVENT,16,HNL-EV-3016,"Entrevista ♪ La mesa de prensa",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,LAST STAND,F,64.png,3
+haneul,EVENT,17,HNL-EV-3017,"Firma ♪ KCON",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,VERSATIL,F,65.png,3
+haneul,EVENT,18,HNL-EV-3018,"Live ♪ El live del festival",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,VERSATIL,F,66.png,3
+haneul,EVENT,19,HNL-EV-3019,"Photobook ♪ De aniversario",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,67.png,3
+haneul,EVENT,20,HNL-EV-3020,"Stream ♪ El directo de madrugada",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,68.png,3
+haneul,EVENT,21,HNL-EV-3021,"Concierto ♪ El concierto en el domo",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,WARCRY,F,69.png,3
+haneul,EVENT,22,HNL-EV-3022,"Fotos ♪ Portada internacional",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,WARCRY,F,70.png,3
+haneul,EVENT,23,HNL-EV-3023,"Canción ♪ El single de colaboracion",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,SCOUT,F,71.png,3
+haneul,EVENT,24,HNL-EV-3024,"Baile ♪ El reto de baile viral",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,SCOUT,F,72.png,3

@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+hikari,IDOL,81,HKR-DV-3001,"KinguPuri - Hirano",Debut,2,1,0,d4,d6,BAILE,VOZ,HEX,F,49.png,3
+hikari,IDOL,82,HKR-DV-3002,"KinguPuri - Kishi",Star,2,2,1,d8,d8,VOZ,BAILE,SABOTAGE,F,50.png,3
+hikari,IDOL,83,HKR-DV-3003,"SunoMan - Meguro",Debut,2,1,0,d4,d6,VOZ,BAILE,HEX,F,51.png,3
+hikari,IDOL,84,HKR-DV-3004,"SunoMan - Miyadate",Debut,2,1,0,d6,d4,VOZ,BAILE,BLOODRUSH,F,52.png,3
+hikari,IDOL,85,HKR-DV-3005,"SunoMan - Watanabe",Rising,2,1,1,d6,d6,VOZ,BAILE,FAST,F,53.png,3
+hikari,IDOL,86,HKR-DV-3006,"ShikkusuTonzu - Matsumura",Rising,2,1,1,d6,d6,BAILE,VOZ,FAST,F,54.png,3
+hikari,IDOL,87,HKR-DV-3007,"ShikkusuTonzu - Jesse",Debut,2,1,0,d4,d6,BAILE,VOZ,BLOODRUSH,F,55.png,3
+hikari,IDOL,88,HKR-DV-3008,"TorabisuJipan - Chaka",Debut,2,1,0,d4,d6,BAILE,VOZ,WARCRY,F,56.png,3
+hikari,IDOL,89,HKR-DV-3009,"SekushiZon - Nakajima",Debut,2,1,0,d6,d4,VOZ,BAILE,WARCRY,F,57.png,3
+hikari,PRODUCER,90,HKR-PR-3010,"Imai Tsubasa",Legend,1,2,2,d10,d10,BAILE,VOZ,SABOTAGE,M,58.png,3
+hikari,PRODUCER,91,HKR-PR-3011,"Kondo Masahiko",Rising,2,1,1,d6,d8,BAILE,VOZ,RALLY,M,59.png,3
+hikari,PRODUCER,92,HKR-PR-3012,"Okada Junichi",Star,2,2,1,d8,d8,VOZ,BAILE,GUARDIAN,M,60.png,3
+hikari,PRODUCER,93,HKR-PR-3013,"Kameda Seiji",Rising,2,1,1,d6,d8,BAILE,VOZ,RALLY,M,61.png,3
+hikari,PRODUCER,94,HKR-PR-3014,"Tamai Kenji",Debut,2,1,0,d4,d6,BAILE,VOZ,LAST STAND,M,62.png,3
+hikari,PRODUCER,95,HKR-PR-3015,"Hotei Tomoyasu",Debut,2,1,0,d6,d4,VOZ,BAILE,LAST STAND,M,63.png,3
+hikari,EVENT,96,HKR-EV-3016,"Entrevista ♪ El programa estelar",Star,2,2,1,d4+2,d6+2,VOZ,BAILE,GUARDIAN,F,64.png,3
+hikari,EVENT,97,HKR-EV-3017,"Firma ♪ El encuentro con los fans",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,VERSATIL,F,65.png,3
+hikari,EVENT,98,HKR-EV-3018,"Live ♪ El live en el programa musical",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,VERSATIL,F,66.png,3
+hikari,EVENT,99,HKR-EV-3019,"Photobook ♪ De aniversario",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,SCOUT,F,67.png,3
+hikari,EVENT,100,HKR-EV-3020,"Stream ♪ El directo de madrugada",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,SCOUT,F,68.png,3
+hikari,EVENT,101,HKR-EV-3021,"Concierto ♪ En el gran domo",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,COUNTDOWN,F,69.png,3
+hikari,EVENT,102,HKR-EV-3022,"Fotos ♪ La portada de moda",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,70.png,3
+hikari,EVENT,103,HKR-EV-3023,"Canción ♪ El single de colaboracion",Star,2,3,1,d6+2,d4+2,VOZ,BAILE,CHARGED,F,71.png,3
+hikari,EVENT,104,HKR-EV-3024,"Baile ♪ La nueva generacion",Legend,1,3,2,d4+3,d6+3,BAILE,VOZ,CHARGED,F,72.png,3

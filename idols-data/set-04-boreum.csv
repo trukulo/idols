@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+boreum,IDOL,21,BRM-DV-4001,"Aesupa - Jiseru",Rising,2,1,1,d6,d6,VOZ,BAILE,SABOTAGE,F,73.png,4
+boreum,IDOL,22,BRM-DV-4002,"Aesupa - Ningning",Star,2,3,1,d8,d8,VOZ,BAILE,CHARGED,F,74.png,4
+boreum,IDOL,23,BRM-DV-4003,"Riijeu - Anton",Star,2,3,1,d8,d8,VOZ,BAILE,CHARGED,F,75.png,4
+boreum,IDOL,24,BRM-DV-4004,"Riijeu - Sohi",Rising,2,1,1,d6,d6,BAILE,VOZ,SABOTAGE,F,76.png,4
+boreum,IDOL,25,BRM-DV-4005,"EnCitiUissu - Riku",Debut,2,1,0,d4,d6,VOZ,BAILE,BLOODRUSH,F,77.png,4
+boreum,IDOL,26,BRM-DV-4006,"UeiBui - Siaojun",Rising,2,1,1,d8,d6,BAILE,VOZ,BLOODRUSH,F,78.png,4
+boreum,IDOL,27,BRM-DV-4007,"Hacheutsu - Kamen",Debut,2,1,0,d6,d4,BAILE,VOZ,LAST STAND,F,79.png,4
+boreum,IDOL,28,BRM-DV-4008,"Hacheutsu - Jiwoo",Debut,2,1,0,d6,d4,VOZ,BAILE,LAST STAND,F,80.png,4
+boreum,IDOL,29,BRM-DV-4009,"EnCitiUissu - Sakuya",Debut,2,1,0,d4,d6,BAILE,VOZ,WARCRY,F,81.png,4
+boreum,PRODUCER,30,BRM-PR-4010,"Raion Jyan",Debut,2,1,0,d6,d4,VOZ,BAILE,WARCRY,M,82.png,4
+boreum,PRODUCER,31,BRM-PR-4011,"ElDiEn Noizu",Rising,2,1,1,d6,d8,BAILE,VOZ,SCOUT,M,83.png,4
+boreum,PRODUCER,32,BRM-PR-4012,"Yu Yongjin",Star,2,2,1,d8,d8,VOZ,BAILE,FAST,M,84.png,4
+boreum,PRODUCER,33,BRM-PR-4013,"Kenzi",Debut,2,1,0,d4,d6,VOZ,BAILE,SCOUT,M,85.png,4
+boreum,PRODUCER,34,BRM-PR-4014,"Anduru Choe",Star,2,2,1,d8,d8,BAILE,VOZ,FAST,M,86.png,4
+boreum,PRODUCER,35,BRM-PR-4015,"Kim Yonmin",Debut,2,1,0,d6,d4,BAILE,VOZ,HEX,M,87.png,4
+boreum,EVENT,36,BRM-EV-4016,"Firma ♪ La firma de los fans nuevos",Legend,1,2,2,d4+3,d6+3,BAILE,VOZ,GUARDIAN,F,88.png,4
+boreum,EVENT,37,BRM-EV-4017,"Live ♪ La gira por el mundo",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,HEX,F,89.png,4
+boreum,EVENT,38,BRM-EV-4018,"Photobook ♪ De gran produccion",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,90.png,4
+boreum,EVENT,39,BRM-EV-4019,"Stream ♪ El directo con avatares",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,91.png,4
+boreum,EVENT,40,BRM-EV-4020,"Concierto ♪ El domo de la casa",Legend,1,2,2,d4+3,d6+3,BAILE,VOZ,GUARDIAN,F,92.png,4
+boreum,EVENT,41,BRM-EV-4021,"Fotos ♪ La portada de la nueva era",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,VERSATIL,F,93.png,4
+boreum,EVENT,42,BRM-EV-4022,"Canción ♪ Aniversario de casa",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,VERSATIL,F,94.png,4
+boreum,EVENT,43,BRM-EV-4023,"Baile ♪ La coreografia imposible",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,RALLY,F,95.png,4
+boreum,EVENT,44,BRM-EV-4024,"Entrevista ♪ La rueda global",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,RALLY,F,96.png,4

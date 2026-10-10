@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+jinjja,IDOL,41,JNJ-DV-5001,"Jamie",Star,2,2,1,d8,d8,BAILE,VOZ,FAST,F,97.png,5
+jinjja,IDOL,42,JNJ-DV-5002,"Baek Ayeon",Rising,2,1,1,d6,d6,VOZ,BAILE,SABOTAGE,F,98.png,5
+jinjja,IDOL,43,JNJ-DV-5003,"TsuPiemu - JunKei",Debut,2,1,0,d6,d4,BAILE,VOZ,BLOODRUSH,F,99.png,5
+jinjja,IDOL,44,JNJ-DV-5004,"TsuPiemu - Uyon",Rising,2,1,1,d6,d6,BAILE,VOZ,SABOTAGE,F,100.png,5
+jinjja,IDOL,45,JNJ-DV-5005,"Gotto - Jyakuson",Rising,2,1,1,d6,d8,BAILE,VOZ,BLOODRUSH,F,101.png,5
+jinjja,IDOL,46,JNJ-DV-5006,"Gotto - BanBan",Debut,2,1,0,d4,d6,VOZ,BAILE,VERSATIL,F,102.png,5
+jinjja,IDOL,47,JNJ-DV-5007,"Misamo - Mina",Legend,1,2,2,d10,d10,VOZ,BAILE,FAST,F,103.png,5
+jinjja,IDOL,48,JNJ-DV-5008,"Misamo - Sana",Star,2,2,1,d8,d8,VOZ,BAILE,GUARDIAN,F,104.png,5
+jinjja,IDOL,49,JNJ-DV-5009,"Misamo - Momo",Debut,2,1,0,d6,d4,VOZ,BAILE,VERSATIL,F,105.png,5
+jinjja,PRODUCER,50,JNJ-PR-5010,"Justin Reinstein",Debut,2,1,0,d4,d6,BAILE,VOZ,SCOUT,M,106.png,5
+jinjja,PRODUCER,51,JNJ-PR-5011,"David Amber",Rising,2,1,1,d8,d6,BAILE,VOZ,SCOUT,M,107.png,5
+jinjja,PRODUCER,52,JNJ-PR-5012,"Sam Klempner",Debut,2,1,0,d6,d4,VOZ,BAILE,LAST STAND,M,108.png,5
+jinjja,PRODUCER,53,JNJ-PR-5013,"Anna Timgren",Debut,2,1,0,d4,d6,BAILE,VOZ,LAST STAND,M,109.png,5
+jinjja,PRODUCER,54,JNJ-PR-5014,"Danke",Debut,2,1,0,d4,d6,VOZ,BAILE,WARCRY,M,110.png,5
+jinjja,PRODUCER,55,JNJ-PR-5015,"Cho Yunkyong",Debut,2,1,0,d4,d6,VOZ,BAILE,WARCRY,M,111.png,5
+jinjja,EVENT,56,JNJ-EV-5016,"Live ♪ El primer disco en solitario",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,112.png,5
+jinjja,EVENT,57,JNJ-EV-5017,"Photobook ♪ La gira en solitario",Star,2,2,1,d6+2,d4+2,BAILE,VOZ,GUARDIAN,F,113.png,5
+jinjja,EVENT,58,JNJ-EV-5018,"Stream ♪ El concierto acustico",Legend,1,3,2,d4+3,d6+3,VOZ,BAILE,CHARGED,F,114.png,5
+jinjja,EVENT,59,JNJ-EV-5019,"Concierto ♪ La unidad de la casa",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,COUNTDOWN,F,115.png,5
+jinjja,EVENT,60,JNJ-EV-5020,"Fotos ♪ El recital de voz",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,HEX,F,116.png,5
+jinjja,EVENT,61,JNJ-EV-5021,"Canción ♪ El fotolibro personal",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,HEX,F,117.png,5
+jinjja,EVENT,62,JNJ-EV-5022,"Baile ♪ El directo de la radio",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,RALLY,F,118.png,5
+jinjja,EVENT,63,JNJ-EV-5023,"Entrevista ♪ El disco de versiones",Star,2,3,1,d4+2,d6+2,BAILE,VOZ,CHARGED,F,119.png,5
+jinjja,EVENT,64,JNJ-EV-5024,"Firma ♪ La noche de los solistas",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,RALLY,F,120.png,5

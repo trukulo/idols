@@ -1,0 +1,151 @@
+# HANEUL (HNL) — la casa del ESPECTÁCULO GLOBAL (parodia de HYBE / Big Hit).
+# Columnas: set,id,type,name,ref,desc
+#   name  = lo que se IMPRIME en la carta (idol: "Grupo - Nombre"; manager: nombre a secas; evento: segunda mitad del título)
+#   ref   = la persona o actividad REAL que parodia (queda aquí: NO se imprime y NO entra en el prompt)
+#   desc  = la descripción visual para ComfyUI (lo que se le pide al generador)
+# Era de cada set: 01 los cimientos (2007-2012) · 02 la ola (2013-2019) · 03 el imperio multietiqueta (2020-hoy) · 04 la era de los relevos · 05 los solistas y las unidades · 06 la nueva ola
+set,id,type,name,ref,desc
+01,1,IDOL,TsuAmu - Jokuwon,Jo Kwon (2AM),young korean man slim sharp features black suit playful smirk vintage stage light
+01,2,IDOL,TsuAmu - Suron,Lee Seulong (2AM),tall korean man deep voice grey knit sweater calm warm gaze studio
+01,3,IDOL,TsuAmu - Chonmin,Lee Changmin (2AM),korean man soft features black hair white shirt earnest singing pose
+01,4,IDOL,TsuAmu - Jinun,Jung Jinwoon (2AM),young korean man long bangs denim jacket drumsticks grin backstage
+01,5,IDOL,EitoEito - Ihyon,Lee Hyun (8Eight),korean man short black hair blue shirt sincere ballad pose microphone
+01,6,IDOL,EitoEito - Paekuchan,Baek Chan (8Eight),korean man thin frame glasses grey sweater acoustic guitar
+01,7,IDOL,EitoEito - Juhi,Joo Hee (8Eight),korean woman long dark hair cream dress soft singing pose warm light
+01,8,IDOL,Riru - ImJonghi,Lim Jeong-hee,korean woman curly brown hair orange dress powerful voice stage spotlight
+01,9,IDOL,Guramu - Tehi,Dahee (GLAM),young korean woman short bob purple jacket bold stare urban night
+01,10,PRODUCER,Bang Sihun,Bang Si-hyuk (HYBE),"korean man in black cap and glasses black hoodie sitting at mixing desk, calm gaze"
+01,11,PRODUCER,Pidogu,Pdogg,young korean producer headphones around neck hoodie studio monitors blue light
+01,12,PRODUCER,So Sonjin,So Sung-jin (Source Music),korean man grey suit glasses small office desk notebooks
+01,13,PRODUCER,Han Sunsu,Han Sung-soo (Pledis),korean man black suit office window city skyline arms crossed
+01,14,PRODUCER,Min Hijin,Min Hee-jin (ADOR),korean woman creative director black outfit glasses art studio sketches
+01,15,PRODUCER,Sukuuta Buraun,Scooter Braun,american man short hair black shirt sunglasses backstage pass confident
+01,16,EVENT,El single de debut,el primer single del grupo,2000s korean debut stage white outfits confetti bright lights idol singing
+01,17,EVENT,El concurso de baile juvenil,un concurso de baile de institutos,school hall dance contest korean teens white sneakers bright lights
+01,18,EVENT,La cumbre de la ONU,el discurso en la asamblea,assembly hall podium microphones idol speaking suit
+01,19,EVENT,La firma de casetes,una firma de autografos en una tienda,record store cassette signing table fans queue idol smiling
+01,20,EVENT,El nº1 en Billboard,el primer puesto en la lista americana,chart number one celebration confetti idol singing tv studio lights
+01,21,EVENT,De revista,una sesion para una revista juvenil,teen bedroom wall poster shooting pastel props idol posing playful
+01,22,EVENT,El video de estreno,el primer video musical,bold music video shoot urban street neon lights idol dancing 2000s
+01,23,EVENT,Wembley,el estadio lleno en Londres,wembley stadium concert stage night crowd lights idol silhouette
+01,24,EVENT,La sesion de portada,una sesion de fotos de portada,photo studio white backdrop elegant 2000s styling idol cover shoot
+02,1,IDOL,BangSon - RM,RM (BTS),korean man tall short blonde hair black turtleneck thoughtful leader gaze studio light
+02,2,IDOL,BangSon - Jin,Jin (BTS),handsome korean man broad shoulders black hair white blazer soft warm smile
+02,3,IDOL,BangSon - Shuga,Suga (BTS),korean man pale skin short black hair headphones pastel jacket calm gaze
+02,4,IDOL,BangSon - Jeihop,j-hope (BTS),korean man bright smile dancer cap colorful streetwear energetic pose daylight
+02,5,IDOL,BangSon - Chimin,Jimin (BTS),korean man soft features short black hair silk shirt elegant dance pose
+02,6,IDOL,BangSon - Bui,V (BTS),very handsome korean man dark wavy hair black suit velvet elegant melancholic gaze
+02,7,IDOL,BangSon - Jonguku,Jungkook (BTS),young korean man black undercut white stage suit intense gaze arena lights
+02,8,IDOL,Tugete - Yonjun,Yeonjun (TXT),tall young korean man mint hair black jacket cool stare rooftop
+02,9,IDOL,Tugete - Subin,Soobin (TXT),tall young korean man soft black hair pastel sweater gentle smile
+02,10,PRODUCER,Nochul,Slow Rabbit,young korean producer beanie glasses laptop demo session warm lamp
+02,11,PRODUCER,Suprim Boi,Supreme Boi,young korean rapper producer cap hoodie studio night neon
+02,12,PRODUCER,Hiseu Noizu,Hiss noise,producer with laptop and midi keyboard dark studio red light
+02,13,PRODUCER,El Kapiton,EL CAPITXN,young producer headphones black shirt mixing console dark
+02,14,PRODUCER,Bamju,Bumzu (Pledis),korean producer striped shirt studio guitar warm daylight
+02,15,PRODUCER,Uji,Woozi (SEVENTEEN),young korean man producer idol hoodie keyboard studio composing night
+02,16,EVENT,La coreografia del momento,la coreografia que todo el mundo imita,studio dance practice mirror phone filming synchronized moves bright
+02,17,EVENT,El late show,una entrevista en un late show,couch warm lights group in black suits laughing studio cameras
+02,18,EVENT,La firma de albumes,una firma de autografos de album,album signing table fans queue idol signing photocard bright hall
+02,19,EVENT,El live con la orquesta,una actuacion en directo con orquesta,orchestra pit bright stage idol in white suits strings warm light
+02,20,EVENT,El photobook de verano,un photobook de verano,beach photoshoot summer photobook idol in linen shirt sea breeze
+02,21,EVENT,El directo en la plataforma,un directo en la plataforma de fans,idol alone in a small room talking to a phone camera soft lights
+02,22,EVENT,La gira mundial agotada,una gira mundial con entradas agotadas,sold out world tour stadium stage spotlights huge crowd lightsticks
+02,23,EVENT,La portada de Rolling Stone,la portada de la revista de musica,music magazine cover shoot studio portrait idol
+02,24,EVENT,La cancion del aniversario,la cancion de aniversario del grupo,anniversary studio session warm lights group singing together nostalgic
+03,1,IDOL,Tugete - Bomgyu,Beomgyu (TXT),young korean man long dark hair guitar rock concept red light
+03,2,IDOL,Tugete - HueningKai,Huening Kai (TXT),young half-korean man light brown hair soft smile pastel sky
+03,3,IDOL,Tugete - Tehyon,Taehyun (TXT),young korean man sharp eyes black hair leather jacket cool pose
+03,4,IDOL,EnHaipen - Jongwon,Jungwon (ENHYPEN),young korean man black hair white shirt school uniform concept soft light
+03,5,IDOL,EnHaipen - Sunhun,Sunghoon (ENHYPEN),tall young korean man figure skater elegance pale blue lighting ice
+03,6,IDOL,EnHaipen - Hiseung,Heeseung (ENHYPEN),young korean man brown hair denim jacket guitar on shoulder warm rooftop
+03,7,IDOL,Seventi - Hosi,Hoshi (SEVENTEEN),korean man dancer sharp moves tiger print stage dynamic red
+03,8,IDOL,NuJeans - Minjy,Minji (NewJeans),young korean woman short black hair denim casual y2k soft daylight phone
+03,9,IDOL,LSerafim - Chaeu,Chaewon (LE SSERAFIM),young korean woman red hair sporty chic confident stadium
+03,10,PRODUCER,A dora,Adora,singer-songwriter woman short hair headphones studio writing lyrics warm
+03,11,PRODUCER,Goseuturupu,Ghstloop,young producer hoodie cap computer screen graphs blue glow
+03,12,PRODUCER,Furantsu,Frants,producer man hoodie synthesizer neon studio night
+03,13,PRODUCER,Goldeun,Golden,korean producer cap round glasses laptop lyrics notebook
+03,14,PRODUCER,Voll Sikkusutin,Voll (16),young producer beanie headphones dark room soft monitor glow
+03,15,PRODUCER,Jiko,Zico (KOZ),korean man rapper producer black shirt chain studio night
+03,16,EVENT,La mesa de prensa,una mesa redonda de prensa internacional,press conference table microphones many journalists idol calm
+03,17,EVENT,KCON,la convención de fans,convention hall signing tables fans queue banners lights idol smiling
+03,18,EVENT,El live del festival,una actuacion en un festival internacional,outdoor festival stage sunset huge crowd flags idol jumping
+03,19,EVENT,De aniversario,un photobook de aniversario,anniversary photobook studio warm film camera props nostalgia
+03,20,EVENT,El directo de madrugada,un directo de madrugada para los fans,idol in a dim room at night talking to a phone camera cozy
+03,21,EVENT,El concierto en el domo,un concierto propio en el gran domo,seoul dome concert glowing city night idol on stage epic
+03,22,EVENT,Portada internacional,una portada de moda internacional,high fashion editorial shoot idol designer outfit dramatic light
+03,23,EVENT,El single de colaboracion,un single con un artista internacional,collaboration studio two artists mixed styles neon lights console
+03,24,EVENT,El reto de baile viral,un reto de baile viral,street dance challenge phone filming bright daylight dancers crowd
+04,1,IDOL,NuJeans - Hani,Hanni (NewJeans),young korean woman long dark hair denim skirt y2k casual soft daylight
+04,2,IDOL,NuJeans - Danie,Danielle (NewJeans),young korean australian woman long light brown hair white tee relaxed bright smile
+04,3,IDOL,NuJeans - Herin,Haerin (NewJeans),young korean woman cat-like eyes black hair pleated skirt calm cool stare
+04,4,IDOL,NuJeans - Hein,Hyein (NewJeans),young korean woman shoulder length brown hair pastel cardigan bright smile
+04,5,IDOL,YilLit - Wonhi,Wonhee (ILLIT),young korean woman short black hair white blouse dreamy soft pose
+04,6,IDOL,YilLit - Moka,Moka (ILLIT),young japanese woman long dark hair ribbon headband pastel dress gentle
+04,7,IDOL,BoyNekusuto - Sonho,Sungho (BOYNEXTDOOR),young korean man black hair knitted vest casual warm smile
+04,8,IDOL,Keiche - Manon,Manon (KATSEYE),young swiss korean woman curly hair crop top bold confident pose
+04,9,IDOL,Tuwosu - Dohun,Dohoon (TWS),young korean man light brown hair school blazer fresh innocent smile
+04,13,PRODUCER,Feikku,"Faker (Lee Sang-hyeok, T1 - League of Legends)",korean man dark team jersey and glasses one hand raised in a sharp shushing gesture with a finger to his lips calm unwavering stare
+04,11,PRODUCER,Wondokidu,Wonderkid,korean producer hoodie headphones laptop in a dark studio warm lamp
+04,12,PRODUCER,Vinsu,Vince,young korean producer cap oversized shirt keyboard bright studio daylight
+04,10,PRODUCER,Kigen,Kiggen,korean producer beanie glasses at a mixing desk late at night
+04,14,PRODUCER,Ninosu Hana,Ninos Hanna,korean woman songwriter at a piano with a lyric notebook soft light
+04,15,PRODUCER,Son Sundok,Son Sung-deuk (performance director),korean man black training clothes with a whistle and a tablet in a dance studio
+04,16,EVENT,La firma en el extranjero,una firma de autografos en el extranjero,long signing table in a foreign hall with a queue of fans holding albums
+04,17,EVENT,La gira de las etiquetas,una gira conjunta de varias etiquetas,joint tour stage with banners of several labels and a full band
+04,18,EVENT,De la nueva era,una sesion de fotos de la nueva era,editorial photoshoot against a concrete wall with colored gels
+04,19,EVENT,El directo de la nueva era,un directo por streaming de la nueva era,phone on a tripod and a ring light while the group talks to a camera
+04,20,EVENT,El estadio propio,el primer concierto propio en un estadio,stadium at night with rainbow lightsticks and a long runway stage
+04,21,EVENT,La sesion de la nueva era,una sesion de fotos de estudio de la nueva era,studio photoshoot with seamless paper and a big fan
+04,22,EVENT,Que abre la era,la cancion que abre la nueva era,group recording together in a big live room behind glass
+04,23,EVENT,El reto de baile global,un reto de baile que da la vuelta al mundo,dance challenge filmed on phones in a bright mirror studio
+04,24,EVENT,La rueda de prensa,una mesa redonda con prensa internacional,press table with many microphones and journalists around the group
+05,1,IDOL,NuEsuto - Paekho,Baekho (NU'EST),young korean man 2020s solo ballad singer black hair white shirt warm spotlight
+05,2,IDOL,NuEsuto - Minhyon,Minhyun (NU'EST),tall korean man 2020s solo vocalist dark hair grey suit elegant singing pose
+05,3,IDOL,NuEsuto - Ren,Ren (NU'EST),young korean man 2020s solo artist blond hair leather jacket bold stage pose
+05,4,IDOL,BSS - Dokyom,DK (SEVENTEEN BSS),korean man 2020s subunit vocalist bright smile dark hair striped shirt stage
+05,5,IDOL,BSS - Sunggwan,Seungkwan (SEVENTEEN BSS),korean man 2020s subunit ballad voice black hair sweater gentle singing pose
+05,6,IDOL,JxW - Jyonhan,Jeonghan (SEVENTEEN JxW),korean man 2020s duo member long dark hair white knit soft calm gaze
+05,7,IDOL,JxW - Jyosua,Joshua (SEVENTEEN JxW),korean american man 2020s duo member dark hair denim jacket warm smile
+05,8,IDOL,LSerafim - Yunjin,Huh Yunjin (LE SSERAFIM),korean american woman 2020s solo singer long dark hair black top confident pose
+05,9,IDOL,Penomeco,Penomeco (KOZ),korean man 2020s solo rapper black hair cap dark jacket sharp stare
+05,10,PRODUCER,Randy Merrill,Randy Merrill (Sterling Sound),american man 2020s mastering engineer headphones at a console calm focused
+05,11,PRODUCER,Yang Ga,Yang Ga (Big Hit),korean man 2020s mixing engineer headphones at a large console focused
+05,12,PRODUCER,David Stewart,David Stewart (Big Hit),british man 2020s songwriter at a piano holding a lyric notebook calm
+05,13,PRODUCER,Jessica Agombar,Jessica Agombar (Big Hit),british woman 2020s songwriter with a guitar and a lyric pad warm smile
+05,14,PRODUCER,Melanie Fontana,Melanie Fontana (HYBE),american woman 2020s songwriter headphones around neck at a keyboard calm
+05,15,PRODUCER,Lee Jae-sang,Lee Jae-sang (HYBE),korean man 2020s executive grey suit in a glass office over the city
+05,16,EVENT,El primer disco en solitario,el primer disco de un miembro en solitario,solo singer in a bright studio holding a first solo album 2020s
+05,17,EVENT,La gira en solitario,la primera gira de un miembro en solitario,solo tour stage with one figure and a huge crowd 2020s
+05,18,EVENT,El concierto acustico,un concierto acustico en un teatro,acoustic theatre show with a stool a guitar and warm spotlights
+05,19,EVENT,La unidad de dos,el disco de una unidad de dos miembros,two singers sharing one microphone in a small studio 2020s
+05,20,EVENT,El single de la unidad,el single de una unidad oficial del grupo,subunit music video shoot with two figures and neon panels
+05,21,EVENT,El fotolibro personal,el fotolibro de un miembro en solitario,personal photobook shoot on a quiet street with a film camera
+05,22,EVENT,El escenario de solista,el primer escenario grande en solitario,solo artist alone on a big stage under a single spotlight
+05,23,EVENT,La balada de la serie,la balada que canta para una serie,soundtrack recording session with strings and one vocalist singing
+05,24,EVENT,El directo en la sala,un directo intimo en una sala pequena,intimate live session in a small room with a handful of fans
+06,1,IDOL,LSerafim - Sakura,Miyawaki Sakura (LE SSERAFIM),young japanese woman 2020s long pink hair cropped jacket sharp confident gaze
+06,2,IDOL,YilLit - Minju,Minju (ILLIT),korean woman 2020s rookie idol short dark hair white blouse bright gaze
+06,3,IDOL,LSerafim - Kazuha,Nakamura Kazuha (LE SSERAFIM),young japanese woman 2020s ballet posture dark ponytail white top fierce calm gaze
+06,4,IDOL,LSerafim - Eunchae,Hong Eunchae (LE SSERAFIM),young korean woman 2020s short dark hair school blazer bright fearless smile
+06,5,IDOL,BoyNekusuto - Jeihyon,Myung Jaehyun (BOYNEXTDOOR),young korean man 2020s black hair varsity jacket playful confident pose
+06,6,IDOL,BoyNekusuto - Riwo,Riwoo (BOYNEXTDOOR),young korean man 2020s short dark hair oversized hoodie relaxed grin
+06,7,IDOL,YilLit - Yunah,Yunah (ILLIT),young korean woman 2020s long dark hair white dress dreamy soft stare
+06,8,IDOL,Keiche - Sofia,Sophia Laforteza (KATSEYE),young filipino american woman 2020s curly dark hair crop top bold confident pose
+06,9,IDOL,Tuwosu - Shinyu,Shinyu (TWS),young korean man 2020s light brown hair school cardigan fresh bright smile
+06,10,PRODUCER,Poppu Taimu,Pop Time (KOZ),korean man producer headphones and a hoodie at a mixing desk late at night
+06,11,PRODUCER,Soma Guenda,Soma Genda (HYBE Labels Japan),japanese producer man glasses at a keyboard with a string arrangement on screen
+06,12,PRODUCER,Buradaa Su,Brother Su (songwriter),korean songwriter man with an acoustic guitar and a notebook in a bright room
+06,13,PRODUCER,Kiiru Tutin,Kiel Tutin (choreographer),choreographer man in a black shirt counting time in a mirrored studio
+06,14,PRODUCER,Raion Tedda,Ryan Tedder (songwriter),american man at a grand piano with a laptop and a studio microphone
+06,15,PRODUCER,Renzon Yun,Lenzo Yoon (HYBE),korean american man 2020s label executive black jacket at a glass office desk calm
+06,16,EVENT,El primer fotolibro,el primer fotolibro del grupo,debut photobook shoot in a white studio with seamless paper casual outfits
+06,17,EVENT,El directo del dormitorio,un directo desde el dormitorio,bunk room at night phone on a tripod group talking to the live chat
+06,18,EVENT,El primer concierto,el primer concierto propio del grupo,small hall full of lightsticks for the first own concert
+06,19,EVENT,La sesion de debut,la sesion de fotos del debut,rookie group in matching white outfits against seamless paper bright fan
+06,20,EVENT,El tema de la evaluacion,la cancion de la evaluacion mensual,recording booth with a lyric sheet and one mic during an evaluation
+06,21,EVENT,La coreografia del examen,la coreografia del examen mensual,mirror studio at dawn taped floor marks and the group running the routine
+06,22,EVENT,La primera entrevista,la primera entrevista del grupo,rookie group seated for a first interview mics and a logo wall
+06,23,EVENT,La primera firma,la primera firma de autografos,first signing table with stacked albums and a short queue of fans
+06,24,EVENT,El escenario del debut,el escenario del dia del debut,brand new stage first logo backdrop and a small loud crowd

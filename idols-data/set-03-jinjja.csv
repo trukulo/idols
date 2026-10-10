@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+jinjja,IDOL,41,JNJ-DV-3001,"SutoruKizzu - Banchan",Debut,2,1,0,d4,d6,BAILE,VOZ,HEX,F,49.png,3
+jinjja,IDOL,42,JNJ-DV-3002,"SutoruKizzu - Hyonjin",Debut,2,1,0,d6,d4,VOZ,BAILE,HEX,F,50.png,3
+jinjja,IDOL,43,JNJ-DV-3003,"SutoruKizzu - Han",Debut,2,1,0,d4,d6,VOZ,BAILE,BLOODRUSH,F,51.png,3
+jinjja,IDOL,44,JNJ-DV-3004,"Itchi - Yuna",Debut,2,1,0,d6,d4,VOZ,BAILE,BLOODRUSH,F,52.png,3
+jinjja,IDOL,45,JNJ-DV-3005,"Itchi - Ryujin",Debut,2,1,0,d4,d6,BAILE,VOZ,WARCRY,F,53.png,3
+jinjja,IDOL,46,JNJ-DV-3006,"EnMikkusu - SollYun",Rising,2,2,1,d6,d6,BAILE,VOZ,CHARGED,F,54.png,3
+jinjja,IDOL,47,JNJ-DV-3007,"EnMikkusu - Heiwon",Rising,2,2,1,d6,d6,VOZ,BAILE,CHARGED,F,55.png,3
+jinjja,IDOL,48,JNJ-DV-3008,"Towaisu - Jihyo",Star,2,2,1,d8,d8,BAILE,VOZ,SABOTAGE,F,56.png,3
+jinjja,IDOL,49,JNJ-DV-3009,"KuroDeri - Kai",Star,2,2,1,d8,d8,BAILE,VOZ,SABOTAGE,F,57.png,3
+jinjja,PRODUCER,50,JNJ-PR-3010,"Jon Ukku",Rising,2,1,1,d6,d8,BAILE,VOZ,WARCRY,M,58.png,3
+jinjja,PRODUCER,51,JNJ-PR-3011,"Pyo Jonroku",Legend,1,2,2,d10,d10,BAILE,VOZ,GUARDIAN,M,59.png,3
+jinjja,PRODUCER,52,JNJ-PR-3012,"Nodei",Debut,2,1,0,d6,d4,VOZ,BAILE,COUNTDOWN,M,60.png,3
+jinjja,PRODUCER,53,JNJ-PR-3013,"KeiZetto",Debut,2,1,0,d4,d6,VOZ,BAILE,COUNTDOWN,M,61.png,3
+jinjja,PRODUCER,54,JNJ-PR-3014,"Basachoi",Debut,2,1,0,d6,d4,BAILE,VOZ,RALLY,M,62.png,3
+jinjja,PRODUCER,55,JNJ-PR-3015,"HottoSosu",Star,2,2,1,d8,d8,VOZ,BAILE,GUARDIAN,M,63.png,3
+jinjja,EVENT,56,JNJ-EV-3016,"Entrevista ♪ La tele americana",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,RALLY,F,64.png,3
+jinjja,EVENT,57,JNJ-EV-3017,"Firma ♪ El encuentro con los fans",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,VERSATIL,F,65.png,3
+jinjja,EVENT,58,JNJ-EV-3018,"Live ♪ El live del festival",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,VERSATIL,F,66.png,3
+jinjja,EVENT,59,JNJ-EV-3019,"Photobook ♪ De aniversario",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,SCOUT,F,67.png,3
+jinjja,EVENT,60,JNJ-EV-3020,"Stream ♪ Killing Voice",Legend,1,2,2,d6+3,d4+3,VOZ,BAILE,FAST,F,68.png,3
+jinjja,EVENT,61,JNJ-EV-3021,"Concierto ♪ En el estadio de Seul",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,SCOUT,F,69.png,3
+jinjja,EVENT,62,JNJ-EV-3022,"Fotos ♪ Portada internacional",Star,2,2,1,d4+2,d6+2,BAILE,VOZ,FAST,F,70.png,3
+jinjja,EVENT,63,JNJ-EV-3023,"Canción ♪ El single de colaboracion",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,LAST STAND,F,71.png,3
+jinjja,EVENT,64,JNJ-EV-3024,"Baile ♪ El reto de baile viral",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,LAST STAND,F,72.png,3

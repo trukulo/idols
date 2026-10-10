@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+boreum,IDOL,21,BRM-DV-1001,"Hotto - Muni",Star,2,2,1,d8,d8,BAILE,VOZ,FAST,F,1.png,1
+boreum,IDOL,22,BRM-DV-1002,"Hotto - JanUhyeok",Debut,2,1,0,d4,d6,BAILE,VOZ,BLOODRUSH,F,2.png,1
+boreum,IDOL,23,BRM-DV-1003,"Hotto - TonI",Debut,2,1,0,d6,d4,BAILE,VOZ,BLOODRUSH,F,3.png,1
+boreum,IDOL,24,BRM-DV-1004,"Hotto - Kanguta",Debut,2,1,0,d4,d6,BAILE,VOZ,WARCRY,F,4.png,1
+boreum,IDOL,25,BRM-DV-1005,"Hotto - Ijewon",Debut,2,1,0,d6,d4,BAILE,VOZ,WARCRY,F,5.png,1
+boreum,IDOL,26,BRM-DV-1006,"EseEse - Bada",Debut,2,1,0,d4,d6,VOZ,BAILE,LAST STAND,F,6.png,1
+boreum,IDOL,27,BRM-DV-1007,"EseEse - Yujin",Debut,2,1,0,d4,d6,VOZ,BAILE,LAST STAND,F,7.png,1
+boreum,IDOL,28,BRM-DV-1008,"EseEse - Shu",Rising,2,1,1,d6,d6,BAILE,VOZ,SABOTAGE,F,8.png,1
+boreum,IDOL,29,BRM-DV-1009,"Boya - Poyon",Star,2,2,1,d8,d8,VOZ,BAILE,FAST,F,9.png,1
+boreum,PRODUCER,30,BRM-PR-1010,"I Suman",Debut,2,1,0,d6,d4,VOZ,BAILE,RALLY,M,10.png,1
+boreum,PRODUCER,31,BRM-PR-1011,"Yu Yonjin",Star,2,3,1,d8,d8,VOZ,BAILE,CHARGED,M,11.png,1
+boreum,PRODUCER,32,BRM-PR-1012,"Kenji",Debut,2,1,0,d4,d6,VOZ,BAILE,RALLY,M,12.png,1
+boreum,PRODUCER,33,BRM-PR-1013,"Hitchihaika",Star,2,3,1,d8,d8,VOZ,BAILE,CHARGED,M,13.png,1
+boreum,PRODUCER,34,BRM-PR-1014,"Dem Joint",Debut,2,1,0,d6,d4,BAILE,VOZ,SCOUT,M,14.png,1
+boreum,PRODUCER,35,BRM-PR-1015,"EruDiEn",Debut,2,1,0,d4,d6,BAILE,VOZ,SCOUT,M,15.png,1
+boreum,EVENT,36,BRM-EV-1016,"Canción ♪ El single de debut",Rising,2,1,1,d6+1,d4+1,VOZ,BAILE,SABOTAGE,F,16.png,1
+boreum,EVENT,37,BRM-EV-1017,"Baile ♪ Concurso en la plaza",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,VERSATIL,F,17.png,1
+boreum,EVENT,38,BRM-EV-1018,"Entrevista ♪ En la radio",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,VERSATIL,F,18.png,1
+boreum,EVENT,39,BRM-EV-1019,"Firma ♪ La firma de discos",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,HEX,F,19.png,1
+boreum,EVENT,40,BRM-EV-1020,"Live ♪ El directo en la television",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,HEX,F,20.png,1
+boreum,EVENT,41,BRM-EV-1021,"Photobook ♪ El poster",Legend,1,2,2,d6+3,d4+3,VOZ,BAILE,GUARDIAN,F,21.png,1
+boreum,EVENT,42,BRM-EV-1022,"Stream ♪ El video de estreno",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,COUNTDOWN,F,22.png,1
+boreum,EVENT,43,BRM-EV-1023,"Concierto ♪ SM Town",Legend,1,2,2,d4+3,d6+3,VOZ,BAILE,GUARDIAN,F,23.png,1
+boreum,EVENT,44,BRM-EV-1024,"Fotos ♪ La sesion de portada",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,COUNTDOWN,F,24.png,1

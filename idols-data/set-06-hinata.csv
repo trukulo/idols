@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+hinata,IDOL,101,HNT-DV-6001,"EkkusuJii - Jurin",Debut,2,1,0,d6,d4,VOZ,BAILE,WARCRY,F,121.png,6
+hinata,IDOL,102,HNT-DV-6002,"EkkusuJii - Chisa",Debut,2,1,0,d4,d6,VOZ,BAILE,WARCRY,F,122.png,6
+hinata,IDOL,103,HNT-DV-6003,"EkkusuJii - Hinata",Debut,2,1,0,d4,d6,VOZ,BAILE,RALLY,F,123.png,6
+hinata,IDOL,104,HNT-DV-6004,"EkkusuJii - Cocona",Debut,2,1,0,d6,d4,BAILE,VOZ,RALLY,F,124.png,6
+hinata,IDOL,105,HNT-DV-6005,"Nogizaka - Inoue",Star,2,2,1,d8,d8,BAILE,VOZ,FAST,F,125.png,6
+hinata,IDOL,106,HNT-DV-6006,"Nogizaka - Ioki",Rising,2,1,1,d6,d6,VOZ,BAILE,SABOTAGE,F,126.png,6
+hinata,IDOL,107,HNT-DV-6007,"Sakurazaka - Ishimori",Star,2,2,1,d8,d8,BAILE,VOZ,FAST,F,127.png,6
+hinata,IDOL,108,HNT-DV-6008,"Sakurazaka - Odakura",Debut,2,1,0,d4,d6,BAILE,VOZ,VERSATIL,F,128.png,6
+hinata,IDOL,109,HNT-DV-6009,"Hinatazaka - Ishizuka",Debut,2,1,0,d4,d6,VOZ,BAILE,VERSATIL,F,129.png,6
+hinata,PRODUCER,110,HNT-PR-6010,"SKY-HI",Rising,2,1,1,d6,d6,BAILE,VOZ,SABOTAGE,M,130.png,6
+hinata,PRODUCER,111,HNT-PR-6011,"Akira Sunset",Debut,2,1,0,d6,d4,BAILE,VOZ,SCOUT,M,131.png,6
+hinata,PRODUCER,112,HNT-PR-6012,"APAZZI",Debut,2,1,0,d4,d6,BAILE,VOZ,SCOUT,M,132.png,6
+hinata,PRODUCER,113,HNT-PR-6013,"Kameda Seiji",Rising,2,1,1,d8,d6,VOZ,BAILE,LAST STAND,M,133.png,6
+hinata,PRODUCER,114,HNT-PR-6014,"Sasaki Kumi",Rising,2,1,1,d8,d6,VOZ,BAILE,LAST STAND,M,134.png,6
+hinata,PRODUCER,115,HNT-PR-6015,"Takahashi Ai",Rising,2,1,1,d8,d6,BAILE,VOZ,COUNTDOWN,M,135.png,6
+hinata,EVENT,116,HNT-EV-6016,"Photobook ♪ El examen del mes",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,COUNTDOWN,F,136.png,6
+hinata,EVENT,117,HNT-EV-6017,"Stream ♪ El primer escenario",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,BLOODRUSH,F,137.png,6
+hinata,EVENT,118,HNT-EV-6018,"Concierto ♪ La clase del amanecer",Legend,1,3,2,d6+3,d4+3,BAILE,VOZ,CHARGED,F,138.png,6
+hinata,EVENT,119,HNT-EV-6019,"Fotos ♪ El dia del debut",Legend,1,3,2,d4+3,d6+3,BAILE,VOZ,CHARGED,F,139.png,6
+hinata,EVENT,120,HNT-EV-6020,"Canción ♪ La primera firma",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,BLOODRUSH,F,140.png,6
+hinata,EVENT,121,HNT-EV-6021,"Baile ♪ La cancion del debut",Star,2,2,1,d4+2,d6+2,VOZ,BAILE,GUARDIAN,F,141.png,6
+hinata,EVENT,122,HNT-EV-6022,"Entrevista ♪ El dormitorio nuevo",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,HEX,F,142.png,6
+hinata,EVENT,123,HNT-EV-6023,"Firma ♪ La gira de los nuevos",Star,2,2,1,d6+2,d4+2,VOZ,BAILE,GUARDIAN,F,143.png,6
+hinata,EVENT,124,HNT-EV-6024,"Live ♪ La foto del equipo",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,HEX,F,144.png,6

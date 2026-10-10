@@ -1,0 +1,149 @@
+# HINATA (HNT) — la casa del TEATRO Y DE LAS MANOS ESTRECHADAS (parodia del estilo AKB48 / Avex). Oro.
+# 日向 = el sol que da de frente: la casa-máquina de grupos numerosos, elecciones y encuentros con los fans.
+# Columnas: set,id,type,name,ref,desc  (ver la cabecera de haneul.csv)
+# Era de cada set: 01 las madrugadoras (1998-2006) · 02 las elecciones (2006-2016) · 03 los equipos hermanos (2017-hoy) · 04 la era de los relevos · 05 los solistas y las unidades · 06 la nueva ola
+set,id,type,name,ref,desc
+01,1,IDOL,Moningu - Nakazawa,Nakazawa Yuko (Morning Musume),japanese woman 1990s short hair bright stage dress leader pose
+01,2,IDOL,Moningu - Abe,Abe Natsumi (Morning Musume),japanese woman 1990s long brown hair pastel dress gentle smile stage
+01,3,IDOL,Moningu - Goto,Goto Maki (Morning Musume),young japanese woman 2000s long dark hair pink outfit idol pose
+01,4,IDOL,Moningu - Ishikawa,Ishikawa Rika (Morning Musume),japanese woman 2000s twin tails colorful costume cheerful pose
+01,5,IDOL,Makkusu - Mina,Mina (MAX),japanese woman 1990s long hair dance outfit fierce pose stage
+01,6,IDOL,Makkusu - Reina,Reina (MAX),japanese woman 1990s short hair black outfit dance pose stage lights
+01,7,IDOL,Namie Amuro,Namie Amuro,japanese woman 1990s brown hair crop top street fashion cool gaze
+01,8,IDOL,Ayumi Hamasaki,Ayumi Hamasaki,japanese woman 2000s long blonde hair black dress dramatic stage
+01,9,IDOL,Kumi Koda,Kumi Koda,japanese woman 2000s long dark hair bold outfit fierce pose stage
+01,10,PRODUCER,Akimoto Yasushi,Yasushi Akimoto,japanese man in glasses and grey suit with a script notebook theater backstage
+01,11,PRODUCER,Tsunku,Tsunku (Morning Musume),japanese man 1990s sunglasses goatee guitar nervous studio energy
+01,12,PRODUCER,Matsuura Masato,Max Matsuura (Avex),japanese man black suit sunglasses office window city night
+01,13,PRODUCER,Komuro Tetsuya,Tetsuya Komuro,japanese man 1990s long hair sunglasses keyboard synthesizer studio neon
+01,14,PRODUCER,Inoue Yoshimasa,Yoshimasa Inoue,japanese composer at a piano with score sheets warm light
+01,15,PRODUCER,Kawaura Masahiro,Masahiro Kawaura,japanese composer headphones synthesizer bright studio
+01,16,EVENT,La cancion del teatro,la primera cancion del teatro propio,small japanese theater stage young idols debut red seats bright
+01,17,EVENT,El baile en el teatro,la coreografia del teatro propio,japanese theater stage synchronized dance idols colorful costumes bright
+01,18,EVENT,La radio de casa,una entrevista en la radio propia,small japanese radio booth microphones idol talking warm light
+01,19,EVENT,La firma de fotos,una sesion de firmas con los fans,japanese signing event table fans queue idol smiling 2000s
+01,20,EVENT,El Tokio Dome,el primer domo lleno del grupo,tokyo dome arena interior full crowd penlights idol center stage
+01,21,EVENT,De revista,una sesion para una revista juvenil,japanese photo studio pink backdrop idol posing 2000s styling
+01,22,EVENT,El video de estreno,el primer video musical,japanese music video shoot colorful set 2000s idol group dancing
+01,23,EVENT,El concierto de verano,un concierto de verano en un gran recinto,summer stadium concert fireworks crowd lightsticks idols
+01,24,EVENT,La sesion de portada,una sesion de fotos de portada,japanese studio cover shoot idols in matching outfits bright light
+02,1,IDOL,EkeBi - Maeda,Maeda Atsuko (AKB48),japanese woman 2010s straight dark hair white dress serious gentle gaze
+02,2,IDOL,EkeBi - Oshima,Oshima Yuko (AKB48),japanese woman 2010s short hair bright smile energetic stage pose
+02,3,IDOL,EkeBi - Watanabe,Watanabe Mayu (AKB48),young japanese woman 2010s twin tails blue dress cute stage pose
+02,4,IDOL,EkeBi - Kashiwagi,Kashiwagi Yuki (AKB48),japanese woman 2010s long black hair elegant kimono modern styling
+02,5,IDOL,EkeBi - Takahashi,Takahashi Minami (AKB48),japanese woman 2010s short bob theater costume leader pose stage
+02,6,IDOL,EsukeE - Matsui,Matsui Jurina (SKE48),young japanese woman 2010s long dark hair dance pose stage smoke
+02,7,IDOL,EnuEmuBi - Yamamoto,Yamamoto Sayaka (NMB48),japanese woman 2010s short hair red outfit confident stage pose
+02,8,IDOL,Nogizaka - Shiraishi,Shiraishi Mai (Nogizaka46),japanese woman 2010s long black hair purple dress elegant pose
+02,9,IDOL,ToripuruE - Uno,Uno Misako (AAA),japanese woman 2010s long hair dancer stage outfit powerful pose
+02,10,PRODUCER,Nishikawa Takanori,Takanori Nishikawa (T.M.Revolution),japanese man sunglasses dramatic stage costume microphone
+02,11,PRODUCER,Taku Takahashi,Taku Takahashi (m-flo),japanese producer headphones laptop club lights
+02,12,PRODUCER,Daishi Dance,Daishi Dance,japanese man dj headphones turntables club night neon
+02,13,PRODUCER,Ito Shintaro,Shintaro Ito,japanese composer guitar studio warm light
+02,14,PRODUCER,Nakata Yasutaka,Yasutaka Nakata,japanese producer glasses synthesizers neon studio
+02,15,PRODUCER,Osawa Shinichi,Shinichi Osawa,japanese man sunglasses dj turntables dark club
+02,16,EVENT,La coreografia de las manos,la coreografia del grupo numeroso,japanese theater stage large group synchronized dance bright costumes
+02,17,EVENT,El programa de tarde,una entrevista en el programa de la tarde,japanese afternoon tv studio set idol in pastel outfit hosts
+02,18,EVENT,Manos estrechadas,un encuentro de manos con los fans,handshake event hall fans queue idols smiling table bright
+02,19,EVENT,El live en el gran teatro,una actuacion en directo en el teatro,japanese theater stage musical lights idol group red seats
+02,20,EVENT,El photobook de verano,un photobook de verano en la playa,beach photoshoot summer photobook swimwear japanese idols sun
+02,21,EVENT,La elección general,la votación anual del grupo,theater stage ranking board fans vote idol bowing spotlight
+02,22,EVENT,La gira por todo Japon,una gira por las ciudades de Japon,japanese tour stage lights idols waving crowd night
+02,23,EVENT,La portada de la revista,una portada de revista juvenil,japanese magazine cover shoot studio light idol group in white
+02,24,EVENT,La cancion electoral,la cancion de la campana de elecciones,japanese election campaign song poster wall idols in sashes bright hall
+03,1,IDOL,EkeBi - Oguri,Oguri Yui (AKB48),japanese woman 2020s short hair modern stage outfit confident pose
+03,2,IDOL,EichiKeiTi - Sakura,Miyawaki Sakura (HKT48),japanese woman 2020s pink hair elegant stage dress idol pose
+03,3,IDOL,Nogizaka - Saito,Saito Asuka (Nogizaka46),japanese woman 2020s long dark hair red dress elegant gaze
+03,4,IDOL,Nogizaka - Endo,Endo Sakura (Nogizaka46),young japanese woman 2020s short hair pastel outfit gentle smile
+03,5,IDOL,Sakurazaka - Moriya,Moriya Akane (Sakurazaka46),japanese woman 2020s long hair white outfit cool stare stage
+03,6,IDOL,Hinatazaka - Kosaka,Kosaka Nao (Hinatazaka46),japanese woman 2020s bright smile summer dress stage light
+03,7,IDOL,DaiAisu - Taiki,Taiki Kudo (Da-iCE),japanese man 2020s black outfit dance pose stage smoke
+03,8,IDOL,Jenereshonzu - Shirahama,Shirahama Alan (GENERATIONS),japanese man 2020s sunglasses street dance outfit night city
+03,9,IDOL,Nogizaka - Yamashita,Yamashita Mizuki (Nogizaka46),japanese woman 2020s long hair pastel kimono modern styling light
+03,10,PRODUCER,Togasaki Tomonobu,Togasaki Tomonobu (AKB48),japanese man theater manager headset backstage stage lights
+03,11,PRODUCER,Yokoyama Yui,Yokoyama Yui (AKB48),japanese woman short hair stage costume captain pose theater
+03,12,PRODUCER,Mukaichi Mion,Mukaichi Mion (AKB48),japanese woman dark hair theater costume leader pose stage
+03,13,PRODUCER,Kuranoo Narumi,Kuranoo Narumi (AKB48),japanese woman short hair modern idol costume confident pose
+03,14,PRODUCER,Sashihara Rino,Sashihara Rino (HKT48),japanese woman wavy hair producer sunglasses meeting room notes
+03,15,PRODUCER,DJ Koo,DJ Koo (TRF),japanese man sunglasses dj turntables stage lights crowd
+03,16,EVENT,El programa matinal,una entrevista en el programa matinal,japanese morning tv studio bright set idol smiling hosts
+03,17,EVENT,Los apretones de manos,los apretones en el teatro,theater lobby handshake line fans idol smiling name tags
+03,18,EVENT,El live en el teatro,una actuacion en directo en el teatro,japanese theater live stage lights idol group in costume bowing
+03,19,EVENT,De graduacion,un photobook de graduacion,graduation photobook flowers white dress idol emotional soft light
+03,20,EVENT,El directo de madrugada,un directo de madrugada para los fans,idol alone in a small room at night talking to a phone camera
+03,21,EVENT,En el gran domo,un concierto en el gran domo de Tokyo,tokyo dome concert sea of lightsticks idols on stage epic
+03,22,EVENT,La portada de moda,una portada de revista de moda,japanese fashion magazine cover shoot idol in elegant white styling
+03,23,EVENT,Del equipo nuevo,la cancion del equipo hermano nuevo,new japanese idol group debut song stage young girls in white confetti
+03,24,EVENT,El baile del equipo nuevo,la coreografia del equipo hermano nuevo,young japanese dance crew synchronized choreography bright rehearsal
+04,1,IDOL,Nogizaka - Asuka,Saito Asuka (Nogizaka46),young japanese woman short black hair white dress calm elegant
+04,2,IDOL,Nogizaka - Ikuta,Ikuta Erika (Nogizaka46),young japanese woman long dark hair blue dress graceful
+04,3,IDOL,Nogizaka - Yoda,Yoda Yuki (Nogizaka46),young japanese woman bob hair playful smirk casual
+04,4,IDOL,Nogizaka - Kaki,Kaki Haruka (Nogizaka46),young japanese woman long hair red ribbon bright smile
+04,5,IDOL,Sakurazaka - Kobayashi,Kobayashi Yui (Sakurazaka46),young japanese woman short hair white shirt cool stare
+04,6,IDOL,Sakurazaka - Sugai,Sugai Yuuka (Sakurazaka46),young japanese woman long black hair black dress composed
+04,7,IDOL,Hinatazaka - Kyoko,Saito Kyoko (Hinatazaka46),young japanese woman twin buns pastel outfit cheerful
+04,8,IDOL,Hinatazaka - Shiho,Kato Shiho (Hinatazaka46),young japanese woman long hair striped shirt soft smile
+04,9,IDOL,DaiAisu - Nagisa,Saito Nagisa (=LOVE),young japanese woman pink outfit ribbon hair idol pose
+04,10,PRODUCER,Takahashi Minami,Takahashi Minami (ex-AKB48),japanese woman short hair suit jacket at a desk full of schedules
+04,11,PRODUCER,Kojima Haruna,Kojima Haruna (ex-AKB48),japanese woman long hair fashion outfit at a photoshoot
+04,12,PRODUCER,Shinoda Mariko,Shinoda Mariko (ex-AKB48),japanese woman short hair blazer with a tablet backstage
+04,13,PRODUCER,Miyawaki Sakura,Miyawaki Sakura (ex-HKT48),japanese woman long hair casual chic calm stare
+04,14,PRODUCER,Matsui Jurina,Matsui Jurina (ex-SKE48),japanese woman long dark hair stage outfit focused
+04,15,PRODUCER,Abe Natsumi,Abe Natsumi (ex-Morning Musume),japanese woman long hair pastel cardigan in a bright rehearsal room
+04,16,EVENT,Firmas en el teatro,una sesion de firmas en el teatro nuevo,long tables of handshake queues in a huge bright hall
+04,17,EVENT,Verano en el teatro,un concierto de verano al aire libre,open air stage under festival lanterns with a standing crowd
+04,18,EVENT,De la nueva era,un photobook de la nueva era,photoshoot in a temple ground with stone steps and paper lamps
+04,19,EVENT,Directo con las fans,un directo de madrugada para las fans,idol in a dim room at night talking to a phone camera
+04,20,EVENT,La gira de la era,un concierto propio de la nueva era,stadium in the round with a runway out into the audience
+04,21,EVENT,La portada de la nueva era,una portada de moda de la nueva era,high fashion shoot in a concrete studio with hard light
+04,22,EVENT,Estreno de la era,la cancion que estrena la nueva era,studio session with a small band and paper lanterns on the floor
+04,23,EVENT,La nueva generacion,el baile de la nueva generacion,street dance on a rooftop with paper lanterns strung overhead
+04,24,EVENT,La mesa redonda,una mesa redonda con la prensa,press table with microphones and many reporters
+05,1,IDOL,Itano Tomomi,Itano Tomomi (ex-AKB48),japanese woman 2010s long brown hair sequin dress cool solo stage
+05,2,IDOL,Matsui Rena,Matsui Rena (ex-SKE48),japanese woman 2010s long black hair white dress composed solo stage
+05,3,IDOL,Nishino Nanase,Nishino Nanase (ex-Nogizaka46),japanese woman 2010s long dark hair soft knit gentle solo light
+05,4,IDOL,Hirate Yurina,Hirate Yurina (ex-Keyakizaka46),japanese woman 2020s short black hair dark coat intense gaze solo stage
+05,5,IDOL,May J.,May J. (Avex),japanese woman 2010s long wavy hair black dress powerful solo vocal
+05,6,IDOL,Ai Otsuka,Ai Otsuka (Avex),japanese woman 2010s wavy hair casual dress playing piano solo
+05,7,IDOL,Kaori Mochida,Kaori Mochida (Every Little Thing),japanese woman 2010s long brown hair white knit singing acoustic
+05,8,IDOL,ToripuruE - Nishijima,Nishijima Takahiro (AAA),japanese man 2010s short dark hair white shirt solo dance stage
+05,9,IDOL,EmuFuro - Verbal,Verbal (m-flo),japanese man 2010s cap dark jacket microphone rapping solo
+05,10,PRODUCER,Natsu Mayumi,Natsu Mayumi,japanese woman choreographer headset marking the floor of a rehearsal room
+05,11,PRODUCER,Jun Abe,Jun Abe (Avex),japanese man composer at a keyboard with a score notebook warm light
+05,12,PRODUCER,Koichi Tsutaya,Koichi Tsutaya (Avex),japanese man producer headphones at a mixing console with a guitar
+05,13,PRODUCER,Daisuke Asakura,Daisuke Asakura (Avex),japanese man sunglasses synthesizer stack neon studio bright lights
+05,14,PRODUCER,Shoichiro Hirata,Shoichiro Hirata (Avex),japanese man producer at a rack of synthesizers with a laptop
+05,15,PRODUCER,Kotaro Egami,Kotaro Egami (Avex),japanese man composer at a grand piano with sheet music warm
+05,16,EVENT,El primer disco en solitario,el primer disco en solitario de la casa,solo artist holding her first album in a small record shop
+05,17,EVENT,La gira en solitario,una gira por teatros de una solista,solo tour stage with a small band and one spotlight on the singer
+05,18,EVENT,El recital acustico,un recital acustico de la solista,acoustic recital on a wooden stage with a guitar and soft lights
+05,19,EVENT,La actuacion teatral,una actuacion en solitario en el teatro,japanese theater stage one idol alone in the spotlight red seats
+05,20,EVENT,La unidad nueva,la primera cancion de la unidad nueva,two idols on a small stage singing together into one microphone
+05,21,EVENT,El fotolibro personal,un fotolibro de la solista,photoshoot of one idol in a summer town with film cameras around
+05,22,EVENT,El directo de la graduada,un directo de una miembro graduada,graduated idol alone at night talking to a phone camera in a room
+05,23,EVENT,La portada en solitario,una portada de revista en solitario,magazine cover shoot with one idol in white styling hard light
+05,24,EVENT,La despedida del grupo,la ceremonia de graduacion de una miembro,graduation ceremony on a theater stage with the whole group bowing
+06,1,IDOL,EkkusuJii - Jurin,Jurin (XG),young japanese woman 2020s long black hair streetwear jacket fierce gaze
+06,2,IDOL,EkkusuJii - Chisa,Chisa (XG),young japanese woman 2020s dark wavy hair leather jacket powerful voice pose
+06,3,IDOL,EkkusuJii - Hinata,Hinata (XG),young japanese woman 2020s bob hair urban outfit cool stare stage
+06,4,IDOL,EkkusuJii - Cocona,Cocona (XG),young japanese woman 2020s twin braids ripped denim rapper bold pose
+06,5,IDOL,Nogizaka - Inoue,Inoue Nagi (Nogizaka46),young japanese woman 2020s long straight hair white dress quiet hungry smile
+06,6,IDOL,Nogizaka - Ioki,Ioki Mao (Nogizaka46),young japanese woman 2020s bob hair pastel cardigan first stage bright eyes
+06,7,IDOL,Sakurazaka - Ishimori,Ishimori Rika (Sakurazaka46),young japanese woman 2020s long dark hair white blouse serious stage pose
+06,8,IDOL,Sakurazaka - Odakura,Odakura Reina (Sakurazaka46),young japanese woman 2020s short hair black dress confident pose stage
+06,9,IDOL,Hinatazaka - Ishizuka,Ishizuka Tamaki (Hinatazaka46),young japanese woman 2020s long hair pastel outfit cheerful debut stage
+06,10,PRODUCER,SKY-HI,Mitsuhiro Hidaka (BMSG),japanese man 2020s cap and jacket at a mixing desk with audition charts
+06,11,PRODUCER,Akira Sunset,Akira Sunset,japanese man 2020s producer headphones at a bright console with a notepad
+06,12,PRODUCER,APAZZI,APAZZI,japanese man 2020s arranger at a keyboard with strings and a laptop score
+06,13,PRODUCER,Kameda Seiji,Seiji Kameda,japanese man 2020s producer at an analogue console with a tape machine warm light
+06,14,PRODUCER,Sasaki Kumi,Sasaki Kumi (Hinatazaka46),japanese woman 2020s short hair team jacket with a clipboard in a theatre lobby
+06,15,PRODUCER,Takahashi Ai,Takahashi Ai (ex-Morning Musume),japanese woman 2020s long hair blazer at a desk full of schedules
+06,16,EVENT,El examen del mes,la evaluacion mensual de las aprendices,practice hall with numbered floor mats and evaluators at a long table
+06,17,EVENT,El primer escenario,el primer escenario de la nueva generacion,small theatre stage with a fresh banner and a new group bowing together
+06,18,EVENT,La clase del amanecer,las clases de baile al amanecer,dance class at dawn with striped flooring and mirrors full of trainees
+06,19,EVENT,El dia del debut,el dia del debut de la nueva generacion,backstage corridor on debut day with costumes on a rail and a nervous queue
+06,20,EVENT,La primera firma,el primer encuentro de manos de la nueva generacion,long tables of name tags and a queue of fans at a first handshake
+06,21,EVENT,La cancion del debut,la cancion que estrena a la nueva generacion,studio session with a small band and a whiteboard of choreography notes
+06,22,EVENT,El dormitorio nuevo,la vida en el dormitorio nuevo,shared dormitory room with bunk beds and practice clothes drying on a rail
+06,23,EVENT,La gira de los nuevos,la primera gira de la nueva generacion,small regional theatre stage with paper lanterns and a standing crowd
+06,24,EVENT,La foto del equipo,la foto oficial del equipo nuevo,group photo on a theatre staircase with everyone in matching white outfits

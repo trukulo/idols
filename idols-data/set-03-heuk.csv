@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+heuk,IDOL,61,HUK-DV-3001,"BurakkuPinku - Jisu",Rising,2,1,1,d6,d6,BAILE,VOZ,GUARDIAN,F,49.png,3
+heuk,IDOL,62,HUK-DV-3002,"BurakkuPinku - Rojie",Debut,2,1,0,d6,d4,VOZ,BAILE,BLOODRUSH,F,50.png,3
+heuk,IDOL,63,HUK-DV-3003,"Toreja - Junkyu",Debut,2,1,0,d4,d6,BAILE,VOZ,BLOODRUSH,F,51.png,3
+heuk,IDOL,64,HUK-DV-3004,"Toreja - Haruto",Rising,2,1,1,d6,d6,BAILE,VOZ,GUARDIAN,F,52.png,3
+heuk,IDOL,65,HUK-DV-3005,"Akumu - Chani",Legend,1,2,2,d10,d10,BAILE,VOZ,SABOTAGE,F,53.png,3
+heuk,IDOL,66,HUK-DV-3006,"Akumu - Suhyon",Star,2,2,1,d8,d8,VOZ,BAILE,SABOTAGE,F,54.png,3
+heuk,IDOL,67,HUK-DV-3007,"Beibimonsuta - Ruka",Star,2,2,1,d8,d8,BAILE,VOZ,FAST,F,55.png,3
+heuk,IDOL,68,HUK-DV-3008,"Beibimonsuta - Ahyon",Debut,2,1,0,d4,d6,VOZ,BAILE,HEX,F,56.png,3
+heuk,IDOL,69,HUK-DV-3009,"Uina - Honi",Debut,2,1,0,d6,d4,VOZ,BAILE,HEX,F,57.png,3
+heuk,PRODUCER,70,HUK-PR-3010,"BiBiEn",Debut,2,1,0,d4,d6,VOZ,BAILE,VERSATIL,M,58.png,3
+heuk,PRODUCER,71,HUK-PR-3011,"JiRii",Debut,2,1,0,d6,d4,VOZ,BAILE,VERSATIL,M,59.png,3
+heuk,PRODUCER,72,HUK-PR-3012,"ESeiE",Rising,2,1,1,d8,d6,VOZ,BAILE,SCOUT,M,60.png,3
+heuk,PRODUCER,73,HUK-PR-3013,"Raion",Debut,2,1,0,d4,d6,BAILE,VOZ,SCOUT,M,61.png,3
+heuk,PRODUCER,74,HUK-PR-3014,"Pikke",Debut,2,1,0,d4,d6,BAILE,VOZ,LAST STAND,M,62.png,3
+heuk,PRODUCER,75,HUK-PR-3015,"Choe Sonjun",Debut,2,1,0,d6,d4,VOZ,BAILE,LAST STAND,M,63.png,3
+heuk,EVENT,76,HUK-EV-3016,"Entrevista ♪ La tele mundial",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,RALLY,F,64.png,3
+heuk,EVENT,77,HUK-EV-3017,"Firma ♪ El encuentro con los fans",Star,2,2,1,d6+2,d4+2,BAILE,VOZ,FAST,F,65.png,3
+heuk,EVENT,78,HUK-EV-3018,"Live ♪ Waterbomb",Star,2,3,1,d6+2,d4+2,VOZ,BAILE,CHARGED,F,66.png,3
+heuk,EVENT,79,HUK-EV-3019,"Photobook ♪ El photobook de la gira",Legend,1,3,2,d4+3,d6+3,VOZ,BAILE,CHARGED,F,67.png,3
+heuk,EVENT,80,HUK-EV-3020,"Stream ♪ El directo de madrugada",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,RALLY,F,68.png,3
+heuk,EVENT,81,HUK-EV-3021,"Concierto ♪ En el estadio",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,WARCRY,F,69.png,3
+heuk,EVENT,82,HUK-EV-3022,"Fotos ♪ La portada de moda mundial",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,WARCRY,F,70.png,3
+heuk,EVENT,83,HUK-EV-3023,"Canción ♪ El single de colaboracion",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,71.png,3
+heuk,EVENT,84,HUK-EV-3024,"Baile ♪ El baile del nuevo grupo",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,COUNTDOWN,F,72.png,3

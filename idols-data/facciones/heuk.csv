@@ -1,0 +1,149 @@
+# HEUK (HUK) — la casa del UNDERGROUND que se hizo gigante (parodia de YG Entertainment). Carmesí.
+# 흑 = negro: la casa del hip hop, del estilo de calle y de los videos que nadie esperaba.
+# Columnas: set,id,type,name,ref,desc  (ver la cabecera de haneul.csv)
+# Era de cada set: 01 el sótano (1996-2008) · 02 los que rompieron el molde (2009-2016) · 03 el escaparate mundial (2017-hoy) · 04 la era de los relevos · 05 los solistas y las unidades · 06 la nueva ola
+set,id,type,name,ref,desc
+01,1,IDOL,Jinusean - Jinu,Jinu (Jinusean),korean man 1990s hip hop cap jacket chain pose street night
+01,2,IDOL,Jinusean - Shon,Sean (Jinusean),korean american man 1990s baggy clothes warm smile hip hop studio
+01,3,IDOL,WanTaim - Deni,Danny (1TYM),korean american man 1990s hip hop plaid shirt chain tough stare
+01,4,IDOL,WanTaim - Pekukyon,Song Baek-kyung (1TYM),korean man 1990s hip hop beanie bomber jacket rap pose street
+01,5,IDOL,BigBan - Jiyon,G-Dragon (BIGBANG),korean man 2000s street fashion bucket hat blond hair cool stare neon
+01,6,IDOL,BigBan - Tei,Taeyang (BIGBANG),korean man 2000s shaved head black tank top intense eyes stage
+01,7,IDOL,BigBan - Toppu,T.O.P (BIGBANG),tall korean man 2000s sharp jaw pink hair sunglasses fashion pose
+01,8,IDOL,Ssai - Sai,PSY,korean man 2000s black suit colorful bow tie funny confident pose stage
+01,9,IDOL,Epikku - Taburo,Tablo (Epik High),korean man glasses beard striped shirt thoughtful rapper pose studio
+01,10,PRODUCER,Yang Hyonsu,Yang Hyun-suk (YG),korean man in black cap and black tracksuit hip hop studio dim light
+01,11,PRODUCER,Yaminsuku,Yang Min-suk (YG),korean man black suit press conference stage with logos
+01,12,PRODUCER,Kushu,Kush (YG),korean producer with tattoos and cap studio console dark neon
+01,13,PRODUCER,Choisu 37,Choice37,korean american producer beard and glasses warm studio
+01,14,PRODUCER,Baunsu,FUTURE BOUNCE,korean man knit cap headphones synthesizer dark studio
+01,15,PRODUCER,AriTi,R.Tee,korean producer cap and chain at a mixing desk night
+01,16,EVENT,El single de debut,la primera maqueta del grupo,1990s korean hip hop demo studio cassette tapes dim light young crew
+01,17,EVENT,El concurso de talentos,una actuacion en un concurso de talentos,tv audition stage teenager rapping judges desk spotlights
+01,18,EVENT,La radio pirata,una entrevista en un programa de madrugada,small radio booth at night microphones rapper in cap warm lamp
+01,19,EVENT,La firma de discos,una firma de autografos en la tienda,record store signing table hip hop fans queue idol in cap
+01,20,EVENT,Coachella,el telón de cabeza del festival del desierto,desert festival main stage at sunset huge crowd idol headliner gold lights
+01,21,EVENT,De estilo de calle,una sesion de moda de calle,streetwear fashion shoot urban rooftop idol in designer cap dramatic light
+01,22,EVENT,El video censurado,el rodaje de un video controvertido,video shoot dark street neon police lights dramatic rapper
+01,23,EVENT,El concierto en el club,un concierto en un pequeno club,small underground club dark stage crowd hands up rapper spotlight
+01,24,EVENT,La sesion de portada,una sesion de fotos de portada,photo studio dark backdrop rapper in black cover shoot dramatic light
+02,1,IDOL,TsuEnI - ShiiEru,CL (2NE1),korean woman 2010s bold eyes red outfit fierce leader pose stage
+02,2,IDOL,TsuEnI - Pomu,Bom (2NE1),korean woman 2010s long wavy hair pink outfit elegant melancholy
+02,3,IDOL,TsuEnI - Dara,Dara (2NE1),korean woman 2010s short bob colorful jacket cheerful pose
+02,4,IDOL,Uina - Mino,Mino (WINNER),korean man 2010s paint splattered overalls artist rapper pose daylight
+02,5,IDOL,Uina - KanSunyun,Kang Seung-yoon (WINNER),korean man 2010s grey knit guitar singing pose warm studio
+02,6,IDOL,Aikon - Biai,B.I (iKON),young korean man 2010s curly hair black jacket rapper pose stage
+02,7,IDOL,Aikon - Bobi,Bobby (iKON),young korean man 2010s cap hoodie rapper intense eyes stage smoke
+02,8,IDOL,BurakkuPinku - Jeny,Jennie (BLACKPINK),korean woman 2010s black outfit red lips cool stare neon
+02,9,IDOL,BurakkuPinku - Risa,Lisa (BLACKPINK),thai korean woman 2010s long dark hair pink outfit dance pose stage
+02,10,PRODUCER,Tedi Paku,Teddy Park,young korean producer black cap silver chain studio console night
+02,11,PRODUCER,Beku,Bekuh BOOM,korean woman producer headphones studio neon pink light
+02,12,PRODUCER,DigiPi,DEE.P,korean producer cap studio mixing desk warm lamp
+02,13,PRODUCER,Airupurei,AiRPLAY,young korean producer laptop headphones dark studio
+02,14,PRODUCER,MirEniamu,Millennium,korean producer sunglasses synthesizers neon studio
+02,15,PRODUCER,Biguton,BigTone,korean producer at a drum machine dark room
+02,16,EVENT,La coreografia del momento,la coreografia que todo el mundo imita,studio dance practice mirror phone filming fierce synchronized moves dark
+02,17,EVENT,Prensa internacional,una entrevista con la prensa internacional,press room microphones foreign journalists idol in black calm
+02,18,EVENT,La firma de albumes,una firma de autografos de album,album signing table fans queue idol signing photocard dark hall
+02,19,EVENT,Concierto en el club,un concierto en directo en el club,club concert stage red lights crowd hands up rapper on stage
+02,20,EVENT,De estudio,un photobook rodado en el estudio,photobook photoshoot industrial studio grey wall idol in streetwear
+02,21,EVENT,El directo en la plataforma,un directo en la plataforma de fans,idol alone in a small room talking to a phone camera dim light
+02,22,EVENT,La gira mundial,una gira mundial por arenas,world tour arena stage spotlights huge crowd lightsticks night
+02,23,EVENT,La portada de moda de calle,una portada de revista de moda urbana,streetwear magazine cover shoot urban night idol in designer black
+02,24,EVENT,La cancion del aniversario,la cancion de aniversario del grupo,anniversary studio session warm lights dirty and proud group singing
+03,1,IDOL,BurakkuPinku - Jisu,Jisoo (BLACKPINK),korean woman long black hair white dress classic elegant pose
+03,2,IDOL,BurakkuPinku - Rojie,Rosé (BLACKPINK),korean australian woman blonde long hair black dress guitar stage
+03,3,IDOL,Toreja - Junkyu,Junkyu (TREASURE),young korean man dark hair white shirt gentle smile stage light
+03,4,IDOL,Toreja - Haruto,Haruto (TREASURE),japanese korean man black hair hoodie rapper pose urban night
+03,5,IDOL,Akumu - Chani,Lee Chan-hyuk (AKMU),korean man acoustic guitar warm daylight thoughtful smile
+03,6,IDOL,Akumu - Suhyon,Lee Su-hyun (AKMU),korean woman long hair yellow dress bright singing pose
+03,7,IDOL,Beibimonsuta - Ruka,Ruka (BABYMONSTER),japanese korean woman black outfit fierce dance pose studio light
+03,8,IDOL,Beibimonsuta - Ahyon,Ahyeon (BABYMONSTER),young korean woman long dark hair stage outfit powerful voice pose
+03,9,IDOL,Uina - Honi,Lee Seung-hoon (WINNER),korean man short dark hair black coat moody portrait night
+03,10,PRODUCER,BiBiEn,VVN,korean woman producer laptop and headphones dark studio
+03,11,PRODUCER,JiRii,Joe Rhee,korean american producer guitar and console night city
+03,12,PRODUCER,ESeiE,SE.A,korean woman producer at a synth warm lamp
+03,13,PRODUCER,Raion,LION,korean producer cap chain studio neon
+03,14,PRODUCER,Pikke,P.K,korean producer at a mixing desk headphones dark
+03,15,PRODUCER,Choe Sonjun,Choi Sung-jun (YG),korean man glasses office with tour posters
+03,16,EVENT,La tele mundial,una entrevista en television internacional,live tv interview set english subtitles idol in black elegant
+03,17,EVENT,El encuentro con los fans,un encuentro de firmas con los fans,photocard trading meet fans binder cards dark hall
+03,18,EVENT,Waterbomb,el festival del agua,summer water festival stage soaked crowd idol performing splashes
+03,19,EVENT,El photobook de la gira,un photobook rodado durante la gira,tour photobook backstage airport and stage candid shots idol tired happy
+03,20,EVENT,El directo de madrugada,un directo de madrugada para los fans,idol alone in a dark room at night talking to a phone camera
+03,21,EVENT,En el estadio,un concierto propio en el gran estadio,stadium concert night fireworks idol silhouette epic scale
+03,22,EVENT,La portada de moda mundial,una portada de moda internacional,high fashion cover shoot idol in black designer couture dramatic light
+03,23,EVENT,El single de colaboracion,un single con una superestrella,collaboration studio two artists console neon lights night
+03,24,EVENT,El baile del nuevo grupo,la coreografia del grupo nuevo,young dance crew fierce choreography black outfits street night neon
+04,1,IDOL,Beibimonsuta - Parita,Pharita (BABYMONSTER),young thai korean woman long dark hair black outfit fierce dance pose
+04,2,IDOL,Beibimonsuta - Asa,Asa (BABYMONSTER),japanese korean woman dark bob rapper cap street pose
+04,3,IDOL,Beibimonsuta - Rami,Rami (BABYMONSTER),young korean woman long black hair elegant black dress calm
+04,4,IDOL,Beibimonsuta - Rora,Rora (BABYMONSTER),young korean woman long hair stage outfit bright confident smile
+04,5,IDOL,Beibimonsuta - Chikita,Chiquita (BABYMONSTER),young thai korean woman short hair bold streetwear sharp stare
+04,6,IDOL,Toreja - Jihun,Jihoon (TREASURE),young korean man black hair black jacket leader pose
+04,7,IDOL,Toreja - Doyon,Doyoung (TREASURE),young korean man light brown hair denim jacket soft gaze
+04,8,IDOL,Aikon - Junhe,Junhoe (iKON),korean man dark hair black coat powerful vocal pose
+04,9,IDOL,TsuEnI - Minji,Minzy (2NE1),korean woman short hair streetwear dancer pose
+04,10,PRODUCER,Kang Ukjin,Kang Uk-jin (YG),korean man cap and hoodie at a mixing desk in a dark studio
+04,11,PRODUCER,Rovin,Rovin (YG),young korean producer headphones keyboard neon light
+04,12,PRODUCER,An Sonchan,Ahn Sung-chan (YG),korean man headphones at a console full of outboard gear
+04,13,PRODUCER,Roren,LOREN (YG),young korean american producer guitarist in a dim studio
+04,14,PRODUCER,Yang Donhyon,Yang Dong-hyun,korean man black coat in a boardroom with tour posters
+04,15,PRODUCER,No Kyongmin,Noh Kyung-min,korean producer at a drum machine dark room gold chain
+04,16,EVENT,La firma de las nuevas fans,una firma para las fans nuevas,signing table in a dark hall with neon and a long queue
+04,17,EVENT,La gira por el mundo entero,una gira por el mundo entero,tour stage seen from the rafters with rigging and a sea of lightsticks
+04,18,EVENT,De la nueva era,un photobook de la nueva era,photos in a parking garage with sodium lights and wet concrete
+04,19,EVENT,Madrugada de la era,un directo de madrugada para las fans,idol in a small dark room lit only by the phone screen
+04,20,EVENT,El Gocheok Sky Dome,el domo de Seul,seoul dome interior concert stage lights crowd idol center
+04,21,EVENT,La portada del mundo,una portada de revista internacional,high fashion shoot on a rooftop with the skyline behind
+04,22,EVENT,La cancion nueva,la cancion que estrena el grupo nuevo,dark studio session with a live band and smoke
+04,23,EVENT,Del grupo nuevo,la coreografia del grupo nuevo,hard choreography filmed in a mirror studio at night
+04,24,EVENT,La prensa extranjera,una entrevista con la prensa extranjera,press room with foreign journalists and dark walls
+05,1,IDOL,Somi,Jeon Somi (THE BLACK LABEL),young korean canadian woman 2020s solo artist blonde bob pink top confident dance pose
+05,2,IDOL,Zion.T,Kim Hae-sol (Zion.T),korean man 2010s solo singer black round sunglasses turtleneck calm pose
+05,3,IDOL,Lee Hi,Lee Ha-yi (Lee Hi),korean woman 2010s solo vocalist long dark hair red dress soulful gaze
+05,4,IDOL,BigBan - Deson,Daesung (BIGBANG),korean man 2010s solo vocalist short black hair black suit warm smile
+05,5,IDOL,Uina - JinU,Kim Jin-woo (WINNER),korean man 2020s solo singer dark hair denim jacket gentle smile
+05,6,IDOL,Gumi,Gummy (YG),korean woman 2010s soul vocalist long brown hair elegant black dress expressive pose
+05,7,IDOL,Sebun,Se7en (YG),korean man 2010s solo singer sharp black suit short hair sharp dance pose
+05,8,IDOL,Sekusukisu - Jiwon,Eun Ji-won (SECHSKIES),korean man 2010s solo rapper yellow hoodie short hair playful confident pose
+05,9,IDOL,Masto U,Masta Wu (YG),korean man 2010s hip hop solo rapper black beanie chain fierce stare
+05,10,PRODUCER,Bryan Chase,Bryan Chase (THE BLACK LABEL),korean american man 2010s producer headphones at a console in a dark neon studio
+05,11,PRODUCER,DJ Tukutz,DJ Tukutz (Epik High),korean man 2010s producer dj headphones turntables and a laptop in a dim room
+05,12,PRODUCER,Yoo Gun-hyung,Yoo Gun-hyung (YG),korean man 2010s producer at a keyboard under a wall of gold records warm lamp
+05,13,PRODUCER,Asahi,Asahi (TREASURE),japanese korean man 2020s producer at a synthesizer with a notebook warm studio
+05,14,PRODUCER,Yoshi,Yoshi (TREASURE),japanese korean man 2020s producer headphones at a drum machine and a mic dark room
+05,15,PRODUCER,Son Sung-deuk,Son Sung-deuk (YG),korean man 2010s stage director with a headset on a rehearsal floor and dancers behind
+05,16,EVENT,El primer disco en solitario,el primer disco en solitario de un miembro,solo recording session with one microphone and lyric sheets on the floor warm lamp
+05,17,EVENT,La gira en solitario,una gira en solitario por teatros,solo tour theatre stage with a single spotlight and dressed seats in the dark
+05,18,EVENT,El concierto acustico,un concierto acustico en un teatro pequeno,small acoustic set with a stool a guitar and a hush over the seated crowd
+05,19,EVENT,El estudio propio,un estudio propio montado por el artista,personal studio with keyboards a microphone and notebooks spread over the desk
+05,20,EVENT,La reunion de la casa,un concierto de reencuentro de los veteranos de la casa,reunion concert stage with the senior artists of the house and a warm crowd
+05,21,EVENT,El disco de versiones,un album de versiones de sus propias canciones,rearranged songs recorded live with a small band and warm stage lights
+05,22,EVENT,El dueto con una leyenda,un dueto con una leyenda de la casa,two artists sharing one microphone in the booth with the take going well
+05,23,EVENT,La banda sonora,una cancion para la banda sonora de una serie,drama soundtrack session with a string quartet screens and a film on the wall
+05,24,EVENT,El regreso a las tablas,la vuelta del veterano a los escenarios,veteran artist walking back onto a theatre stage as the lights come up
+06,1,IDOL,Miyao - Gaon,Gawon (MEOVV),young korean woman 2020s sleek black bob tall model frame cold confident stare
+06,2,IDOL,Miyao - Suin,Sooin (MEOVV),young korean woman 2020s long dark hair leather jacket sharp dance pose
+06,3,IDOL,Miyao - Ana,Anna (MEOVV),japanese korean woman 2020s soft brown hair oversized blazer calm gaze
+06,4,IDOL,Miyao - Narin,Narin (MEOVV),young korean woman 2020s dark wavy hair crop top fierce hip hop pose
+06,5,IDOL,Miyao - Era,Ella (MEOVV),korean american woman 2020s long brown hair streetwear chain bold smile
+06,6,IDOL,Orudei - Ani,Annie (ALLDAY PROJECT),korean american woman 2020s long dark hair gold jewelry arrogant elegant pose
+06,7,IDOL,Orudei - Beiri,Bailey (ALLDAY PROJECT),korean american woman 2020s curly dark hair sporty top powerful dance pose
+06,8,IDOL,Orudei - Uchan,Woochan (ALLDAY PROJECT),young korean man 2020s black hair oversized shirt cool rapper pose street
+06,9,IDOL,Orudei - Yongsou,Youngseo (ALLDAY PROJECT),young korean woman 2020s straight dark hair white tee confident smirk
+06,10,PRODUCER,Binsu,Vince (YG),korean man producer 2020s black cap headphones at a mixing desk night
+06,11,PRODUCER,TuentiFo,24 (THEBLACKLABEL),young korean man producer 2020s hoodie drum machine neon light dark studio
+06,12,PRODUCER,Chansura,Chancellor (THEBLACKLABEL),korean man producer 2020s guitar and headphones warm lamp bright console
+06,13,PRODUCER,Deni Chon,Danny Chung (THEBLACKLABEL),korean american man producer 2020s notebook and headphones at a console night
+06,14,PRODUCER,Bureddobito,BreadBeat (YG),korean man producer 2020s synth rack cap dim studio chain
+06,15,PRODUCER,I Jyon,Lee Jung (YGX),korean woman 2020s dance director cap and hoop earrings counting the beat in a dark studio
+06,16,EVENT,El examen de la casa,la evaluacion mensual de los aprendices,evaluation day in a dark practice room judges at a long table young dancers sweating
+06,17,EVENT,La cuenta atras del debut,la cuenta atras hasta el debut,countdown numbers painted on a dorm wall and a calendar at night lamps on
+06,18,EVENT,El primer escenario,el primer escenario de verdad,small club stage with a first crowd and raised phone lights idol in black
+06,19,EVENT,La primera firma,la primera firma de autografos,long signing table in a dark hall first fans with photocards and banners
+06,20,EVENT,El video del garaje,un video rodado en un garaje,music video shoot in a concrete garage with neon tubes and drifting smoke
+06,21,EVENT,La noche de los aprendices,una actuacion de los aprendices,trainees performing on a small stage at night while the staff watch
+06,22,EVENT,El primer directo,el primer directo por internet,rookies in a small dark room filming a live stream with one ring light
+06,23,EVENT,El baile del amanecer,un ensayo al amanecer,dawn practice in an empty studio with fogged mirrors and a tired crew
+06,24,EVENT,La meta del grupo,la meta que se ponen al debutar,young group on a rooftop writing their goals on a big board at night

@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+jinjja,IDOL,41,JNJ-DV-4001,"SutoruKizzu - Ferikusu",Star,2,2,1,d8,d8,BAILE,VOZ,SABOTAGE,F,73.png,4
+jinjja,IDOL,42,JNJ-DV-4002,"SutoruKizzu - Sunmin",Debut,2,1,0,d4,d6,VOZ,BAILE,RALLY,F,74.png,4
+jinjja,IDOL,43,JNJ-DV-4003,"SutoruKizzu - Chanbin",Star,2,2,1,d8,d8,BAILE,VOZ,SABOTAGE,F,75.png,4
+jinjja,IDOL,44,JNJ-DV-4004,"SutoruKizzu - Rinou",Rising,2,1,1,d6,d6,VOZ,BAILE,GUARDIAN,F,76.png,4
+jinjja,IDOL,45,JNJ-DV-4005,"Itchi - Yechi",Debut,2,1,0,d6,d4,VOZ,BAILE,RALLY,F,77.png,4
+jinjja,IDOL,46,JNJ-DV-4006,"Itchi - Ria",Debut,2,1,0,d6,d4,BAILE,VOZ,SCOUT,F,78.png,4
+jinjja,IDOL,47,JNJ-DV-4007,"Itchi - Cheryon",Debut,2,1,0,d4,d6,BAILE,VOZ,SCOUT,F,79.png,4
+jinjja,IDOL,48,JNJ-DV-4008,"EnMikkusu - Riri",Debut,2,1,0,d6,d4,VOZ,BAILE,HEX,F,80.png,4
+jinjja,IDOL,49,JNJ-DV-4009,"EnMikkusu - Kyujin",Debut,2,1,0,d4,d6,BAILE,VOZ,HEX,F,81.png,4
+jinjja,PRODUCER,50,JNJ-PR-4010,"I Umin",Debut,2,1,0,d4,d6,VOZ,BAILE,BLOODRUSH,M,82.png,4
+jinjja,PRODUCER,51,JNJ-PR-4011,"Eoriatteku",Star,2,2,1,d8,d8,VOZ,BAILE,FAST,M,83.png,4
+jinjja,PRODUCER,52,JNJ-PR-4012,"Huan Hyon",Star,2,2,1,d8,d8,VOZ,BAILE,FAST,M,84.png,4
+jinjja,PRODUCER,53,JNJ-PR-4013,"Nikkoyon",Debut,2,1,0,d4,d6,VOZ,BAILE,BLOODRUSH,M,85.png,4
+jinjja,PRODUCER,54,JNJ-PR-4014,"Miriomboy",Legend,1,3,2,d10,d10,BAILE,VOZ,CHARGED,M,86.png,4
+jinjja,PRODUCER,55,JNJ-PR-4015,"Chon Uk",Debut,2,1,0,d4,d6,BAILE,VOZ,COUNTDOWN,M,87.png,4
+jinjja,EVENT,56,JNJ-EV-4016,"Firma ♪ Firmas en el estadio",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,COUNTDOWN,F,88.png,4
+jinjja,EVENT,57,JNJ-EV-4017,"Live ♪ La gira por las arenas",Rising,2,1,1,d4+1,d6+1,VOZ,BAILE,GUARDIAN,F,89.png,4
+jinjja,EVENT,58,JNJ-EV-4018,"Photobook ♪ El photobook de gira",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,LAST STAND,F,90.png,4
+jinjja,EVENT,59,JNJ-EV-4019,"Stream ♪ El concierto en línea",Legend,1,3,2,d4+3,d6+3,VOZ,BAILE,CHARGED,F,91.png,4
+jinjja,EVENT,60,JNJ-EV-4020,"Concierto ♪ El festival de la casa",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,LAST STAND,F,92.png,4
+jinjja,EVENT,61,JNJ-EV-4021,"Fotos ♪ La portada de la nueva era",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,WARCRY,F,93.png,4
+jinjja,EVENT,62,JNJ-EV-4022,"Canción ♪ Del equipo nuevo",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,WARCRY,F,94.png,4
+jinjja,EVENT,63,JNJ-EV-4023,"Baile ♪ Del grupo nuevo",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,VERSATIL,F,95.png,4
+jinjja,EVENT,64,JNJ-EV-4024,"Entrevista ♪ La television americana",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,VERSATIL,F,96.png,4

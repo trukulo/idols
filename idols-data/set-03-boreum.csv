@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+boreum,IDOL,21,BRM-DV-3001,"EnSiTi - Teyon",Star,2,2,1,d8,d8,BAILE,VOZ,SABOTAGE,F,49.png,3
+boreum,IDOL,22,BRM-DV-3002,"EnSiTi - Jeno",Rising,2,2,1,d6,d6,VOZ,BAILE,CHARGED,F,50.png,3
+boreum,IDOL,23,BRM-DV-3003,"Esupa - Karina",Star,2,2,1,d8,d8,BAILE,VOZ,SABOTAGE,F,51.png,3
+boreum,IDOL,24,BRM-DV-3004,"Esupa - Winto",Debut,2,1,0,d4,d6,BAILE,VOZ,HEX,F,52.png,3
+boreum,IDOL,25,BRM-DV-3005,"Reberu - Surugi",Legend,1,2,2,d10,d10,BAILE,VOZ,FAST,F,53.png,3
+boreum,IDOL,26,BRM-DV-3006,"Shaini - Temin",Debut,2,1,0,d6,d4,VOZ,BAILE,HEX,F,54.png,3
+boreum,IDOL,27,BRM-DV-3007,"Rijeu - Uonbin",Debut,2,1,0,d6,d4,VOZ,BAILE,BLOODRUSH,F,55.png,3
+boreum,IDOL,28,BRM-DV-3008,"HatsuTu - Ana",Debut,2,1,0,d6,d4,BAILE,VOZ,BLOODRUSH,F,56.png,3
+boreum,IDOL,29,BRM-DV-3009,"SuJu - Kyuhyon",Rising,2,2,1,d6,d6,VOZ,BAILE,CHARGED,F,57.png,3
+boreum,PRODUCER,30,BRM-PR-3010,"EmuZettoEmuShi",Debut,2,1,0,d6,d4,BAILE,VOZ,RALLY,M,58.png,3
+boreum,PRODUCER,31,BRM-PR-3011,"Sutereotaipusu",Debut,2,1,0,d4,d6,VOZ,BAILE,RALLY,M,59.png,3
+boreum,PRODUCER,32,BRM-PR-3012,"BitoBagaa",Debut,2,1,0,d4,d6,BAILE,VOZ,COUNTDOWN,M,60.png,3
+boreum,PRODUCER,33,BRM-PR-3013,"ChaCha Maron",Rising,2,1,1,d8,d6,VOZ,BAILE,COUNTDOWN,M,61.png,3
+boreum,PRODUCER,34,BRM-PR-3014,"Buiedo",Legend,1,2,2,d10,d10,BAILE,VOZ,FAST,M,62.png,3
+boreum,PRODUCER,35,BRM-PR-3015,"DiSain",Rising,2,1,1,d6,d8,VOZ,BAILE,WARCRY,M,63.png,3
+boreum,EVENT,36,BRM-EV-3016,"Entrevista ♪ La prensa mundial",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,WARCRY,F,64.png,3
+boreum,EVENT,37,BRM-EV-3017,"Firma ♪ El encuentro con los fans",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,SCOUT,F,65.png,3
+boreum,EVENT,38,BRM-EV-3018,"Live ♪ El live en el programa musical",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,SCOUT,F,66.png,3
+boreum,EVENT,39,BRM-EV-3019,"Photobook ♪ De aniversario",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,LAST STAND,F,67.png,3
+boreum,EVENT,40,BRM-EV-3020,"Stream ♪ El directo de madrugada",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,LAST STAND,F,68.png,3
+boreum,EVENT,41,BRM-EV-3021,"Concierto ♪ El concierto de la casa",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,VERSATIL,F,69.png,3
+boreum,EVENT,42,BRM-EV-3022,"Fotos ♪ Portada internacional",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,VERSATIL,F,70.png,3
+boreum,EVENT,43,BRM-EV-3023,"Canción ♪ El single de colaboracion",Star,2,2,1,d4+2,d6+2,BAILE,VOZ,GUARDIAN,F,71.png,3
+boreum,EVENT,44,BRM-EV-3024,"Baile ♪ La generacion digital",Star,2,2,1,d6+2,d4+2,VOZ,BAILE,GUARDIAN,F,72.png,3

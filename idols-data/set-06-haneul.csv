@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+haneul,IDOL,1,HNL-DV-6001,"LSerafim - Sakura",Star,2,2,1,d8,d8,VOZ,BAILE,FAST,F,121.png,6
+haneul,IDOL,2,HNL-DV-6002,"YilLit - Minju",Debut,2,1,0,d4,d6,BAILE,VOZ,WARCRY,F,122.png,6
+haneul,IDOL,3,HNL-DV-6003,"LSerafim - Kazuha",Legend,1,2,2,d10,d10,VOZ,BAILE,FAST,F,123.png,6
+haneul,IDOL,4,HNL-DV-6004,"LSerafim - Eunchae",Rising,2,2,1,d6,d6,VOZ,BAILE,CHARGED,F,124.png,6
+haneul,IDOL,5,HNL-DV-6005,"BoyNekusuto - Jeihyon",Debut,2,1,0,d6,d4,VOZ,BAILE,WARCRY,F,125.png,6
+haneul,IDOL,6,HNL-DV-6006,"BoyNekusuto - Riwo",Debut,2,1,0,d4,d6,BAILE,VOZ,RALLY,F,126.png,6
+haneul,IDOL,7,HNL-DV-6007,"YilLit - Yunah",Rising,2,2,1,d6,d6,VOZ,BAILE,CHARGED,F,127.png,6
+haneul,IDOL,8,HNL-DV-6008,"Keiche - Sofia",Debut,2,1,0,d6,d4,VOZ,BAILE,RALLY,F,128.png,6
+haneul,IDOL,9,HNL-DV-6009,"Tuwosu - Shinyu",Star,2,2,1,d8,d8,BAILE,VOZ,GUARDIAN,F,129.png,6
+haneul,PRODUCER,10,HNL-PR-6010,"Poppu Taimu",Rising,2,1,1,d6,d8,BAILE,VOZ,COUNTDOWN,M,130.png,6
+haneul,PRODUCER,11,HNL-PR-6011,"Soma Guenda",Debut,2,1,0,d4,d6,BAILE,VOZ,COUNTDOWN,M,131.png,6
+haneul,PRODUCER,12,HNL-PR-6012,"Buradaa Su",Debut,2,1,0,d4,d6,BAILE,VOZ,SCOUT,M,132.png,6
+haneul,PRODUCER,13,HNL-PR-6013,"Kiiru Tutin",Debut,2,1,0,d4,d6,BAILE,VOZ,SCOUT,M,133.png,6
+haneul,PRODUCER,14,HNL-PR-6014,"Raion Tedda",Debut,2,1,0,d6,d4,BAILE,VOZ,HEX,M,134.png,6
+haneul,PRODUCER,15,HNL-PR-6015,"Renzon Yun",Rising,2,1,1,d8,d6,VOZ,BAILE,HEX,M,135.png,6
+haneul,EVENT,16,HNL-EV-6016,"Photobook ♪ El primer fotolibro",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,VERSATIL,F,136.png,6
+haneul,EVENT,17,HNL-EV-6017,"Stream ♪ El directo del dormitorio",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,VERSATIL,F,137.png,6
+haneul,EVENT,18,HNL-EV-6018,"Concierto ♪ El primer concierto",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,LAST STAND,F,138.png,6
+haneul,EVENT,19,HNL-EV-6019,"Fotos ♪ La sesion de debut",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,LAST STAND,F,139.png,6
+haneul,EVENT,20,HNL-EV-6020,"Canción ♪ El tema de la evaluacion",Star,2,2,1,d6+2,d4+2,VOZ,BAILE,GUARDIAN,F,140.png,6
+haneul,EVENT,21,HNL-EV-6021,"Baile ♪ La coreografia del examen",Legend,1,2,2,d6+3,d4+3,VOZ,BAILE,SABOTAGE,F,141.png,6
+haneul,EVENT,22,HNL-EV-6022,"Entrevista ♪ La primera entrevista",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,BLOODRUSH,F,142.png,6
+haneul,EVENT,23,HNL-EV-6023,"Firma ♪ La primera firma",Star,2,2,1,d6+2,d4+2,BAILE,VOZ,SABOTAGE,F,143.png,6
+haneul,EVENT,24,HNL-EV-6024,"Live ♪ El escenario del debut",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,BLOODRUSH,F,144.png,6

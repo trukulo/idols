@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+hinata,IDOL,101,HNT-DV-5001,"Itano Tomomi",Star,2,2,1,d8,d8,BAILE,VOZ,FAST,F,97.png,5
+hinata,IDOL,102,HNT-DV-5002,"Matsui Rena",Star,2,2,1,d8,d8,BAILE,VOZ,FAST,F,98.png,5
+hinata,IDOL,103,HNT-DV-5003,"Nishino Nanase",Debut,2,1,0,d4,d6,BAILE,VOZ,VERSATIL,F,99.png,5
+hinata,IDOL,104,HNT-DV-5004,"Hirate Yurina",Debut,2,1,0,d4,d6,VOZ,BAILE,VERSATIL,F,100.png,5
+hinata,IDOL,105,HNT-DV-5005,"May J.",Rising,2,1,1,d6,d6,BAILE,VOZ,GUARDIAN,F,101.png,5
+hinata,IDOL,106,HNT-DV-5006,"Ai Otsuka",Debut,2,1,0,d6,d4,BAILE,VOZ,BLOODRUSH,F,102.png,5
+hinata,IDOL,107,HNT-DV-5007,"Kaori Mochida",Debut,2,1,0,d4,d6,BAILE,VOZ,BLOODRUSH,F,103.png,5
+hinata,IDOL,108,HNT-DV-5008,"ToripuruE - Nishijima",Star,2,3,1,d8,d8,BAILE,VOZ,CHARGED,F,104.png,5
+hinata,IDOL,109,HNT-DV-5009,"EmuFuro - Verbal",Debut,2,1,0,d4,d6,BAILE,VOZ,SCOUT,F,105.png,5
+hinata,PRODUCER,110,HNT-PR-5010,"Natsu Mayumi",Debut,2,1,0,d4,d6,BAILE,VOZ,SCOUT,M,106.png,5
+hinata,PRODUCER,111,HNT-PR-5011,"Jun Abe",Rising,2,1,1,d6,d6,VOZ,BAILE,GUARDIAN,M,107.png,5
+hinata,PRODUCER,112,HNT-PR-5012,"Koichi Tsutaya",Debut,2,1,0,d4,d6,VOZ,BAILE,LAST STAND,M,108.png,5
+hinata,PRODUCER,113,HNT-PR-5013,"Daisuke Asakura",Rising,2,1,1,d8,d6,BAILE,VOZ,LAST STAND,M,109.png,5
+hinata,PRODUCER,114,HNT-PR-5014,"Shoichiro Hirata",Debut,2,1,0,d6,d4,BAILE,VOZ,COUNTDOWN,M,110.png,5
+hinata,PRODUCER,115,HNT-PR-5015,"Kotaro Egami",Debut,2,1,0,d6,d4,VOZ,BAILE,COUNTDOWN,M,111.png,5
+hinata,EVENT,116,HNT-EV-5016,"Live ♪ El primer disco en solitario",Star,2,3,1,d4+2,d6+2,VOZ,BAILE,CHARGED,F,112.png,5
+hinata,EVENT,117,HNT-EV-5017,"Photobook ♪ La gira en solitario",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,HEX,F,113.png,5
+hinata,EVENT,118,HNT-EV-5018,"Stream ♪ El recital acustico",Legend,1,2,2,d6+3,d4+3,VOZ,BAILE,SABOTAGE,F,114.png,5
+hinata,EVENT,119,HNT-EV-5019,"Concierto ♪ La actuacion teatral",Legend,1,2,2,d6+3,d4+3,VOZ,BAILE,SABOTAGE,F,115.png,5
+hinata,EVENT,120,HNT-EV-5020,"Fotos ♪ La unidad nueva",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,HEX,F,116.png,5
+hinata,EVENT,121,HNT-EV-5021,"Canción ♪ El fotolibro personal",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,RALLY,F,117.png,5
+hinata,EVENT,122,HNT-EV-5022,"Baile ♪ El directo de la graduada",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,RALLY,F,118.png,5
+hinata,EVENT,123,HNT-EV-5023,"Entrevista ♪ La portada en solitario",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,WARCRY,F,119.png,5
+hinata,EVENT,124,HNT-EV-5024,"Firma ♪ La despedida del grupo",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,WARCRY,F,120.png,5

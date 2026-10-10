@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+hinata,IDOL,101,HNT-DV-2001,"EkeBi - Maeda",Debut,2,1,0,d6,d4,BAILE,VOZ,COUNTDOWN,F,25.png,2
+hinata,IDOL,102,HNT-DV-2002,"EkeBi - Oshima",Debut,2,1,0,d4,d6,BAILE,VOZ,COUNTDOWN,F,26.png,2
+hinata,IDOL,103,HNT-DV-2003,"EkeBi - Watanabe",Legend,1,3,2,d10,d10,VOZ,BAILE,CHARGED,F,27.png,2
+hinata,IDOL,104,HNT-DV-2004,"EkeBi - Kashiwagi",Star,2,3,1,d8,d8,VOZ,BAILE,CHARGED,F,28.png,2
+hinata,IDOL,105,HNT-DV-2005,"EkeBi - Takahashi",Debut,2,1,0,d6,d4,BAILE,VOZ,HEX,F,29.png,2
+hinata,IDOL,106,HNT-DV-2006,"EsukeE - Matsui",Star,2,2,1,d8,d8,VOZ,BAILE,SABOTAGE,F,30.png,2
+hinata,IDOL,107,HNT-DV-2007,"EnuEmuBi - Yamamoto",Rising,2,1,1,d6,d6,VOZ,BAILE,FAST,F,31.png,2
+hinata,IDOL,108,HNT-DV-2008,"Nogizaka - Shiraishi",Star,2,2,1,d8,d8,BAILE,VOZ,SABOTAGE,F,32.png,2
+hinata,IDOL,109,HNT-DV-2009,"ToripuruE - Uno",Rising,2,1,1,d6,d6,BAILE,VOZ,FAST,F,33.png,2
+hinata,PRODUCER,110,HNT-PR-2010,"Nishikawa Takanori",Debut,2,1,0,d6,d4,VOZ,BAILE,HEX,M,34.png,2
+hinata,PRODUCER,111,HNT-PR-2011,"Taku Takahashi",Debut,2,1,0,d4,d6,VOZ,BAILE,SCOUT,M,35.png,2
+hinata,PRODUCER,112,HNT-PR-2012,"Daishi Dance",Debut,2,1,0,d6,d4,BAILE,VOZ,SCOUT,M,36.png,2
+hinata,PRODUCER,113,HNT-PR-2013,"Ito Shintaro",Debut,2,1,0,d6,d4,BAILE,VOZ,WARCRY,M,37.png,2
+hinata,PRODUCER,114,HNT-PR-2014,"Nakata Yasutaka",Debut,2,1,0,d4,d6,VOZ,BAILE,WARCRY,M,38.png,2
+hinata,PRODUCER,115,HNT-PR-2015,"Osawa Shinichi",Debut,2,1,0,d4,d6,BAILE,VOZ,VERSATIL,M,39.png,2
+hinata,EVENT,116,HNT-EV-2016,"Baile ♪ La coreografia de las manos",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,VERSATIL,F,40.png,2
+hinata,EVENT,117,HNT-EV-2017,"Entrevista ♪ El programa de tarde",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,BLOODRUSH,F,41.png,2
+hinata,EVENT,118,HNT-EV-2018,"Firma ♪ Manos estrechadas",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,BLOODRUSH,F,42.png,2
+hinata,EVENT,119,HNT-EV-2019,"Live ♪ El live en el gran teatro",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,RALLY,F,43.png,2
+hinata,EVENT,120,HNT-EV-2020,"Photobook ♪ El photobook de verano",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,RALLY,F,44.png,2
+hinata,EVENT,121,HNT-EV-2021,"Stream ♪ La elección general",Legend,1,2,2,d6+3,d4+3,VOZ,BAILE,GUARDIAN,F,45.png,2
+hinata,EVENT,122,HNT-EV-2022,"Concierto ♪ La gira por todo Japon",Star,2,2,1,d4+2,d6+2,BAILE,VOZ,GUARDIAN,F,46.png,2
+hinata,EVENT,123,HNT-EV-2023,"Fotos ♪ La portada de la revista",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,LAST STAND,F,47.png,2
+hinata,EVENT,124,HNT-EV-2024,"Canción ♪ La cancion electoral",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,LAST STAND,F,48.png,2

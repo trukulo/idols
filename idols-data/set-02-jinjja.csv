@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+jinjja,IDOL,41,JNJ-DV-2001,"TsuPiemu - Nikun",Star,2,3,1,d8,d8,VOZ,BAILE,CHARGED,F,25.png,2
+jinjja,IDOL,42,JNJ-DV-2002,"TsuPiemu - Tekuon",Rising,2,1,1,d6,d6,VOZ,BAILE,SABOTAGE,F,26.png,2
+jinjja,IDOL,43,JNJ-DV-2003,"MisuE - Suji",Rising,2,1,1,d6,d6,BAILE,VOZ,SABOTAGE,F,27.png,2
+jinjja,IDOL,44,JNJ-DV-2004,"MisuE - Min",Debut,2,1,0,d4,d6,VOZ,BAILE,COUNTDOWN,F,28.png,2
+jinjja,IDOL,45,JNJ-DV-2005,"Gotto - JeiBui",Debut,2,1,0,d6,d4,BAILE,VOZ,COUNTDOWN,F,29.png,2
+jinjja,IDOL,46,JNJ-DV-2006,"Gotto - Jinyon",Debut,2,1,0,d6,d4,BAILE,VOZ,LAST STAND,F,30.png,2
+jinjja,IDOL,47,JNJ-DV-2007,"Towaisu - Nayeon",Debut,2,1,0,d4,d6,VOZ,BAILE,LAST STAND,F,31.png,2
+jinjja,IDOL,48,JNJ-DV-2008,"Towaisu - Chuu",Debut,2,1,0,d4,d6,VOZ,BAILE,RALLY,F,32.png,2
+jinjja,IDOL,49,JNJ-DV-2009,"DeiShikkusu - Yonkei",Debut,2,1,0,d4,d6,VOZ,BAILE,RALLY,F,33.png,2
+jinjja,PRODUCER,50,JNJ-PR-2010,"Iotakku",Debut,2,1,0,d6,d4,VOZ,BAILE,HEX,M,34.png,2
+jinjja,PRODUCER,51,JNJ-PR-2011,"Hon Jisang",Debut,2,1,0,d6,d4,BAILE,VOZ,HEX,M,35.png,2
+jinjja,PRODUCER,52,JNJ-PR-2012,"Koraibusudo",Debut,2,1,0,d6,d4,BAILE,VOZ,VERSATIL,M,36.png,2
+jinjja,PRODUCER,53,JNJ-PR-2013,"Jowuru",Star,2,3,1,d8,d8,BAILE,VOZ,CHARGED,M,37.png,2
+jinjja,PRODUCER,54,JNJ-PR-2014,"Baitoi",Rising,2,1,1,d8,d6,VOZ,BAILE,VERSATIL,M,38.png,2
+jinjja,PRODUCER,55,JNJ-PR-2015,"Torippi",Star,2,2,1,d8,d8,VOZ,BAILE,FAST,M,39.png,2
+jinjja,EVENT,56,JNJ-EV-2016,"Baile ♪ La coreografia del momento",Legend,1,2,2,d6+3,d4+3,BAILE,VOZ,FAST,F,40.png,2
+jinjja,EVENT,57,JNJ-EV-2017,"Entrevista ♪ El programa estelar",Star,2,2,1,d4+2,d6+2,VOZ,BAILE,GUARDIAN,F,41.png,2
+jinjja,EVENT,58,JNJ-EV-2018,"Firma ♪ La firma de albumes",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,WARCRY,F,42.png,2
+jinjja,EVENT,59,JNJ-EV-2019,"Live ♪ Concierto de casa",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,WARCRY,F,43.png,2
+jinjja,EVENT,60,JNJ-EV-2020,"Photobook ♪ De la playa",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,BLOODRUSH,F,44.png,2
+jinjja,EVENT,61,JNJ-EV-2021,"Stream ♪ El directo en la plataforma",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,BLOODRUSH,F,45.png,2
+jinjja,EVENT,62,JNJ-EV-2022,"Concierto ♪ La gira mundial",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,SCOUT,F,46.png,2
+jinjja,EVENT,63,JNJ-EV-2023,"Fotos ♪ La portada de la revista",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,SCOUT,F,47.png,2
+jinjja,EVENT,64,JNJ-EV-2024,"Canción ♪ La canción del año",Legend,1,2,2,d4+3,d6+3,BAILE,VOZ,GUARDIAN,F,48.png,2

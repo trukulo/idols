@@ -1,0 +1,5 @@
+Tipografía: Share Tech Mono
+Licencia: SIL Open Font License 1.1 — https://scripts.sil.org/OFL
+
+Descargada de Google Fonts el 2026-10-10.
+Autohospedada para que la interfaz no dependa de la red (ver tools/make-ui-fonts.mjs).

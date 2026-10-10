@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+hikari,IDOL,81,HKR-DV-4001,"SunoMan - Iuamoto",Debut,2,1,0,d4,d6,BAILE,VOZ,HEX,F,73.png,4
+hikari,IDOL,82,HKR-DV-4002,"SunoMan - Raul",Debut,2,1,0,d4,d6,VOZ,BAILE,HEX,F,74.png,4
+hikari,IDOL,83,HKR-DV-4003,"SunoMan - Fukazawa",Star,2,2,1,d8,d8,BAILE,VOZ,GUARDIAN,F,75.png,4
+hikari,IDOL,84,HKR-DV-4004,"ShikkusuTonzu - Hokuto",Debut,2,1,0,d6,d4,BAILE,VOZ,WARCRY,F,76.png,4
+hikari,IDOL,85,HKR-DV-4005,"ShikkusuTonzu - Taiga",Debut,2,1,0,d6,d4,BAILE,VOZ,WARCRY,F,77.png,4
+hikari,IDOL,86,HKR-DV-4006,"ShikkusuTonzu - Juri",Rising,2,2,1,d6,d6,BAILE,VOZ,CHARGED,F,78.png,4
+hikari,IDOL,87,HKR-DV-4007,"NanbaAi - Jinji",Rising,2,2,1,d6,d6,BAILE,VOZ,CHARGED,F,79.png,4
+hikari,IDOL,88,HKR-DV-4008,"Taimurezu - Sori",Debut,2,1,0,d4,d6,BAILE,VOZ,SCOUT,F,80.png,4
+hikari,IDOL,89,HKR-DV-4009,"Aekuson - Masaya",Debut,2,1,0,d4,d6,VOZ,BAILE,SCOUT,F,81.png,4
+hikari,PRODUCER,90,HKR-PR-4010,"Miyabi",Rising,2,1,1,d6,d8,BAILE,VOZ,LAST STAND,M,82.png,4
+hikari,PRODUCER,91,HKR-PR-4011,"Sakamoto Ryuichi",Star,2,2,1,d8,d8,BAILE,VOZ,GUARDIAN,M,83.png,4
+hikari,PRODUCER,92,HKR-PR-4012,"Keigo Oyamada",Legend,1,2,2,d10,d10,BAILE,VOZ,SABOTAGE,M,84.png,4
+hikari,PRODUCER,93,HKR-PR-4013,"Rino Nakason",Rising,2,1,1,d6,d8,VOZ,BAILE,LAST STAND,M,85.png,4
+hikari,PRODUCER,94,HKR-PR-4014,"Maeyamada Kenichi",Debut,2,1,0,d4,d6,VOZ,BAILE,COUNTDOWN,M,86.png,4
+hikari,PRODUCER,95,HKR-PR-4015,"Iijima Naoki",Legend,1,2,2,d10,d10,VOZ,BAILE,SABOTAGE,M,87.png,4
+hikari,EVENT,96,HKR-EV-4016,"Firma ♪ La firma de los fans nuevos",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,88.png,4
+hikari,EVENT,97,HKR-EV-4017,"Live ♪ El escenario del teatro grande",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,BLOODRUSH,F,89.png,4
+hikari,EVENT,98,HKR-EV-4018,"Photobook ♪ De la nueva era",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,BLOODRUSH,F,90.png,4
+hikari,EVENT,99,HKR-EV-4019,"Stream ♪ El directo de la nueva era",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,RALLY,F,91.png,4
+hikari,EVENT,100,HKR-EV-4020,"Concierto ♪ En el domo de Tokio",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,RALLY,F,92.png,4
+hikari,EVENT,101,HKR-EV-4021,"Fotos ♪ La portada del nuevo teatro",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,VERSATIL,F,93.png,4
+hikari,EVENT,102,HKR-EV-4022,"Canción ♪ El escenario nuevo",Star,2,2,1,d4+2,d6+2,VOZ,BAILE,FAST,F,94.png,4
+hikari,EVENT,103,HKR-EV-4023,"Baile ♪ La coreografia nueva",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,VERSATIL,F,95.png,4
+hikari,EVENT,104,HKR-EV-4024,"Entrevista ♪ El plato del domingo",Star,2,2,1,d4+2,d6+2,VOZ,BAILE,FAST,F,96.png,4

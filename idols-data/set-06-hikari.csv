@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+hikari,IDOL,81,HKR-DV-6001,"TorabisuJipan - Nakamura",Debut,2,1,0,d6,d4,VOZ,BAILE,WARCRY,F,121.png,6
+hikari,IDOL,82,HKR-DV-6002,"TorabisuJipan - Matsukura",Rising,2,2,1,d6,d6,BAILE,VOZ,CHARGED,F,122.png,6
+hikari,IDOL,83,HKR-DV-6003,"TorabisuJipan - Noel",Debut,2,1,0,d4,d6,BAILE,VOZ,WARCRY,F,123.png,6
+hikari,IDOL,84,HKR-DV-6004,"Aekuson - Yoshinori",Debut,2,1,0,d6,d4,VOZ,BAILE,RALLY,F,124.png,6
+hikari,IDOL,85,HKR-DV-6005,"Aekuson - Shinya",Debut,2,1,0,d6,d4,BAILE,VOZ,RALLY,F,125.png,6
+hikari,IDOL,86,HKR-DV-6006,"Aekuson - Ken",Debut,2,1,0,d4,d6,VOZ,BAILE,BLOODRUSH,F,126.png,6
+hikari,IDOL,87,HKR-DV-6007,"AiEmuPi - Arata",Rising,2,2,1,d6,d6,BAILE,VOZ,CHARGED,F,127.png,6
+hikari,IDOL,88,HKR-DV-6008,"AiEmuPi - Suzuki",Debut,2,1,0,d6,d4,VOZ,BAILE,BLOODRUSH,F,128.png,6
+hikari,IDOL,89,HKR-DV-6009,"AiEmuPi - Kageyama",Legend,1,2,2,d10,d10,BAILE,VOZ,FAST,F,129.png,6
+hikari,PRODUCER,90,HKR-PR-6010,"Yasutaka Nakata",Rising,2,1,1,d6,d8,VOZ,BAILE,VERSATIL,M,130.png,6
+hikari,PRODUCER,91,HKR-PR-6011,"Taku Takahashi",Star,2,2,1,d8,d8,VOZ,BAILE,FAST,M,131.png,6
+hikari,PRODUCER,92,HKR-PR-6012,"Shinichi Osawa",Debut,2,1,0,d4,d6,BAILE,VOZ,VERSATIL,M,132.png,6
+hikari,PRODUCER,93,HKR-PR-6013,"Kenmochi Hidefumi",Rising,2,1,1,d8,d6,VOZ,BAILE,HEX,M,133.png,6
+hikari,PRODUCER,94,HKR-PR-6014,"TeddyLoid",Debut,2,1,0,d6,d4,VOZ,BAILE,HEX,M,134.png,6
+hikari,PRODUCER,95,HKR-PR-6015,"Ayase",Star,2,2,1,d8,d8,BAILE,VOZ,GUARDIAN,M,135.png,6
+hikari,EVENT,96,HKR-EV-6016,"Photobook ♪ La nueva camada",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,SCOUT,F,136.png,6
+hikari,EVENT,97,HKR-EV-6017,"Stream ♪ El directo del aprendiz",Legend,1,2,2,d4+3,d6+3,VOZ,BAILE,GUARDIAN,F,137.png,6
+hikari,EVENT,98,HKR-EV-6018,"Concierto ♪ El concierto del debut",Star,2,2,1,d4+2,d6+2,BAILE,VOZ,SABOTAGE,F,138.png,6
+hikari,EVENT,99,HKR-EV-6019,"Fotos ♪ El dia del debut",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,SCOUT,F,139.png,6
+hikari,EVENT,100,HKR-EV-6020,"Canción ♪ La primera cancion",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,LAST STAND,F,140.png,6
+hikari,EVENT,101,HKR-EV-6021,"Baile ♪ El baile del debut",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,LAST STAND,F,141.png,6
+hikari,EVENT,102,HKR-EV-6022,"Entrevista ♪ La primera entrevista",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,COUNTDOWN,F,142.png,6
+hikari,EVENT,103,HKR-EV-6023,"Firma ♪ La primera firma de manos",Star,2,2,1,d4+2,d6+2,VOZ,BAILE,SABOTAGE,F,143.png,6
+hikari,EVENT,104,HKR-EV-6024,"Live ♪ El primer live en el teatro",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,144.png,6

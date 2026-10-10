@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+haneul,IDOL,1,HNL-DV-4001,"NuJeans - Hani",Debut,2,1,0,d6,d4,BAILE,VOZ,VERSATIL,F,73.png,4
+haneul,IDOL,2,HNL-DV-4002,"NuJeans - Danie",Debut,2,1,0,d6,d4,BAILE,VOZ,VERSATIL,F,74.png,4
+haneul,IDOL,3,HNL-DV-4003,"NuJeans - Herin",Legend,1,2,2,d10,d10,VOZ,BAILE,GUARDIAN,F,75.png,4
+haneul,IDOL,4,HNL-DV-4004,"NuJeans - Hein",Debut,2,1,0,d4,d6,BAILE,VOZ,LAST STAND,F,76.png,4
+haneul,IDOL,5,HNL-DV-4005,"YilLit - Wonhi",Star,2,2,1,d8,d8,BAILE,VOZ,GUARDIAN,F,77.png,4
+haneul,IDOL,6,HNL-DV-4006,"YilLit - Moka",Star,2,3,1,d8,d8,VOZ,BAILE,CHARGED,F,78.png,4
+haneul,IDOL,7,HNL-DV-4007,"BoyNekusuto - Sonho",Debut,2,1,0,d4,d6,VOZ,BAILE,LAST STAND,F,79.png,4
+haneul,IDOL,8,HNL-DV-4008,"Keiche - Manon",Rising,2,1,1,d6,d6,VOZ,BAILE,FAST,F,80.png,4
+haneul,IDOL,9,HNL-DV-4009,"Tuwosu - Dohun",Rising,2,1,1,d6,d6,BAILE,VOZ,FAST,F,81.png,4
+haneul,PRODUCER,10,HNL-PR-4010,"Kigen",Star,2,3,1,d8,d8,VOZ,BAILE,CHARGED,M,82.png,4
+haneul,PRODUCER,11,HNL-PR-4011,"Wondokidu",Rising,2,1,1,d6,d8,VOZ,BAILE,COUNTDOWN,M,83.png,4
+haneul,PRODUCER,12,HNL-PR-4012,"Vinsu",Rising,2,1,1,d6,d8,VOZ,BAILE,COUNTDOWN,M,84.png,4
+haneul,PRODUCER,13,HNL-PR-4013,"Feikku",Legend,1,2,2,d10,d10,VOZ,BAILE,SABOTAGE,M,85.png,4
+haneul,PRODUCER,14,HNL-PR-4014,"Ninosu Hana",Debut,2,1,0,d4,d6,BAILE,VOZ,WARCRY,M,86.png,4
+haneul,PRODUCER,15,HNL-PR-4015,"Son Sundok",Debut,2,1,0,d4,d6,VOZ,BAILE,WARCRY,M,87.png,4
+haneul,EVENT,16,HNL-EV-4016,"Firma ♪ La firma en el extranjero",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,RALLY,F,88.png,4
+haneul,EVENT,17,HNL-EV-4017,"Live ♪ La gira de las etiquetas",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,RALLY,F,89.png,4
+haneul,EVENT,18,HNL-EV-4018,"Photobook ♪ De la nueva era",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,HEX,F,90.png,4
+haneul,EVENT,19,HNL-EV-4019,"Stream ♪ El directo de la nueva era",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,HEX,F,91.png,4
+haneul,EVENT,20,HNL-EV-4020,"Concierto ♪ El estadio propio",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,BLOODRUSH,F,92.png,4
+haneul,EVENT,21,HNL-EV-4021,"Fotos ♪ La sesion de la nueva era",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,BLOODRUSH,F,93.png,4
+haneul,EVENT,22,HNL-EV-4022,"Canción ♪ Que abre la era",Star,2,2,1,d6+2,d4+2,BAILE,VOZ,SABOTAGE,F,94.png,4
+haneul,EVENT,23,HNL-EV-4023,"Baile ♪ El reto de baile global",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,SCOUT,F,95.png,4
+haneul,EVENT,24,HNL-EV-4024,"Entrevista ♪ La rueda de prensa",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,SCOUT,F,96.png,4

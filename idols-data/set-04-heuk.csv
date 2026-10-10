@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+heuk,IDOL,61,HUK-DV-4001,"Beibimonsuta - Parita",Legend,1,2,2,d10,d10,BAILE,VOZ,SABOTAGE,F,73.png,4
+heuk,IDOL,62,HUK-DV-4002,"Beibimonsuta - Asa",Rising,2,1,1,d6,d6,BAILE,VOZ,GUARDIAN,F,74.png,4
+heuk,IDOL,63,HUK-DV-4003,"Beibimonsuta - Rami",Debut,2,1,0,d4,d6,VOZ,BAILE,VERSATIL,F,75.png,4
+heuk,IDOL,64,HUK-DV-4004,"Beibimonsuta - Rora",Debut,2,1,0,d4,d6,BAILE,VOZ,VERSATIL,F,76.png,4
+heuk,IDOL,65,HUK-DV-4005,"Beibimonsuta - Chikita",Debut,2,1,0,d4,d6,BAILE,VOZ,COUNTDOWN,F,77.png,4
+heuk,IDOL,66,HUK-DV-4006,"Toreja - Jihun",Debut,2,1,0,d6,d4,VOZ,BAILE,COUNTDOWN,F,78.png,4
+heuk,IDOL,67,HUK-DV-4007,"Toreja - Doyon",Debut,2,1,0,d4,d6,BAILE,VOZ,WARCRY,F,79.png,4
+heuk,IDOL,68,HUK-DV-4008,"Aikon - Junhe",Debut,2,1,0,d6,d4,VOZ,BAILE,WARCRY,F,80.png,4
+heuk,IDOL,69,HUK-DV-4009,"TsuEnI - Minji",Debut,2,1,0,d4,d6,VOZ,BAILE,BLOODRUSH,F,81.png,4
+heuk,PRODUCER,70,HUK-PR-4010,"Kang Ukjin",Legend,1,2,2,d10,d10,VOZ,BAILE,SABOTAGE,M,82.png,4
+heuk,PRODUCER,71,HUK-PR-4011,"Rovin",Debut,2,1,0,d6,d4,VOZ,BAILE,BLOODRUSH,M,83.png,4
+heuk,PRODUCER,72,HUK-PR-4012,"An Sonchan",Rising,2,1,1,d6,d6,VOZ,BAILE,GUARDIAN,M,84.png,4
+heuk,PRODUCER,73,HUK-PR-4013,"Roren",Debut,2,1,0,d4,d6,BAILE,VOZ,LAST STAND,M,85.png,4
+heuk,PRODUCER,74,HUK-PR-4014,"Yang Donhyon",Rising,2,1,1,d6,d8,BAILE,VOZ,LAST STAND,M,86.png,4
+heuk,PRODUCER,75,HUK-PR-4015,"No Kyongmin",Star,2,3,1,d8,d8,VOZ,BAILE,CHARGED,M,87.png,4
+heuk,EVENT,76,HUK-EV-4016,"Firma ♪ La firma de las nuevas fans",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,SCOUT,F,88.png,4
+heuk,EVENT,77,HUK-EV-4017,"Live ♪ La gira por el mundo entero",Star,2,3,1,d4+2,d6+2,VOZ,BAILE,CHARGED,F,89.png,4
+heuk,EVENT,78,HUK-EV-4018,"Photobook ♪ De la nueva era",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,SCOUT,F,90.png,4
+heuk,EVENT,79,HUK-EV-4019,"Stream ♪ Madrugada de la era",Rising,2,1,1,d4+2,d4+2,VOZ,BAILE,RALLY,F,91.png,4
+heuk,EVENT,80,HUK-EV-4020,"Concierto ♪ El Gocheok Sky Dome",Star,2,2,1,d6+2,d4+2,BAILE,VOZ,FAST,F,92.png,4
+heuk,EVENT,81,HUK-EV-4021,"Fotos ♪ La portada del mundo",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,RALLY,F,93.png,4
+heuk,EVENT,82,HUK-EV-4022,"Canción ♪ La cancion nueva",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,HEX,F,94.png,4
+heuk,EVENT,83,HUK-EV-4023,"Baile ♪ Del grupo nuevo",Star,2,2,1,d6+2,d4+2,VOZ,BAILE,FAST,F,95.png,4
+heuk,EVENT,84,HUK-EV-4024,"Entrevista ♪ La prensa extranjera",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,HEX,F,96.png,4

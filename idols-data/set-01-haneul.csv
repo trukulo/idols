@@ -1,0 +1,25 @@
+faction,type,id,code,name,rarity,copies_per_deck,cost,sacrifice,attack,defense,atk_type,def_type,powers,gender,art,set
+haneul,IDOL,1,HNL-DV-1001,"TsuAmu - Jokuwon",Rising,2,1,1,d6,d6,BAILE,VOZ,SABOTAGE,F,1.png,1
+haneul,IDOL,2,HNL-DV-1002,"TsuAmu - Suron",Rising,2,1,1,d6,d6,VOZ,BAILE,SABOTAGE,F,2.png,1
+haneul,IDOL,3,HNL-DV-1003,"TsuAmu - Chonmin",Legend,1,2,2,d10,d10,BAILE,VOZ,FAST,F,3.png,1
+haneul,IDOL,4,HNL-DV-1004,"TsuAmu - Jinun",Debut,2,1,0,d4,d6,BAILE,VOZ,BLOODRUSH,F,4.png,1
+haneul,IDOL,5,HNL-DV-1005,"EitoEito - Ihyon",Debut,2,1,0,d6,d4,VOZ,BAILE,BLOODRUSH,F,5.png,1
+haneul,IDOL,6,HNL-DV-1006,"EitoEito - Paekuchan",Rising,2,1,1,d6,d8,BAILE,VOZ,WARCRY,F,6.png,1
+haneul,IDOL,7,HNL-DV-1007,"EitoEito - Juhi",Rising,2,1,1,d6,d8,VOZ,BAILE,WARCRY,F,7.png,1
+haneul,IDOL,8,HNL-DV-1008,"Riru - ImJonghi",Debut,2,1,0,d4,d6,VOZ,BAILE,LAST STAND,F,8.png,1
+haneul,IDOL,9,HNL-DV-1009,"Guramu - Tehi",Rising,2,1,1,d8,d6,BAILE,VOZ,LAST STAND,F,9.png,1
+haneul,PRODUCER,10,HNL-PR-1010,"Bang Sihun",Debut,2,1,0,d6,d4,BAILE,VOZ,SCOUT,M,10.png,1
+haneul,PRODUCER,11,HNL-PR-1011,"Pidogu",Debut,2,1,0,d6,d4,VOZ,BAILE,SCOUT,M,11.png,1
+haneul,PRODUCER,12,HNL-PR-1012,"So Sonjin",Debut,2,1,0,d4,d6,VOZ,BAILE,RALLY,M,12.png,1
+haneul,PRODUCER,13,HNL-PR-1013,"Han Sunsu",Star,2,2,1,d8,d8,BAILE,VOZ,FAST,M,13.png,1
+haneul,PRODUCER,14,HNL-PR-1014,"Min Hijin",Debut,2,1,0,d6,d4,VOZ,BAILE,RALLY,M,14.png,1
+haneul,PRODUCER,15,HNL-PR-1015,"Sukuuta Buraun",Debut,2,1,0,d4,d6,BAILE,VOZ,VERSATIL,M,15.png,1
+haneul,EVENT,16,HNL-EV-1016,"Canción ♪ El single de debut",Debut,2,1,0,d4+1,d4+1,BAILE,VOZ,VERSATIL,F,16.png,1
+haneul,EVENT,17,HNL-EV-1017,"Baile ♪ El concurso de baile juvenil",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,17.png,1
+haneul,EVENT,18,HNL-EV-1018,"Entrevista ♪ La cumbre de la ONU",Star,2,2,1,d6+2,d4+2,BAILE,VOZ,GUARDIAN,F,18.png,1
+haneul,EVENT,19,HNL-EV-1019,"Firma ♪ La firma de casetes",Legend,1,2,2,d4+3,d6+3,VOZ,BAILE,GUARDIAN,F,19.png,1
+haneul,EVENT,20,HNL-EV-1020,"Live ♪ El nº1 en Billboard",Star,2,3,1,d6+2,d4+2,VOZ,BAILE,CHARGED,F,20.png,1
+haneul,EVENT,21,HNL-EV-1021,"Photobook ♪ De revista",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,COUNTDOWN,F,21.png,1
+haneul,EVENT,22,HNL-EV-1022,"Stream ♪ El video de estreno",Debut,2,1,0,d4+1,d4+1,VOZ,BAILE,HEX,F,22.png,1
+haneul,EVENT,23,HNL-EV-1023,"Concierto ♪ Wembley",Star,2,3,1,d4+2,d6+2,BAILE,VOZ,CHARGED,F,23.png,1
+haneul,EVENT,24,HNL-EV-1024,"Fotos ♪ La sesion de portada",Rising,2,1,1,d4+2,d4+2,BAILE,VOZ,HEX,F,24.png,1

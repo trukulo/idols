@@ -1,0 +1,149 @@
+# HIKARI (HKR) — la casa que CRÍA A SUS CHICOS (parodia de Johnny & Associates). Blanco perla.
+# 光 = luz: la casa que recluta niños, los entrena en un teatro y los convierte en estrellas de por vida.
+# Columnas: set,id,type,name,ref,desc  (ver la cabecera de haneul.csv)
+# Era de cada set: 01 las leyendas (1987-1999) · 02 la época dorada (2000-2015) · 03 la nueva generación (2016-hoy) · 04 la era de los relevos · 05 los solistas y las unidades · 06 la nueva ola
+set,id,type,name,ref,desc
+01,1,IDOL,HikaruGuenji - Utsunomiya,Utsunomiya Takashi (Hikaru Genji),japanese man 1980s idol roller skates white stage costume big hair flashy
+01,2,IDOL,HikaruGuenji - Sato,Sato Atsuhiro (Hikaru Genji),japanese man 1980s idol glittering jacket roller skates stage lights
+01,3,IDOL,Sumappu - Nakai,Nakai Masahiro (SMAP),japanese man 1990s black suit sharp stare tv studio leader pose
+01,4,IDOL,Sumappu - Kimura,Kimura Takuya (SMAP),handsome japanese man 1990s spiky hair denim jacket cool gaze drama set
+01,5,IDOL,Sumappu - Kusanagi,Kusanagi Tsuyoshi (SMAP),japanese man 1990s friendly smile striped shirt variety show set
+01,6,IDOL,Tokio - Kokubun,Kokubun Taichi (TOKIO),japanese man 1990s keyboard sunglasses casual band stage
+01,7,IDOL,Tokio - Yamaguchi,Yamaguchi Tatsuya (TOKIO),japanese man 1990s rock band guitar energetic stage jump
+01,8,IDOL,KinKiKizzu - Koichi,Domoto Koichi (KinKi Kids),japanese man 1990s elegant black jacket stage musical pose
+01,9,IDOL,KinKiKizzu - Tsuyoshi,Domoto Tsuyoshi (KinKi Kids),japanese man 1990s soft smile natural style acoustic guitar
+01,10,PRODUCER,Janii Kitagawa,Johnny Kitagawa,elderly japanese man in a white suit and sunglasses backstage theater confident
+01,11,PRODUCER,Meari Kitagawa,Mary Kitagawa,elderly japanese woman in a formal kimono office desk papers
+01,12,PRODUCER,Jurii Fujishima,Julie Fujishima,japanese woman business suit theater office lights
+01,13,PRODUCER,Takizawa Hideaki,Takizawa Hideaki (Johnny's Island),japanese man sharp features black suit stage director rehearsal
+01,14,PRODUCER,Inohara Yoshihiko,Inohara Yoshihiko (V6),japanese man dark suit red tie office manager pose
+01,15,PRODUCER,Higashiyama Noriyuki,Higashiyama Noriyuki (Shonentai),japanese man 1980s stylish suit stage dance pose spotlight
+01,16,EVENT,La cancion de debut,la primera cancion del grupo,japanese 1980s debut stage young idols in white costumes bright lights
+01,17,EVENT,El baile sobre patines,un espectaculo de patines y luces,japanese stage roller skates glittering costumes flashy lights
+01,18,EVENT,En la television,una entrevista en la television japonesa,japanese tv studio interview set hosts idol in suit polite bow
+01,19,EVENT,La firma de fotos,una sesion de firmas en una tienda,japanese record store signing event fans queue idol smiling 1990s
+01,20,EVENT,Kōhaku Uta Gassen,la gala de fin de año de la tele,new year tv special stage red and white teams idol group bow
+01,21,EVENT,De revista,una sesion para una revista juvenil,japanese photo studio white backdrop idol posing 1990s styling
+01,22,EVENT,El anuncio de refresco,el rodaje de un anuncio de bebida,summer commercial shoot grass bright light idol holding bottle smiling
+01,23,EVENT,Summer Sonic,el festival de verano,japanese summer festival stage outdoor day crowd idol band sweat
+01,24,EVENT,La sesion de portada,una sesion de fotos de portada,photo studio white backdrop elegant 1990s styling idol cover shoot
+02,1,IDOL,Arashi - Ono,Ohno Satoshi (Arashi),japanese man short black hair soft gaze blue shirt calm stage
+02,2,IDOL,Arashi - Sakurai,Sakurai Sho (Arashi),japanese man sharp features suit news studio desk confident
+02,3,IDOL,Arashi - Aiba,Aiba Masaki (Arashi),japanese man friendly smile green shirt variety show set
+02,4,IDOL,Arashi - Ninomiya,Ninomiya Kazunari (Arashi),japanese man casual shirt acting pose film set light
+02,5,IDOL,Arashi - Matsumoto,Matsumoto Jun (Arashi),handsome japanese man black hair elegant suit leader pose stage
+02,6,IDOL,Nyusu - Yamashita,Yamashita Tomohisa (NEWS),handsome japanese man dark hair white shirt intense gaze drama set
+02,7,IDOL,Kattun - Kamenashi,Kamenashi Kazuya (KAT-TUN),japanese man blond hair rock stage outfit microphone stand
+02,8,IDOL,HeiSeiJampu - Yamada,Yamada Ryosuke (Hey! Say! JUMP),young japanese man dark hair stage costume energetic pose
+02,9,IDOL,Kisumai - Kitayama,Kitayama Hiromitsu (Kis-My-Ft2),japanese man sharp eyes black outfit dance pose stage smoke
+02,10,PRODUCER,Kobayashi Takeshi,Takeshi Kobayashi,famous japanese producer short hair glasses keyboard studio warm
+02,11,PRODUCER,Tofubeats,tofubeats,young japanese producer laptop headphones city night
+02,12,PRODUCER,Obukuro Nariaki,Nariaki Obukuro,young japanese producer sunglasses studio vintage gear
+02,13,PRODUCER,Sunahara Yoshinori,Yoshinori Sunahara,japanese producer beard modular synthesizers studio warm
+02,14,PRODUCER,Yamaguchi Ichiro,Yamaguchi Ichiro (Sakanaction),japanese man glasses studio synthesizer blue light
+02,15,PRODUCER,Yoshiki,Yoshiki (X JAPAN),japanese man long hair sunglasses piano classical stage
+02,16,EVENT,La coreografia del momento,la coreografia que todo el mundo imita,japanese dance practice room mirrors idol group synchronized bright
+02,17,EVENT,El cotilleo,una entrevista en el programa de variedades,japanese variety studio set panels idol laughing with hosts
+02,18,EVENT,La firma de albumes,una firma de autografos de album,album signing table japanese fans queue idol signing photocard bright hall
+02,19,EVENT,El live en el gran teatro,una actuacion en directo en el teatro,japanese theater stage musical lights idol group in costume
+02,20,EVENT,El photobook de verano,un photobook de verano,japanese summer photobook beach white shirts blue sky idol
+02,21,EVENT,El directo en la plataforma,un directo en la plataforma de fans,idol alone in a small room talking to a phone camera soft light
+02,22,EVENT,La gira por todo Japon,una gira por las ciudades de Japon,japanese city arena tour stage idol waving lightsticks night
+02,23,EVENT,La portada de la revista,una portada de revista juvenil,japanese magazine cover shoot studio light idol in elegant styling
+02,24,EVENT,La cancion del aniversario,la cancion de aniversario del grupo,anniversary studio session warm lights group singing together
+03,1,IDOL,KinguPuri - Hirano,Hirano Sho (King & Prince),handsome japanese man dark hair white shirt cool gaze rooftop
+03,2,IDOL,KinguPuri - Kishi,Kishi Yuta (King & Prince),japanese man black hair dance pose modern stage outfit
+03,3,IDOL,SunoMan - Meguro,Meguro Ren (Snow Man),tall handsome japanese man black hair grey coat intense gaze
+03,4,IDOL,SunoMan - Miyadate,Miyadate Ryota (Snow Man),japanese man sharp features black outfit dance pose smoke
+03,5,IDOL,SunoMan - Watanabe,Watanabe Shota (Snow Man),japanese man friendly smile colorful stage costume pose
+03,6,IDOL,ShikkusuTonzu - Matsumura,Matsumura Hokuto (SixTONES),japanese man long dark hair guitar rock stage red light
+03,7,IDOL,ShikkusuTonzu - Jesse,Jesse (SixTONES),japanese man bleached hair street fashion rapper pose night
+03,8,IDOL,TorabisuJipan - Chaka,Kaito Miyachika (Travis Japan),young japanese man dark hair acrobatic dance pose stage
+03,9,IDOL,SekushiZon - Nakajima,Nakajima Kento (Sexy Zone),japanese man black hair elegant suit stage spotlight singing
+03,10,PRODUCER,Imai Tsubasa,Imai Tsubasa (Tackey and Tsubasa),japanese man 2000s dance idol acrobatic stage costume spotlight
+03,11,PRODUCER,Kondo Masahiko,Kondo Masahiko (Matchy),japanese man 1980s idol leather jacket sunglasses rock pose stage
+03,12,PRODUCER,Okada Junichi,Okada Junichi (V6),japanese man suit tv studio camera drama set
+03,13,PRODUCER,Kameda Seiji,Kameda Seiji,famous japanese producer at a mixing desk strings score warm studio
+03,14,PRODUCER,Tamai Kenji,Kenji Tamai,japanese producer headphones big console city night window
+03,15,PRODUCER,Hotei Tomoyasu,Tomoyasu Hotei,japanese man sunglasses electric guitar rock stage dramatic light
+03,16,EVENT,El programa estelar,una entrevista en el programa de mayor audiencia,japanese prime time tv interview set hosts idol in suit cameras
+03,17,EVENT,El encuentro con los fans,un encuentro de firmas con los fans,japanese handshake and signing event hall fans queue idol smiling
+03,18,EVENT,El live en el programa musical,una actuacion en directo en la television,japanese live tv music show stage neon set idol performing crowd
+03,19,EVENT,De aniversario,un photobook del aniversario del grupo,anniversary photobook studio warm film camera props nostalgia
+03,20,EVENT,El directo de madrugada,un directo de madrugada para los fans,idol alone in a dim room at night talking to a phone camera
+03,21,EVENT,En el gran domo,un concierto propio en el gran domo,japanese dome concert sea of lightsticks idols on stage epic
+03,22,EVENT,La portada de moda,una portada de revista de moda,japanese fashion magazine cover shoot idol in designer coat studio
+03,23,EVENT,El single de colaboracion,un single con otro artista de la casa,collaboration studio two japanese idols neon lights console
+03,24,EVENT,La nueva generacion,la coreografia de la nueva generacion,young japanese dance crew acrobatic choreography bright rehearsal room
+04,1,IDOL,SunoMan - Iuamoto,Iwamoto Hikaru (Snow Man),young japanese man black hair bright stage outfit energetic pose
+04,2,IDOL,SunoMan - Raul,Raul (Snow Man),young japanese venezuelan man tall light hair cool stare
+04,3,IDOL,SunoMan - Fukazawa,Fukazawa Tatsuya (Snow Man),young japanese man brown hair casual jacket calm
+04,4,IDOL,ShikkusuTonzu - Hokuto,Matsumura Hokuto (SixTONES),young japanese man black hair leather jacket sharp pose
+04,5,IDOL,ShikkusuTonzu - Taiga,Kyomoto Taiga (SixTONES),young japanese man soft brown hair knit sweater gentle
+04,6,IDOL,ShikkusuTonzu - Juri,Tanaka Juri (SixTONES),young japanese man long dark hair rock outfit intense gaze
+04,7,IDOL,NanbaAi - Jinji,Jinguji Yuta (Number_i),young japanese man blond hair streetwear bold pose
+04,8,IDOL,Taimurezu - Sori,Sato Shori (timelesz),young japanese man short black hair white shirt cool stare
+04,9,IDOL,Aekuson - Masaya,Masaya (Ae! group),young japanese man dark hair dance outfit confident smile
+04,10,PRODUCER,Miyabi,MIYAVI,japanese man with a guitar and sharp makeup on a dark stage
+04,11,PRODUCER,Sakamoto Ryuichi,Ryuichi Sakamoto,japanese man grey hair at a grand piano in a calm room
+04,12,PRODUCER,Keigo Oyamada,Cornelius (Keigo Oyamada),japanese man glasses in a studio full of analogue gear
+04,13,PRODUCER,Rino Nakason,Rino Nakasone (choreographer),japanese woman in a mirrored dance studio counting steps
+04,14,PRODUCER,Maeyamada Kenichi,Maeyamada Kenichi,japanese producer glasses at a keyboard in a small boothy room
+04,15,PRODUCER,Iijima Naoki,Iijima Naoki,japanese man headphones at a mixing desk with strings samples
+04,16,EVENT,La firma de los fans nuevos,una firma para los fans nuevos,signing tables in a theatre foyer with fans queueing
+04,17,EVENT,El escenario del teatro grande,el escenario del gran teatro de la nueva era,grand theatre stage seen from the audience with gilding and velvet
+04,18,EVENT,De la nueva era,un photobook de la nueva era,photoshoot in a traditional hall with modern lighting
+04,19,EVENT,El directo de la nueva era,un directo por streaming de la nueva era,small room lit by a ring light while the group talks to a camera
+04,20,EVENT,En el domo de Tokio,un concierto propio en el domo de Tokio,dome arena with a revolving stage and a waterfall of light
+04,21,EVENT,La portada del nuevo teatro,una portada de revista del nuevo teatro,cover shoot on a theatre stage with a painted backdrop
+04,22,EVENT,El escenario nuevo,la cancion que estrena el escenario nuevo,rehearsal on a bare stage with ropes and counterweights overhead
+04,23,EVENT,La coreografia nueva,la coreografia de la nueva generacion,dance rehearsal on a stage with mirrors and tape marks
+04,24,EVENT,El plato del domingo,una entrevista en el plato del domingo,tv studio set with lit signage and a live audience
+05,1,IDOL,Akanishi Jin,Akanishi Jin (ex-KAT-TUN),japanese man 2010s solo artist bleached hair black leather jacket mic in hand
+05,2,IDOL,Nishikido Ryo,Nishikido Ryo (ex-KANJANI8),japanese man 2020s solo singer short dark hair simple shirt quiet stare
+05,3,IDOL,Taguchi Junnosuke,Taguchi Junnosuke (ex-KAT-TUN),japanese man 2010s solo performer short black hair dark suit dance pose
+05,4,IDOL,Ueda Tatsuya,Ueda Tatsuya (KAT-TUN),japanese man 2020s solo rock artist long dark hair leather jacket electric guitar
+05,5,IDOL,BuiShikkusu - Sakamoto,Sakamoto Masayuki (V6),japanese man 2010s stage actor short black hair white shirt musical pose
+05,6,IDOL,BuiShikkusu - Miyake,Miyake Ken (V6),japanese man 2010s solo concert short dark hair glittering jacket sharp dance pose
+05,7,IDOL,Kisumai - Tamamori,Tamamori Yuta (Kis-My-Ft2),japanese man 2020s solo concert short brown hair bright smile sparkling jacket
+05,8,IDOL,Nyusu - Masuda,Masuda Takahisa (NEWS),japanese man 2010s solo singer short black hair white jacket gentle smile
+05,9,IDOL,Tokio - Matsuoka,Matsuoka Masahiro (TOKIO),japanese man 2010s band leader short black hair denim shirt acoustic guitar
+05,10,PRODUCER,Tak Matsumoto,Tak Matsumoto (B'z),japanese man sunglasses sleek electric guitar under a dark stage light
+05,11,PRODUCER,Sugizo,SUGIZO (LUNA SEA),japanese man long dark hair violin bow and guitar in violet light
+05,12,PRODUCER,Kubota Toshinobu,Kubota Toshinobu,japanese man sunglasses at a mixing desk with vintage synthesizers
+05,13,PRODUCER,Yoshida Kenji,Yoshida Kenji (producer),japanese man glasses arranging strings at a console late at night
+05,14,PRODUCER,Kawai Kenji,Kawai Kenji (composer),japanese man at a grand piano with a score and a pencil
+05,15,PRODUCER,Yoshii Kazuya,Yoshii Kazuya (THE YELLOW MONKEY),japanese man wild hair sunglasses singing into a vintage microphone
+05,16,EVENT,El primer disco en solitario,el lanzamiento del primer disco en solitario,solo artist holding the first solo album in a studio full of flowers
+05,17,EVENT,La gira en solitario,una gira en solitario por todo Japon,solo singer on a long tour stage with one spotlight and a big crowd
+05,18,EVENT,El recital de piano,un recital en solitario con piano,solo singer at a grand piano in a small hall with warm lights
+05,19,EVENT,La sesion acustica,una sesion acustica para los fans,acoustic session on stools with guitars and a small audience close by
+05,20,EVENT,El fotolibro personal,un fotolibro de la carrera personal,personal photobook shoot in a quiet room with film cameras and soft light
+05,21,EVENT,La unidad nueva,la formacion de una unidad nueva,two japanese idols rehearsing as a new unit with a shared microphone
+05,22,EVENT,El escenario de teatro,un papel protagonista en el teatro,theatre stage with a single singer under a follow spot and heavy curtains
+05,23,EVENT,La colaboracion,una colaboracion con un artista invitado,two artists sharing a studio session with headphones and a mixing desk
+05,24,EVENT,El directo del aniversario,un directo por el aniversario de la carrera,anniversary live stream with balloons and a solo artist talking to the camera
+06,1,IDOL,TorabisuJipan - Nakamura,Kaito Nakamura (Travis Japan),young japanese man 2020s bright stage outfit short dark hair energetic dance pose
+06,2,IDOL,TorabisuJipan - Matsukura,Kaito Matsukura (Travis Japan),young japanese man 2020s acrobatic dancer light brown hair white tee confident grin
+06,3,IDOL,TorabisuJipan - Noel,Noel Kawashima (Travis Japan),young japanese man 2020s long dark hair elegant black jacket calm gaze
+06,4,IDOL,Aekuson - Yoshinori,Yoshinori Masakado (Ae! group),young japanese man 2020s sharp dark suit black hair stage smirk
+06,5,IDOL,Aekuson - Shinya,Shinya Sano (Ae! group),young japanese man 2020s dyed brown hair streetwear bold pose
+06,6,IDOL,Aekuson - Ken,Ken Kojima (Ae! group),young japanese man 2020s short black hair white stage costume bright smile
+06,7,IDOL,AiEmuPi - Arata,Arata Sato (IMP.),young japanese man 2020s platinum hair leather jacket fierce stare
+06,8,IDOL,AiEmuPi - Suzuki,Taiga Suzuki (IMP.),young japanese man 2020s tall dark hair denim jacket cool pose
+06,9,IDOL,AiEmuPi - Kageyama,Takuya Kageyama (IMP.),young japanese man 2020s swept back hair black turtleneck elegant pose
+06,10,PRODUCER,Yasutaka Nakata,Yasutaka Nakata (Capsule),japanese man at a wall of analogue synth modules with headphones
+06,11,PRODUCER,Taku Takahashi,Taku Takahashi (m-flo),japanese man with a cap at a bright mixing desk
+06,12,PRODUCER,Shinichi Osawa,Shinichi Osawa (Mondo Grosso),japanese man with headphones at a modular rack in a dark studio
+06,13,PRODUCER,Kenmochi Hidefumi,Kenmochi Hidefumi (Wednesday Campanella),japanese man with glasses and a laptop on a desk full of toys
+06,14,PRODUCER,TeddyLoid,TeddyLoid,japanese man with long hair and headphones in a neon-lit studio
+06,15,PRODUCER,Ayase,Ayase (YOASOBI),japanese man in a hoodie at a keyboard with software glowing on screen
+06,16,EVENT,La nueva camada,un photobook de la nueva camada,young japanese idols in white shirts posing for a photobook in a bright hall
+06,17,EVENT,El directo del aprendiz,un directo de los aprendices desde la sala de ensayo,young japanese trainees answering comments to a phone camera in a practice room
+06,18,EVENT,El concierto del debut,el concierto con el que se presentan,first concert stage with a brand new banner and a crowd holding lightsticks
+06,19,EVENT,El dia del debut,las fotos oficiales del dia del debut,debut day photo call with cameras and a white backdrop full of logos
+06,20,EVENT,La primera cancion,la primera cancion propia del grupo,recording booth with the group around one microphone singing together
+06,21,EVENT,El baile del debut,la coreografia del primer escenario,hard choreography in a mirrored practice room with tape marks on the floor
+06,22,EVENT,La primera entrevista,la primera entrevista del grupo,press interview table with microphones and young idols bowing politely
+06,23,EVENT,La primera firma de manos,el primer encuentro a estrechar manos con los fans,handshake event hall with numbered tables and a long queue of fans
+06,24,EVENT,El primer live en el teatro,el primer directo en el teatro de la casa,theatre stage during a live show seen from the audience with young idols on stage
