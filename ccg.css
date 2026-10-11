@@ -79,8 +79,8 @@
 
   /* Tinta */
   --tinta:   #5B4A4E;   /* texto normal */
-  --tinta2:  #8A7580;   /* texto secundario */
-  --tinta3:  #B79AA6;   /* texto terciario / hints */
+  --tinta2:  #6F5860;   /* texto secundario: oscurecido en [NIÑAS 2] (era #8A7580, se lavaba) */
+  --tinta3:  #9A7C88;   /* texto terciario / hints (era #B79AA6) */
 
   /* Un solo acento: el rosa idol. Todo lo "importante" es de este color. */
   --acento:  #FF7EB6;
@@ -109,18 +109,18 @@
   --fuente-mono:    'Share Tech Mono', ui-monospace, Consolas, monospace;
 
   /* Radios y sombras: generosos y suaves. */
-  --r:   20px;
-  --r-s: 14px;
-  --sombra: 0 8px 24px rgba(255, 126, 182, .18);
+  --r:   22px;
+  --r-s: 16px;
+  --sombra: 0 10px 26px rgba(255, 126, 182, .22);
 
-  --alto-header: 56px;
-  --ancho-nav: 208px;
+  --alto-header: 68px;
+  --ancho-nav: 236px;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { height: 100%; }
 img { display: block; }
-small { font-size: 12.5px; }
+small { font-size: 13.5px; }
 /* Visibilidad. El tablero del IDOLS arranca con el atributo hidden y aquí se
    respeta SIEMPRE: una regla display:flex como la de #tablero ganaría a la
    hoja de estilos del navegador y lo dejaría visible tapando toda la app
@@ -157,20 +157,31 @@ body {
 body {
   background: var(--fondo);
   color: var(--tinta);
-  /* [NIÑAS] 16 px de base: se lee sin acercar el móvil a la cara. */
-  font: 16px/1.55 var(--fuente);
-  letter-spacing: .2px;
+  /* [NIÑAS 2] 17 px de base y más aire entre líneas: el texto largo se lee
+     de un vistazo, sin acercar la cara a la pantalla. */
+  font: 17px/1.62 var(--fuente);
+  letter-spacing: .15px;
   -webkit-font-smoothing: antialiased;
 }
+/* ---------- [NIÑAS 2] DÓNDE VIVE EL TAMAÑO DE LETRA DE LA APP ----------
+   Aquí, en `#app` y compañía, y NO solo en `body`. Motivo: `board/board.css`
+   se carga DESPUÉS de este fichero y trae su propio
+   `body { font: 14px/1.45 "Segoe UI" … }` (el tema del tablero). Al ir detrás
+   y tener la misma especificidad, ganaba él y TODA la app se pintaba a 14 px:
+   los 17 px de `body` no llegaban a verse nunca.
+   Poner la base en `#app` (y en `#velo`, que es donde viven los modales, y en
+   `#toasts`) la deja a salvo del orden de carga y no toca el tablero, que
+   sigue heredando el suyo. Ver también la sección «NEUTRALIZACIÓN DEL MOTOR». */
+#app, #velo, #toasts { font: 17px/1.62 var(--fuente); letter-spacing: .15px; }
 ::selection { background: var(--acento); color: var(--acento-tinta); }
 h1, h2, h3 { font-family: var(--fuente-display); }
-h1 { font-size: 24px; font-weight: 800; letter-spacing: .5px; }
-h2 { font-size: 18px; font-weight: 700; letter-spacing: .3px; }
-h3 { font-size: 15px; font-weight: 700; }
+h1 { font-size: 29px; font-weight: 800; letter-spacing: .4px; }
+h2 { font-size: 21px; font-weight: 700; letter-spacing: .3px; }
+h3 { font-size: 17px; font-weight: 700; }
 .mono { font-family: var(--fuente-mono); letter-spacing: .3px; }
 .dim { color: var(--tinta2); }
 .dim3 { color: var(--tinta3); }
-.mayus { text-transform: uppercase; letter-spacing: .16em; font-size: 11px; font-weight: 400; color: var(--acento); font-family: var(--fuente-mono); }
+.mayus { text-transform: uppercase; letter-spacing: .12em; font-size: 12.5px; font-weight: 400; color: var(--acento); font-family: var(--fuente-mono); }
 .centro { text-align: center; }
 .dcha { text-align: right; }
 .fila { display: flex; align-items: center; gap: 10px; }
@@ -194,7 +205,7 @@ h3 { font-size: 15px; font-weight: 700; }
   box-shadow: 0 1px 0 rgba(255, 126, 182, .16), 0 8px 22px rgba(0, 0, 0, .4);
   position: sticky; top: 0; z-index: 40;
 }
-#top .marca { font-family: var(--fuente-display); font-size: 15px; font-weight: 800; letter-spacing: .18em; }
+#top .marca { font-family: var(--fuente-display); font-size: 17px; font-weight: 800; letter-spacing: .18em; }
 #top .marca b { color: var(--acento); text-shadow: var(--glow); }
 #top .sep { flex: 1; }
 
@@ -202,8 +213,8 @@ h3 { font-size: 15px; font-weight: 700; }
   display: inline-flex; align-items: center; gap: 7px;
   background: var(--acento3); color: var(--acento);
   border: 1px solid rgba(255, 126, 182, .35);
-  border-radius: var(--r-s); padding: 5px 12px;
-  font-family: var(--fuente-mono); font-weight: 400; font-size: 14px;
+  border-radius: var(--r-s); padding: 7px 14px;
+  font-family: var(--fuente-mono); font-weight: 400; font-size: 15.5px;
 }
 .cartera.plata { background: var(--panel2); color: var(--tinta2); border-color: var(--linea2); }
 
@@ -211,11 +222,11 @@ h3 { font-size: 15px; font-weight: 700; }
    primer sobre: el ruido fuerte se oye justamente en la apertura, y el botón
    del tablero llega tarde. */
 .btn-sonido {
-  flex: 0 0 auto; width: 34px; height: 34px;
+  flex: 0 0 auto; width: 40px; height: 40px;
   display: inline-flex; align-items: center; justify-content: center;
   background: var(--panel2); color: var(--tinta);
   border: 1px solid var(--linea2); border-radius: var(--r-s);
-  font-size: 16px; line-height: 1; cursor: pointer;
+  font-size: 18px; line-height: 1; cursor: pointer;
   transition: background .15s, border-color .15s, transform .1s;
 }
 .btn-sonido:hover { background: var(--acento3); border-color: rgba(255, 126, 182, .45); }
@@ -224,12 +235,12 @@ h3 { font-size: 15px; font-weight: 700; }
 /* El botón 📖 de las reglas en la cabecera: mismo tamaño y trato que el de
    sonido, pero con texto corto al lado en escritorio (se recorta en móvil). */
 .btn-reglas {
-  flex: 0 0 auto; height: 34px;
+  flex: 0 0 auto; height: 40px;
   display: inline-flex; align-items: center; justify-content: center; gap: 5px;
-  padding: 0 10px;
+  padding: 0 13px;
   background: var(--panel2); color: var(--tinta);
   border: 1px solid var(--linea2); border-radius: var(--r-s);
-  font-size: 13px; font-weight: 600; line-height: 1; cursor: pointer;
+  font-size: 14.5px; font-weight: 600; line-height: 1; cursor: pointer;
   white-space: nowrap;
   transition: background .15s, border-color .15s, transform .1s;
 }
@@ -242,47 +253,49 @@ h3 { font-size: 15px; font-weight: 700; }
   width: var(--ancho-nav); flex: 0 0 auto;
   background: var(--panel);
   border-right: 1px solid var(--linea);
-  padding: 14px 10px;
+  padding: 18px 12px;
   display: flex; flex-direction: column; gap: 2px;
   position: sticky; top: var(--alto-header); align-self: flex-start;
   max-height: calc(100vh - var(--alto-header));
 }
 #nav .grupo {
   font-family: var(--fuente-mono);
-  font-size: 10px; text-transform: uppercase; letter-spacing: .22em;
-  color: var(--acento); opacity: .8; font-weight: 400;
-  padding: 14px 12px 6px;
+  font-size: 11.5px; text-transform: uppercase; letter-spacing: .18em;
+  color: var(--acento); opacity: .9; font-weight: 400;
+  padding: 18px 12px 7px;
 }
 #nav button.nav {
   display: flex; align-items: center; gap: 11px;
   width: 100%; text-align: left;
-  padding: 9px 12px; border-radius: var(--r-s);
-  color: var(--tinta2); font-weight: 600; font-size: 14.5px;
+  padding: 11px 14px; border-radius: var(--r-s);
+  color: var(--tinta2); font-weight: 600; font-size: 16.5px;
 }
 #nav button.nav:hover { background: var(--panel2); color: var(--tinta); }
 #nav button.nav.on { background: var(--acento3); color: var(--acento); box-shadow: inset 2px 0 0 var(--acento); }
 #nav button.nav.on .cuenta { background: rgba(255, 126, 182, .2); color: var(--acento); }
-#nav button.nav .ico { width: 20px; text-align: center; font-size: 16px; }
+#nav button.nav .ico { width: 24px; text-align: center; font-size: 19px; }
 #nav .cuenta {
   margin-left: auto; background: var(--panel2); color: var(--tinta2);
-  border-radius: 999px; padding: 1px 8px; font-size: 12px; font-weight: 700;
+  border-radius: 999px; padding: 2px 9px; font-size: 13.5px; font-weight: 700;
 }
 #nav .pie { margin-top: auto; padding: 10px 12px 2px; border-top: 1px solid var(--linea); }
 
-#contenido { flex: 1; min-width: 0; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 24px 28px 56px; }
-.pantalla { max-width: 1180px; margin: 0 auto; }
-.pantalla > header { margin-bottom: 20px; }
-.pantalla > header p { color: var(--tinta2); margin-top: 4px; font-size: 14px; max-width: 68ch; }
+#contenido { flex: 1; min-width: 0; min-height: 0; overflow-y: auto;  -webkit-overflow-scrolling: touch; padding: 28px 36px 72px; }
+/* [NIÑAS 2] La pantalla se aprovecha de verdad: en un monitor ancho el panel
+   llega a 1440 px (antes 1180) y las rejillas caben a dos o tres columnas. */
+.pantalla { max-width: 1440px; margin: 0 auto; }
+.pantalla > header { margin-bottom: 24px; }
+.pantalla > header p { color: var(--tinta2); margin-top: 6px; font-size: 16px; max-width: 72ch; }
 
 /* ============================================================================
    BOTONES
    ========================================================================== */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-  /* [NIÑAS] Botón grande para dedos pequeños: 52 px de alto y 16 px de letra. */
-  min-height: 52px; padding: 12px 22px; border-radius: var(--r-s);
+  /* [NIÑAS 2] Botón muy alto y con letra grande: se acierta a la primera. */
+  min-height: 56px; padding: 14px 26px; border-radius: var(--r-s);
   border: 1px solid var(--linea2); background: var(--panel);
-  font-family: var(--fuente); font-weight: 700; font-size: 16px; color: var(--tinta);
+  font-family: var(--fuente); font-weight: 700; font-size: 17.5px; color: var(--tinta);
   letter-spacing: .5px; text-transform: uppercase;
   transition: background .12s, border-color .12s, color .12s, box-shadow .12s;
   white-space: nowrap;
@@ -298,9 +311,9 @@ h3 { font-size: 15px; font-weight: 700; }
 .btn.ok:hover { filter: brightness(1.12); }
 .btn.pelig { background: var(--panel); border-color: var(--mal); color: var(--mal); }
 .btn.pelig:hover { background: var(--mal3); }
-.btn.chico { padding: 5px 11px; font-size: 13px; }
+.btn.chico { min-height: 42px; padding: 8px 15px; font-size: 15px; }
 .btn.largo { width: 100%; }
-.btn.grande { padding: 13px 22px; font-size: 15.5px; }
+.btn.grande { min-height: 64px; padding: 16px 28px; font-size: 18.5px; }
 
 /* ============================================================================
    PANELES Y TARJETAS
@@ -317,11 +330,11 @@ h3 { font-size: 15px; font-weight: 700; }
 .panel::before { top: -1px; left: -1px; border-top: 2px solid var(--acento); border-left: 2px solid var(--acento); }
 .panel::after { bottom: -1px; right: -1px; border-bottom: 2px solid var(--acento); border-right: 2px solid var(--acento); }
 .panel > .cab {
-  padding: 13px 18px; border-bottom: 1px solid var(--linea);
+  padding: 15px 20px; border-bottom: 1px solid var(--linea);
   display: flex; align-items: center; justify-content: space-between; gap: 14px;
 }
-.panel > .cab h2, .panel > .cab h3 { font-size: 15px; }
-.panel > .cuerpo { padding: 18px; }
+.panel > .cab h2, .panel > .cab h3 { font-size: 16.5px; }
+.panel > .cuerpo { padding: 20px; }
 .panel.plano { box-shadow: none; }
 
 /* ---------- «Más opciones»: lo secundario, plegado ----------
@@ -338,7 +351,7 @@ h3 { font-size: 15px; font-weight: 700; }
   list-style: none; cursor: pointer; padding: 13px 18px;
   display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
   font-family: var(--fuente-mono); text-transform: uppercase;
-  letter-spacing: .16em; font-size: 11px; color: var(--acento);
+  letter-spacing: .14em; font-size: 12.5px; color: var(--acento);
 }
 .mas > summary::-webkit-details-marker { display: none; }
 .mas > summary::before { content: '\25B8'; transition: transform .15s; }
@@ -346,7 +359,7 @@ h3 { font-size: 15px; font-weight: 700; }
 .mas > summary:hover { color: var(--acento2); }
 .mas > summary .pista {
   font-family: var(--fuente); text-transform: none; letter-spacing: 0;
-  font-size: 12.5px; color: var(--tinta3);
+  font-size: 14px; color: var(--tinta3);
 }
 .mas > .cuerpo { padding: 2px 18px 18px; }
 /* Variante ligera, para un cajón DENTRO de un panel (sugerencias de nombre):
@@ -359,21 +372,23 @@ h3 { font-size: 15px; font-weight: 700; }
    columna de decisiones sin orden; con el número se lee como un recorrido. */
 .paso-num {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 22px; height: 22px; margin-right: 8px; border-radius: 50%;
+  width: 27px; height: 27px; margin-right: 9px; border-radius: 50%;
   background: var(--acento); color: var(--acento-tinta);
-  font-family: var(--fuente-mono); font-size: 12px; letter-spacing: 0;
+  font-family: var(--fuente-mono); font-size: 14px; letter-spacing: 0;
 }
 
 /* min(X, 100%): en móvil estrecho una columna de 178px mínimos no puede
    desbordar: la rejilla se apila en vez de hacer scroll lateral. */
-.rejilla { display: grid; gap: 16px; }
-.rejilla.dos { grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); }
-.rejilla.tres { grid-template-columns: repeat(auto-fill, minmax(min(232px, 100%), 1fr)); }
-.rejilla.cuatro { grid-template-columns: repeat(auto-fill, minmax(min(88px, 100%), 1fr)); gap: 10px; }
+/* [NIÑAS 2] Mínimos más generosos: con mucho monitor salen dos o tres columnas
+   anchas en vez de cuatro columnas estrechas que se leen fatal. */
+.rejilla { display: grid; gap: 18px; }
+.rejilla.dos { grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); }
+.rejilla.tres { grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr)); }
+.rejilla.cuatro { grid-template-columns: repeat(auto-fill, minmax(min(118px, 100%), 1fr)); gap: 12px; }
 
 .tarjeta {
   background: var(--panel); border: 1px solid var(--linea);
-  border-radius: var(--r); padding: 16px; box-shadow: var(--sombra);
+  border-radius: var(--r); padding: 20px; box-shadow: var(--sombra);
 }
 .tarjeta.clic { cursor: pointer; text-align: left; width: 100%; }
 .tarjeta.clic:hover { border-color: var(--acento); }
@@ -384,10 +399,10 @@ h3 { font-size: 15px; font-weight: 700; }
 /* ---------- píldoras y etiquetas ---------- */
 .pildora {
   display: inline-flex; align-items: center; gap: 6px;
-  padding: 3px 10px; border-radius: var(--r-s);
+  padding: 4px 12px; border-radius: var(--r-s);
   background: var(--panel2); color: var(--tinta2);
   border: 1px solid var(--linea);
-  font-family: var(--fuente-mono); font-size: 12px; font-weight: 400;
+  font-family: var(--fuente-mono); font-size: 13.5px; font-weight: 400;
   position: relative;
   top: 2px;
 }
@@ -396,8 +411,8 @@ h3 { font-size: 15px; font-weight: 700; }
 .pildora.aviso { background: var(--aviso3); color: var(--aviso); }
 .pildora.acento { background: var(--acento3); color: var(--acento2); }
 
-.tag-fac { display: inline-flex; align-items: center; gap: 5px; font-weight: 700; font-size: 11.5px; }
-.tag-fac i { width: 9px; height: 9px; border-radius: 2px; display: inline-block; flex: 0 0 auto; }
+.tag-fac { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: 13.5px; }
+.tag-fac i { width: 11px; height: 11px; border-radius: 2px; display: inline-block; flex: 0 0 auto; }
 
 /* El punto de color del grupo (24-tops.js): identifica a tu banda y a los 36
    rivales en cualquier tabla. Es un círculo (marca 100% orgánica del proyecto),
@@ -435,29 +450,29 @@ h3 { font-size: 15px; font-weight: 700; }
 .paso-guia.siguiente { border-color: var(--acento); box-shadow: 0 0 0 1px var(--acento3); }
 .pg-num {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 26px; height: 26px; border-radius: 50%; flex: 0 0 auto;
+  width: 32px; height: 32px; border-radius: 50%; flex: 0 0 auto;
   background: var(--acento3); color: var(--acento2);
-  font-weight: 800; font-size: 13px;
+  font-weight: 800; font-size: 16px;
 }
 .paso-guia.hecho .pg-num { background: var(--bien3); color: var(--bien); }
 
 /* La tira de álbumes del inicio: el progreso de las seis agencias de un golpe. */
 .album-chip {
   display: inline-flex; align-items: center; gap: 5px;
-  padding: 4px 9px 4px 6px; border-radius: 999px;
+  padding: 6px 13px 6px 8px; border-radius: 999px;
   background: var(--panel2); border: 1px solid var(--linea);
-  font-size: 12.5px;
+  font-size: 14.5px;
 }
 .album-chip i {
-  width: 11px; height: 11px; border-radius: 50%; display: inline-block;
+  width: 13px; height: 13px; border-radius: 50%; display: inline-block;
   box-shadow: 0 0 0 1.5px var(--panel), 0 0 0 2.5px rgba(0, 0, 0, .16);
 }
 
 /* ---------- avisos ---------- */
 .aviso {
   display: flex; gap: 10px; align-items: flex-start;
-  padding: 11px 14px; border-radius: var(--r-s);
-  font-size: 13.5px; line-height: 1.45;
+  padding: 13px 16px; border-radius: var(--r-s);
+  font-size: 15px; line-height: 1.5;
   background: var(--acento3); color: var(--acento2);
 }
 .aviso.mal { background: var(--mal3); color: var(--mal); }
@@ -468,18 +483,18 @@ h3 { font-size: 15px; font-weight: 700; }
 /* ============================================================================
    TABLAS
    ========================================================================== */
-table.tabla { width: 100%; border-collapse: collapse; font-size: 14px; }
+table.tabla { width: 100%; border-collapse: collapse; font-size: 15.5px; }
 table.tabla th {
-  text-align: left; padding: 9px 12px;
+  text-align: left; padding: 11px 14px;
   font-family: var(--fuente-mono);
-  font-size: 11px; text-transform: uppercase; letter-spacing: .14em;
+  font-size: 12px; text-transform: uppercase; letter-spacing: .12em;
   color: var(--acento); font-weight: 400;
   border-bottom: 1px solid var(--linea);
   background: var(--panel2);
 }
 table.tabla th:first-child { border-top-left-radius: var(--r-s); }
 table.tabla th:last-child { border-top-right-radius: var(--r-s); }
-table.tabla td { padding: 10px 12px; border-bottom: 1px solid var(--linea); }
+table.tabla td { padding: 12px 14px; border-bottom: 1px solid var(--linea); }
 table.tabla tbody tr:last-child td { border-bottom: none; }
 table.tabla tbody tr.yo { background: var(--acento3); }
 table.tabla tbody tr:hover:not(.yo) { background: var(--panel2); }
@@ -502,28 +517,28 @@ table.tabla td.num, table.tabla th.num { text-align: right; font-variant-numeric
 .carta-mini img { width: 100%; height: 100%; object-fit: cover; }
 .carta-mini .faltan {
   position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
-  background: var(--panel2); color: var(--tinta3); font-weight: 700; font-size: 9.5px;
+  background: var(--panel2); color: var(--tinta3); font-weight: 700; font-size: 11px;
   gap: 4px; text-align: center; padding: 4px;
 }
 .carta-mini .cuantas {
   position: absolute; right: 3px; bottom: 3px;
   background: rgba(26,29,35,.82); color: #fff;
-  border-radius: 4px; padding: 0 5px; font-size: 10px; font-weight: 700;
+  border-radius: 5px; padding: 0 6px; font-size: 12px; font-weight: 700;
 }
 .carta-mini .n0 { position: absolute; inset: 0; box-shadow: inset 0 0 0 3px var(--mal); border-radius: 7px; pointer-events: none; }
 .celda-carta { position: relative; }
 .celda-carta .nombre {
-  margin-top: 4px; font-size: 10.5px; font-weight: 600; line-height: 1.25;
+  margin-top: 5px; font-size: 12px; font-weight: 600; line-height: 1.3;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
-.celda-carta .sub { font-size: 8px; color: var(--tinta3); margin-top: -2px; margin-bottom: 6px; }
+.celda-carta .sub { font-size: 11px; color: var(--tinta3); margin-top: -1px; margin-bottom: 6px; }
 /* La línea del precio va un punto más fuerte que el "agencia · set" de arriba:
    es el dato que se busca al recorrer la rejilla, y tiene que distingirse de una
    línea informativa más. El margen inferior mantiene la separación entre celdas
    aunque ahora haya un renglón más. */
 .celda-carta .precio-linea {
   margin-top: 1px; margin-bottom: 7px;
-  color: var(--acento); font-size: 9px; font-weight: 700; letter-spacing: .2px;
+  color: var(--acento); font-size: 11.5px; font-weight: 700; letter-spacing: .2px;
 }
 
 /* La caja de precios de la ficha: separa "cuesta en fans" de "vale en dinero",
@@ -604,10 +619,14 @@ table.tabla td.num, table.tabla th.num { text-align: right; font-variant-numeric
 @keyframes salir { from { opacity: 0; transform: translateY(14px) scale(.94); } to { opacity: 1; transform: none; } }
 
 /* Las probabilidades, en tabla: se leen de un vistazo. */
-.tabla-prob { width: 100%; border-collapse: collapse; font-size: 13.5px; }
-.tabla-prob td { padding: 7px 10px; border-bottom: 1px solid var(--linea); }
+/* Tablas anchas (la de «¿cuántos sobres hasta…?» tiene SIETE columnas): en un
+   móvil no caben, así que se deslizan en horizontal en vez de salirse de la
+   pantalla y quedar cortadas por la derecha. */
+.tabla-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }
+.tabla-prob { width: 100%; border-collapse: collapse; font-size: 15px; }
+.tabla-prob td { padding: 9px 12px; border-bottom: 1px solid var(--linea); }
 .tabla-prob tr:last-child td { border-bottom: none; }
-.tabla-prob .barra { height: 7px; border-radius: 4px; background: var(--panel2); overflow: hidden; min-width: 90px; }
+.tabla-prob .barra { height: 9px; border-radius: 5px; background: var(--panel2); overflow: hidden; min-width: 64px; }
 .tabla-prob .barra i { display: block; height: 100%; border-radius: 4px; }
 
 /* ============================================================================
@@ -704,6 +723,17 @@ table.tabla td.num, table.tabla th.num { text-align: right; font-variant-numeric
   #app > #top .btn-reglas { order: 6; }
   #app > #top .btn-sonido { order: 7; }
   #contenido { overflow-x: hidden; }
+  /* [NIÑAS 2] Con letra y botones más grandes, una fila de móvil ya no da para
+     todo: en vez de recortar el botón que sobraba (p. ej. «Ver las reglas y los
+     ajustes» salía cortado por la derecha), la fila BAJA de línea y los botones
+     se reparten el ancho. Además el texto de un botón puede partirse en dos
+     líneas: con `nowrap` un rótulo largo no cabía nunca. */
+  .fila, .fila-sep { flex-wrap: wrap; }
+  .pie.fila > .btn, .fila-sep > .btn { flex: 1 1 auto; }
+  .btn { white-space: normal; text-align: center; }
+  /* La tabla de probabilidades del sobre: la barra no fuerza el ancho entero. */
+  .tabla-prob td { padding: 7px 8px; }
+  .tabla-prob .barra { min-width: 52px; }
   .item-mazo { max-width: 100%; }
   .mazo-cuerpo { padding: 10px 9px; }
   .mazo-casas { gap: 7px; }
@@ -714,7 +744,7 @@ table.tabla td.num, table.tabla th.num { text-align: right; font-variant-numeric
 }
 
 .zona-legalidad { display: flex; flex-direction: column; gap: 8px; }
-.linea-legalidad { display: flex; justify-content: space-between; font-size: 13.5px; padding: 5px 0; }
+.linea-legalidad { display: flex; justify-content: space-between; font-size: 15px; padding: 6px 0; }
 .linea-legalidad.bien { color: var(--bien); }
 .linea-legalidad.mal { color: var(--mal); }
 
@@ -730,12 +760,12 @@ table.tabla td.num, table.tabla th.num { text-align: right; font-variant-numeric
 }
 
 /* El constructor: a la izquierda lo que tienes, a la derecha el mazo. */
-.constructor { display: grid; grid-template-columns: 1fr 380px; gap: 20px; align-items: start; }
+.constructor { display: grid; grid-template-columns: 1fr 430px; gap: 22px; align-items: start; }
 @media (max-width: 1080px) { .constructor { grid-template-columns: 1fr; } }
 .curva { display: flex; gap: 3px; align-items: flex-end; height: 54px; }
 .curva .col-barra { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: 4px; }
 .curva .barra-b { width: 100%; background: var(--acento); border-radius: 3px 3px 0 0; min-height: 2px; }
-.curva .n { font-size: 10.5px; color: var(--tinta3); font-weight: 700; }
+.curva .n { font-size: 12px; color: var(--tinta3); font-weight: 700; }
 
 /* ============================================================================
    EL TABLERO (encima de la app, pantalla completa)
@@ -894,14 +924,18 @@ button { touch-action: manipulation; } /* sin zoom de doble toque en móvil */
    la TAB BAR (5 destinos + "Más") y la hoja inferior "Más".
    ========================================================================== */
 @media (max-width: 860px) {
-  body { font-size: 14.5px; }
+  /* [NIÑAS 2] En el móvil la app sigue a 17 px: el tamaño se declara sobre
+     `#app` (ver «DÓNDE VIVE EL TAMAÑO DE LETRA DE LA APP»), no sobre `body`,
+     porque al `body` lo pisa board/board.css con sus 14 px del tema del
+     tablero. */
+  #app, #velo, #toasts { font-size: 17px; }
 
   #top {
     height: calc(var(--alto-header) - 10px);
     gap: 10px;
     padding: 0 calc(10px + env(safe-area-inset-right)) 0 calc(10px + env(safe-area-inset-left));
   }
-  #top .marca { font-size: 14px; }
+  #top .marca { font-size: 15.5px; }
   #top .pildora { display: none; }   /* la división vive en "Más": sobra el sitio */
   /* En móvil el 📖 se queda solo con el icono: la palabra no cabe. */
   .oculta-movil { display: none; }
@@ -930,8 +964,8 @@ button { touch-action: manipulation; } /* sin zoom de doble toque en móvil */
     gap: 2px; padding: 4px 2px; border-radius: var(--r-s);
     color: var(--tinta3); font-weight: 600; position: relative;
   }
-  #tabbar .tbi { font-size: 19px; line-height: 1.2; }
-  #tabbar .tbt { font-size: 11.5px; letter-spacing: .3px; }
+  #tabbar .tbi { font-size: 22px; line-height: 1.2; }
+  #tabbar .tbt { font-size: 12.5px; letter-spacing: .2px; }
   #tabbar .tb.on { color: var(--acento); }
   #tabbar .tb.on .tbi { text-shadow: var(--glow); }
   #tabbar .tb.on::before {
@@ -941,7 +975,7 @@ button { touch-action: manipulation; } /* sin zoom de doble toque en móvil */
   #tabbar .cuenta {
     position: absolute; top: 0; right: calc(50% - 26px);
     background: var(--acento); color: var(--acento-tinta);
-    border-radius: 8px; padding: 0 5px; font-size: 9.5px; font-weight: 700;
+    border-radius: 9px; padding: 0 6px; font-size: 11px; font-weight: 700;
   }
 
   /* --- Hoja "Más" (bottom sheet) --- */
@@ -959,21 +993,21 @@ button { touch-action: manipulation; } /* sin zoom de doble toque en móvil */
   @keyframes subeHoja { from { transform: translateY(60px); opacity: .4; } to { transform: none; opacity: 1; } }
   #mas-sheet .mas-agarre { grid-column: 1 / -1; width: 42px; height: 4px; border-radius: 2px; background: var(--linea2); margin: 2px auto 8px; }
   #mas-sheet .mas-titulo {
-    grid-column: 1 / -1; font-family: var(--fuente-mono); font-size: 11px;
-    letter-spacing: .2em; text-transform: uppercase; color: var(--acento); padding: 0 4px 4px;
+    grid-column: 1 / -1; font-family: var(--fuente-mono); font-size: 12.5px;
+    letter-spacing: .18em; text-transform: uppercase; color: var(--acento); padding: 0 4px 4px;
   }
   #mas-sheet .tb {
     display: flex; flex-direction: column; align-items: center; gap: 4px;
     padding: 10px 4px; border-radius: var(--r-s); color: var(--tinta2);
     background: var(--panel2); border: 1px solid var(--linea);
   }
-  #mas-sheet .tb .tbi { font-size: 20px; }
-  #mas-sheet .tb .tbt { font-size: 11.5px; }
+  #mas-sheet .tb .tbi { font-size: 22px; }
+  #mas-sheet .tb .tbt { font-size: 12.5px; }
   #mas-sheet .tb.on { color: var(--acento); border-color: var(--acento); background: var(--acento3); }
 }
 @media (max-width: 480px) {
-  h1 { font-size: 21px; }
-  h2 { font-size: 17px; }
+  h1 { font-size: 24px; }
+  h2 { font-size: 19px; }
   .pantalla > header { margin-bottom: 14px; }
   .modal > footer { flex-wrap: wrap; }
   .modal > footer .btn { flex: 1 1 auto; }
@@ -986,17 +1020,19 @@ button { touch-action: manipulation; } /* sin zoom de doble toque en móvil */
    son líquidas y se apilan solas.
    ========================================================================== */
 @media (max-width: 950px) and (orientation: landscape) {
-  body { font-size: 14px; }
+  /* Móvil en apaisado: es el modo de juego más apretado (390 px de alto), así
+     que la app baja un punto, a 16 px, en vez de los 17 px de retrato. */
+  #app, #velo, #toasts { font-size: 16px; }
   #top { height: calc(var(--alto-header) - 14px); }
-  #contenido { padding-top: 12px; padding-bottom: 24px; }
-  .pantalla > header { margin-bottom: 12px; }
-  .pantalla > header p { font-size: 13px; }
-  .panel > .cuerpo { padding: 13px 15px; }
-  .panel > .cab { padding: 10px 15px; }
-  .tarjeta { padding: 12px 14px; }
-  .rejilla { gap: 11px; }
-  .btn { padding: 9px 15px; }
-  .btn.grande { padding: 12px 18px; font-size: 15px; }
+  #contenido { padding-top: 14px; padding-bottom: 26px; }
+  .pantalla > header { margin-bottom: 14px; }
+  .pantalla > header p { font-size: 14.5px; }
+  .panel > .cuerpo { padding: 15px 17px; }
+  .panel > .cab { padding: 12px 17px; }
+  .tarjeta { padding: 15px 16px; }
+  .rejilla { gap: 13px; }
+  .btn { min-height: 50px; padding: 11px 17px; }
+  .btn.grande { min-height: 56px; padding: 13px 20px; font-size: 17px; }
   .btn:active { transform: scale(.98); }
   .velo { padding: 9px; }
   .modal { max-height: calc(100dvh - 18px); }
@@ -1061,7 +1097,7 @@ button { touch-action: manipulation; } /* sin zoom de doble toque en móvil */
     border-radius: var(--r); border-right: 1px solid var(--linea);
     padding: 5px 10px;
   }
-  #barraPartida .info { font-size: 12px; }
+  #barraPartida .info { font-size: 14px; }
 }
 /* Móviles estrechos en apaisado (iPhone SE): el registro sobra. */
 @media (max-width: 560px) {
@@ -1074,15 +1110,16 @@ button { touch-action: manipulation; } /* sin zoom de doble toque en móvil */
    ========================================================================== */
 .scroll-y { overflow-y: auto; max-height: 62vh; }
 .vacio { padding: 40px 20px; text-align: center; color: var(--tinta3); }
-.vacio .ico { font-size: 34px; margin-bottom: 10px; opacity: .55; }
+.vacio .ico { font-size: 44px; margin-bottom: 12px; opacity: .6; }
+.vacio { font-size: 16px; }
 .pasos { counter-reset: p; display: grid; gap: 10px; }
 .paso { display: flex; gap: 12px; align-items: flex-start; }
 .paso::before {
   counter-increment: p; content: counter(p);
-  flex: 0 0 auto; width: 24px; height: 24px; border-radius: 6px;
+  flex: 0 0 auto; width: 29px; height: 29px; border-radius: 8px;
   background: var(--acento); color: var(--acento-tinta);
   display: flex; align-items: center; justify-content: center;
-  font-family: var(--fuente-mono); font-size: 12.5px; font-weight: 400;
+  font-family: var(--fuente-mono); font-size: 14.5px; font-weight: 400;
 }
 .toast-zona {
   position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
@@ -1092,8 +1129,8 @@ button { touch-action: manipulation; } /* sin zoom de doble toque en móvil */
 .toast {
   background: var(--panel); color: var(--acento);
   border: 1px solid var(--acento); box-shadow: var(--glow);
-  padding: 10px 18px; border-radius: var(--r-s);
-  font-family: var(--fuente-mono); font-size: 13px;
+  padding: 12px 20px; border-radius: var(--r-s);
+  font-family: var(--fuente-mono); font-size: 14.5px;
   animation: aparecer .2s ease-out;
 }
 .toast.mal { background: var(--mal3); color: var(--mal); border-color: var(--mal); box-shadow: none; }
@@ -1108,12 +1145,12 @@ button { touch-action: manipulation; } /* sin zoom de doble toque en móvil */
   display: flex; align-items: center; gap: 12px;
   background: linear-gradient(135deg, var(--acento3), var(--panel));
   border: 1.5px solid var(--acento); border-radius: 20px;
-  padding: 10px 16px 10px 10px; margin-bottom: 16px;
+  padding: 12px 18px 12px 12px; margin-bottom: 18px;
   box-shadow: var(--glow);
 }
 .mascota-cara { flex: 0 0 auto; }
 .mascota-cara img {
-  width: 64px; height: 64px; border-radius: 50%; object-fit: cover;
+  width: 78px; height: 78px; border-radius: 50%; object-fit: cover;
   border: 2.5px solid #fff; box-shadow: 0 2px 10px rgba(206, 112, 154, .45);
   display: block;
 }
@@ -2120,7 +2157,7 @@ body {
 @supports not ((-webkit-background-clip: text) or (background-clip: text)) {
   .pantalla > header h1 { color: #C2185B; -webkit-text-fill-color: currentColor; }
 }
-.pantalla > header { margin-bottom: 18px; }
+.pantalla > header { margin-bottom: 22px; }
 .pantalla > header p { color: var(--tinta2); max-width: 70ch; }
 .mayus { font-weight: 700; }
 .pildora {
@@ -2191,8 +2228,8 @@ h1, h2, h3, .h3 { overflow-wrap: anywhere; }
    cambia ni una línea.
    ========================================================================== */
 #nav {
-  gap: 3px;
-  padding: 14px 12px 14px;
+  gap: 4px;
+  padding: 18px 12px 16px;
   background: linear-gradient(180deg, #FFFFFF 0%, var(--fondo) 100%);
   border-right: 1px solid var(--linea);
   box-shadow: 4px 0 22px rgba(226, 150, 182, .10);
@@ -2200,20 +2237,20 @@ h1, h2, h3, .h3 { overflow-wrap: anywhere; }
 /* Encabezados de grupo: etiqueta redondeada, no un texto suelto en mayúsculas */
 #nav .grupo {
   font-family: var(--fuente);
-  font-size: 10.5px; font-weight: 800; text-transform: none;
-  letter-spacing: .16em;
+  font-size: 12.5px; font-weight: 800; text-transform: none;
+  letter-spacing: .12em;
   color: var(--acento-tinta);
   background: linear-gradient(90deg, var(--acento3), rgba(255, 126, 182, 0) 85%);
   border-radius: 999px;
-  padding: 5px 12px;
-  margin: 12px 0 5px;
+  padding: 6px 13px;
+  margin: 15px 0 6px;
   width: fit-content;
 }
 #nav .grupo:first-child { margin-top: 2px; }
 #nav button.nav {
-  gap: 10px;
-  padding: 9px 12px;
-  border-radius: 14px;
+  gap: 12px;
+  padding: 11px 14px;
+  border-radius: 16px;
   border: 1px solid transparent;
   background: linear-gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.55));
   box-shadow: 0 1px 0 rgba(255,255,255,.9) inset, 0 2px 6px rgba(226, 150, 182, .10);
@@ -2228,10 +2265,10 @@ h1, h2, h3, .h3 { overflow-wrap: anywhere; }
 }
 /* El icono pasa a ser una pastilla con su propia vida: es lo primero que se ve */
 #nav button.nav .ico {
-  width: 30px; height: 30px; flex: 0 0 auto;
+  width: 34px; height: 34px; flex: 0 0 auto;
   display: grid; place-items: center;
-  font-size: 15px; line-height: 1;
-  border-radius: 10px;
+  font-size: 18px; line-height: 1;
+  border-radius: 11px;
   background: var(--panel2);
   border: 1px solid var(--linea);
   transition: background .15s ease, transform .15s ease;
@@ -2261,9 +2298,9 @@ h1, h2, h3, .h3 { overflow-wrap: anywhere; }
   /* basis calc(100% - 40px): eso FUERZA el salto de línea (un basis de 0 se
      encogería en la primera línea) y al mismo tiempo deja el hueco del icono,
      de modo que el subtítulo no se sale por la derecha. */
-  flex: 0 0 calc(100% - 40px);
-  margin-left: 40px;                 /* el ancho de la pastilla del icono + hueco */
-  font-size: 11px; line-height: 1.1; opacity: .72;
+  flex: 0 0 calc(100% - 46px);
+  margin-left: 46px;                 /* el ancho de la pastilla del icono + hueco */
+  font-size: 13px; line-height: 1.15; opacity: .78;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 #nav button.nav.on .sub { opacity: .9; }
@@ -2289,8 +2326,8 @@ h1, h2, h3, .h3 { overflow-wrap: anywhere; }
 #nav .cuenta {
   background: #FFFFFF; color: var(--tinta2);
   border: 1px solid var(--linea);
-  border-radius: 999px; padding: 2px 9px;
-  font-size: 11.5px; font-weight: 800;
+  border-radius: 999px; padding: 3px 10px;
+  font-size: 13px; font-weight: 800;
   box-shadow: 0 1px 3px rgba(226, 150, 182, .18);
 }
 /* El pie cierra la columna con un marco suave */
