@@ -804,7 +804,7 @@ body.jugando { overflow: hidden; }
    liso, y brillo propio— manteniendo la retícula y los colores del IDL. */
 #tablero body, body.jugando #table {
   background:
-    /* foco sobre el centro de la mesa (donde se打击a) */
+    /* foco sobre el centro de la mesa (donde se juega) */
     radial-gradient(76% 56% at 50% 46%, rgba(255, 255, 255, .92), rgba(255, 255, 255, 0) 72%),
     /* luz que entra por arriba, desde el escenario */
     radial-gradient(130% 66% at 50% -12%, rgba(255, 177, 212, .38), rgba(255, 177, 212, 0) 66%),
@@ -1857,7 +1857,13 @@ input[type="search"]::-webkit-search-cancel-button { filter: invert(.7); }
 .tabla tbody tr[data-persona]:hover td { background: var(--acento3); }
 
 /* Catálogo: las cartas que NO posees se ven claramente apagadas */
-.carta-mini.apagada img { filter: grayscale(.9) brightness(.45); }
+/* [CATALOGO B/N] El gris va al LIENZO también, no solo al <img>: con el arte
+   servido, `caraViva()` pinta un <canvas class="carta-lienzo"> y la regla de
+   abajo no lo alcanzaba, así que las que no tienes salían a todo color y se
+   leían como si las tuvieras. El filtro va en el arte, nunca en `.carta-mini`,
+   porque la ✕ roja de al lado tiene que seguir siendo roja. */
+.carta-mini.apagada img,
+.carta-mini.apagada canvas.carta-lienzo { filter: grayscale(1) brightness(.5) contrast(.9); }
 .carta-mini.apagada::after {
   content: '✕'; position: absolute; inset: 0;
   display: flex; align-items: center; justify-content: center;
@@ -1908,8 +1914,17 @@ input[type="search"]::-webkit-search-cancel-button { filter: invert(.7); }
    Ya no hay fase de rasgado: el sobre enseña la primera carta solo.
    ============================================================================ */
 .apertura-full.np { display: flex; flex-direction: column; align-items: center; justify-content: center; }
-.np-escena { position: relative; width: min(280px, 62vw); aspect-ratio: 5 / 7; margin: 0 auto; }
+.np-escena { position: relative; width: min(190px, 42vw); aspect-ratio: 5 / 7; margin: 0 auto; }
 .np-pack { position: absolute; inset: 0; border-radius: 12px; }
+/* [PILA] El montón de cartas. Tiene EXACTAMENTE el tamaño de `.np-escena`
+   porque el ancho de `.np-carta` es un porcentaje (222 %) de su contenedor
+   posicionado: si la pila fuera hermana de la escena y llenara toda la
+   sección, cada carta saldría gigante. */
+.np-pila { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: min(400px, 84vw); aspect-ratio: 5 / 7; }
+/* La carta que toca se separa un poco del montón: el gesto de "esta es la que
+   se está girando" antes de que se vea el giro. */
+.np-carta.enfoco { transform: translate(-50%, -50%) scale(1.06); }
 .np-pack-cuerpo { position: absolute; inset: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 14px 34px rgba(0,0,0,.5); }
 .np-pack-cuerpo img, .np-pack-cuerpo .pack-ph { width: 100%; height: 100%; object-fit: contain; display: block; }
 /* SIN tira de rasgado: el sobre se abre solo (ver mostrarApertura). Antiguamente
@@ -1918,22 +1933,26 @@ input[type="search"]::-webkit-search-cancel-button { filter: invert(.7); }
 /* La carta visible: el DOBLE de grande que el sobre (148% de su ancho),
    centrada y superpuesta. Al sacar la siguiente, la anterior vuela hacia
    arriba FUERA DE PANTALLA (.fuera) y se retira del DOM. */
-/* La carta visible, centrada sobre el sobre. [REVEAL 2026-10] Dos arreglos:
-   · El CENTRADO ya no se hace con márgenes en % (el margen vertical en % se
-     resuelve contra el ANCHO, así que cualquier cambio de proporción dejaba la
-     carta descentrada); se centra con `translate(-50%, -50%)`.
-   · El TAMAÑO sube un 50% (de 148% a 222% del ancho del sobre) con un tope por
-     alto de pantalla: `66vh` de ancho = 92,4vh de alto, así que nunca se sale ni
-     tapa el pie ni en pantallas bajas. El 222% solo se alcanza si cabe. */
-.np-carta { position: absolute; left: 50%; top: 50%; width: min(222%, 64vh, 92vw); aspect-ratio: 5 / 7; z-index: 20;
-  /* -30px: la carta se centra un poco ARRIBA para no pisar el pie de una fila. */
-  margin-top: -30px;
-  transition: transform .5s cubic-bezier(.22,.9,.28,1.08), opacity .5s ease;
+/* La carta, centrada y al tamaño de `.np-pila` (que ahora tiene tamaño PROPIO
+   y no el del sobre: antes el ancho era un 222 % del sobre, así que agrandar o
+   encoger el sobre cambiaba el tamaño de la carta, y al encoger el sobre la
+   carta se quedó diminuta).
+   · El CENTRADO se hace con `translate(-50%, -50%)`, no con márgenes en %: el
+     margen vertical en % se resuelve contra el ANCHO, así que cualquier cambio
+     de proporción dejaba la carta descentrada.
+   · El alto sale de `aspect-ratio: 5/7` sobre el ancho, con tope por
+     `min(400px, 84vw)` en `.np-pila` para que en pantallas bajas no se salga ni
+     tape el pie. */
+.np-carta { position: absolute; left: 50%; top: 50%; width: 100%; aspect-ratio: 5 / 7; z-index: 20;
+  /* [SOBRE RÁPIDO] Mitad de duración que antes (.5s): abrir las cartas una a
+     una se leía como una espera, y el botón "Saltar" era el único alivio. Las
+     esperas del JS de apertura están a la misma escala. */
+  transition: transform .26s cubic-bezier(.22,.9,.28,1.08), opacity .26s ease;
   transform: translate(-50%, -50%); }
 .np-carta.sale { transform: translate(-50%, -50%) translateY(42%) scale(.92); opacity: 0; }
 .np-carta.fuera { transform: translate(-50%, -50%) translateY(calc(-100vh)); opacity: 0; pointer-events: none; }
 .np-flip { position: relative; width: 100%; height: 100%; transform-style: preserve-3d;
-  transition: transform .6s cubic-bezier(.3,.7,.3,1.15); }
+  transition: transform .3s cubic-bezier(.3,.7,.3,1.15); }
 .np-carta.girada .np-flip { transform: rotateY(180deg); }
 .np-cara { position: absolute; inset: 0; backface-visibility: hidden; border-radius: 7px; overflow: hidden; background: var(--panel2); }
 .np-atras { border: 1px solid var(--linea2); box-shadow: 0 6px 18px rgba(0,0,0,.45); }
@@ -1986,6 +2005,15 @@ input[type="search"]::-webkit-search-cancel-button { filter: invert(.7); }
 .np-mini-nombre { display: block; font-size: 10px; text-align: center; margin-top: 3px;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .np-acciones { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; justify-content: center; }
+/* [SOBRE] Los botones del final de la apertura se pintan como los elementos
+   SELECCIONADOS del menú (rosa de fondo, letra blanca), no como botones
+   neutros: al terminar el sobre, "Continuar" es la opción elegida, y tener que
+   buscar cuál de los dos botones resaltados es el que sigue era el gesto que
+   paraba la sesión. Mismo aspecto que `#tablero .chip.on`. */
+.np-acciones .btn { background: var(--acento); border-color: var(--acento); color: #fff; font-weight: 700; }
+.np-acciones .btn:hover:not(:disabled) { background: var(--acento2); border-color: var(--acento2); color: #fff; }
+.np-acciones .btn:disabled { opacity: .5; cursor: not-allowed; }
+.np-acciones .btn.pri { background: var(--acento2); border-color: var(--acento2); }
 .np-cartera { font-size: 13px; }
 @media (max-width: 700px) {
   .np-escena { width: min(280px, 74vw); }
@@ -2127,7 +2155,8 @@ body {
 .carta-mini.rar-Legend   { box-shadow: 0 0 0 1px rgba(255, 93, 143, .55), 0 6px 16px rgba(255, 93, 143, .30); }
 .carta-mini.rar-Star     { box-shadow: 0 0 0 1px rgba(255, 209, 102, .50), 0 6px 16px rgba(255, 209, 102, .26); }
 .carta-mini.rar-Rising   { box-shadow: 0 0 0 1px rgba(201, 184, 255, .48), 0 5px 14px rgba(201, 184, 255, .22); }
-.carta-mini.apagada img  { filter: grayscale(.92) brightness(.52); }
+.carta-mini.apagada img,
+.carta-mini.apagada canvas.carta-lienzo { filter: grayscale(1) brightness(.52) contrast(.9); }
 
 /* ---------- 5 · BOTONES: que se puedan "pulsar" ---------- */
 .btn {
