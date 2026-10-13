@@ -18,15 +18,15 @@ set,id,type,name,ref,desc
 01,13,PRODUCER,Takizawa Hideaki,Takizawa Hideaki (Johnny's Island),japanese man sharp features black suit stage director rehearsal
 01,14,PRODUCER,Inohara Yoshihiko,Inohara Yoshihiko (V6),japanese man dark suit red tie office manager pose
 01,15,PRODUCER,Higashiyama Noriyuki,Higashiyama Noriyuki (Shonentai),japanese man 1980s stylish suit stage dance pose spotlight
-01,16,EVENT,La cancion de debut,la primera cancion del grupo,japanese 1980s debut stage young idols in white costumes bright lights
-01,17,EVENT,El baile sobre patines,un espectaculo de patines y luces,japanese stage roller skates glittering costumes flashy lights
-01,18,EVENT,En la television,una entrevista en la television japonesa,japanese tv studio interview set hosts idol in suit polite bow
-01,19,EVENT,La firma de fotos,una sesion de firmas en una tienda,japanese record store signing event fans queue idol smiling 1990s
-01,20,EVENT,Kōhaku Uta Gassen,la gala de fin de año de la tele,new year tv special stage red and white teams idol group bow
-01,21,EVENT,De revista,una sesion para una revista juvenil,japanese photo studio white backdrop idol posing 1990s styling
-01,22,EVENT,El anuncio de refresco,el rodaje de un anuncio de bebida,summer commercial shoot grass bright light idol holding bottle smiling
-01,23,EVENT,Summer Sonic,el festival de verano,japanese summer festival stage outdoor day crowd idol band sweat
-01,24,EVENT,La sesion de portada,una sesion de fotos de portada,photo studio white backdrop elegant 1990s styling idol cover shoot
+01,16,EVENT,"Kiseku","single de debut de una agencia grande","japanese major debut aesthetic, sky blue and silver, singing into a handheld microphone on a small stage, one hand raised"
+01,17,EVENT,"El paso del debut","coreografía de un vídeo musical","japanese major debut aesthetic, sky blue and silver, caught between two moves, one leg lifted, motion blur in the limbs"
+01,18,EVENT,"Ronda de la tv","entrevista de un magazine","japanese major debut aesthetic, sky blue and silver, at a press table with microphones in front, smiling mid-answer"
+01,19,EVENT,"La lista de espera","evento de apretones de manos","japanese major debut aesthetic, sky blue and silver, shaking a hand across the table, both smiling"
+01,20,EVENT,"Directo de la emisión","emisión de una cadena de televisión","japanese major debut aesthetic, sky blue and silver, walking through a lit venue mid-performance, mic in hand"
+01,21,EVENT,"El libro anime","photobook de un anime","japanese major debut aesthetic, sky blue and silver, posing with a prop on a shelf-lit studio background"
+01,22,EVENT,"Directo de la tv","contenido en directo","japanese major debut aesthetic, sky blue and silver, sitting at a desk in a dim room lit by a ring light and a monitor"
+01,23,EVENT,"En el Garden","concierto en el Budokan","japanese major debut aesthetic, sky blue and silver, front row of a stage, singing with the band visible behind"
+01,24,EVENT,"La portada del single","sesión para una revista de moda","japanese major debut aesthetic, sky blue and silver, in front of a step-and-repeat wall, hands in pockets"
 02,1,IDOL,Arashi - Ono,Ohno Satoshi (Arashi),japanese man short black hair soft gaze blue shirt calm stage
 02,2,IDOL,Arashi - Sakurai,Sakurai Sho (Arashi),japanese man sharp features suit news studio desk confident
 02,3,IDOL,Arashi - Aiba,Aiba Masaki (Arashi),japanese man friendly smile green shirt variety show set
@@ -42,15 +42,15 @@ set,id,type,name,ref,desc
 02,13,PRODUCER,Sunahara Yoshinori,Yoshinori Sunahara,japanese producer beard modular synthesizers studio warm
 02,14,PRODUCER,Yamaguchi Ichiro,Yamaguchi Ichiro (Sakanaction),japanese man glasses studio synthesizer blue light
 02,15,PRODUCER,Yoshiki,Yoshiki (X JAPAN),japanese man long hair sunglasses piano classical stage
-02,16,EVENT,La coreografia del momento,la coreografia que todo el mundo imita,japanese dance practice room mirrors idol group synchronized bright
-02,17,EVENT,El cotilleo,una entrevista en el programa de variedades,japanese variety studio set panels idol laughing with hosts
-02,18,EVENT,La firma de albumes,una firma de autografos de album,album signing table japanese fans queue idol signing photocard bright hall
-02,19,EVENT,El live en el gran teatro,una actuacion en directo en el teatro,japanese theater stage musical lights idol group in costume
-02,20,EVENT,El photobook de verano,un photobook de verano,japanese summer photobook beach white shirts blue sky idol
-02,21,EVENT,El directo en la plataforma,un directo en la plataforma de fans,idol alone in a small room talking to a phone camera soft light
-02,22,EVENT,La gira por todo Japon,una gira por las ciudades de Japon,japanese city arena tour stage idol waving lightsticks night
-02,23,EVENT,La portada de la revista,una portada de revista juvenil,japanese magazine cover shoot studio light idol in elegant styling
-02,24,EVENT,La cancion del aniversario,la cancion de aniversario del grupo,anniversary studio session warm lights group singing together
+02,16,EVENT,"Ensayo en el teatro","coreografía de un vídeo musical","japanese major debut aesthetic, sky blue and silver, spinning with the jacket flying open"
+02,17,EVENT,"Micro del estudio","entrevista de un magazine","japanese major debut aesthetic, sky blue and silver, in a hallway interview, a microphone held towards the face"
+02,18,EVENT,"El evento de manos","evento de apretones de manos","japanese major debut aesthetic, sky blue and silver, bent over a table writing, hands of fans reaching into frame"
+02,19,EVENT,"La noche del coliseo","emisión de una cadena de televisión","japanese major debut aesthetic, sky blue and silver, on a television studio floor with the camera visible, singing live"
+02,20,EVENT,"El libro rosa","photobook de un anime","japanese major debut aesthetic, sky blue and silver, seated on a styled chair against a painted backdrop"
+02,21,EVENT,"En directo del sofá","contenido en directo","japanese major debut aesthetic, sky blue and silver, on a sofa with a laptop open, mid-wave"
+02,22,EVENT,"En el coliseo","concierto en el Budokan","japanese major debut aesthetic, sky blue and silver, walking the stage during an encore, band lights behind"
+02,23,EVENT,"Retrato del Budokan","sesión para una revista de moda","japanese major debut aesthetic, sky blue and silver, on a set dressed as a street, hands on hips"
+02,24,EVENT,"Sakura Zaki","single de debut de una agencia grande","japanese major debut aesthetic, sky blue and silver, holding the mic in both hands at chest height, looking up"
 03,1,IDOL,KinguPuri - Hirano,Hirano Sho (King & Prince),handsome japanese man dark hair white shirt cool gaze rooftop
 03,2,IDOL,KinguPuri - Kishi,Kishi Yuta (King & Prince),japanese man black hair dance pose modern stage outfit
 03,3,IDOL,SunoMan - Meguro,Meguro Ren (Snow Man),tall handsome japanese man black hair grey coat intense gaze
@@ -66,15 +66,15 @@ set,id,type,name,ref,desc
 03,13,PRODUCER,Kameda Seiji,Kameda Seiji,famous japanese producer at a mixing desk strings score warm studio
 03,14,PRODUCER,Tamai Kenji,Kenji Tamai,japanese producer headphones big console city night window
 03,15,PRODUCER,Hotei Tomoyasu,Tomoyasu Hotei,japanese man sunglasses electric guitar rock stage dramatic light
-03,16,EVENT,El programa estelar,una entrevista en el programa de mayor audiencia,japanese prime time tv interview set hosts idol in suit cameras
-03,17,EVENT,El encuentro con los fans,un encuentro de firmas con los fans,japanese handshake and signing event hall fans queue idol smiling
-03,18,EVENT,El live en el programa musical,una actuacion en directo en la television,japanese live tv music show stage neon set idol performing crowd
-03,19,EVENT,De aniversario,un photobook del aniversario del grupo,anniversary photobook studio warm film camera props nostalgia
-03,20,EVENT,El directo de madrugada,un directo de madrugada para los fans,idol alone in a dim room at night talking to a phone camera
-03,21,EVENT,En el gran domo,un concierto propio en el gran domo,japanese dome concert sea of lightsticks idols on stage epic
-03,22,EVENT,La portada de moda,una portada de revista de moda,japanese fashion magazine cover shoot idol in designer coat studio
-03,23,EVENT,El single de colaboracion,un single con otro artista de la casa,collaboration studio two japanese idols neon lights console
-03,24,EVENT,La nueva generacion,la coreografia de la nueva generacion,young japanese dance crew acrobatic choreography bright rehearsal room
+03,16,EVENT,"Ronda del canal","entrevista de un magazine","japanese major debut aesthetic, sky blue and silver, seated at a radio desk with headphones around the neck, gesturing"
+03,17,EVENT,"Autógrafo numerado","evento de apretones de manos","japanese major debut aesthetic, sky blue and silver, handing something small over the barrier to an outstretched hand"
+03,18,EVENT,"La noche del Budokan","emisión de una cadena de televisión","japanese major debut aesthetic, sky blue and silver, at a broadcast desk with a headset on, talking into the mic"
+03,19,EVENT,"Libro sakura","photobook de un anime","japanese major debut aesthetic, sky blue and silver, leaning against a wall in a corridor set, looking to the side"
+03,20,EVENT,"Leyendo los mensajes","contenido en directo","japanese major debut aesthetic, sky blue and silver, at a streaming setup with a microphone on a boom arm"
+03,21,EVENT,"Festival del Arena","concierto en el Budokan","japanese major debut aesthetic, sky blue and silver, under a single followspot in a dark hall, mic to the crowd"
+03,22,EVENT,"Retrato en el teatro","sesión para una revista de moda","japanese major debut aesthetic, sky blue and silver, posing against a seamless backdrop with a light stand at the edge"
+03,23,EVENT,"Subetekko","single de debut de una agencia grande","japanese major debut aesthetic, sky blue and silver, sitting on a stool with a guitar, eyes closed, mid-phrase"
+03,24,EVENT,"La formación de apertura","coreografía de un vídeo musical","japanese major debut aesthetic, sky blue and silver, pointing at the camera while stepping sideways"
 04,1,IDOL,SunoMan - Iuamoto,Iwamoto Hikaru (Snow Man),young japanese man black hair bright stage outfit energetic pose
 04,2,IDOL,SunoMan - Raul,Raul (Snow Man),young japanese venezuelan man tall light hair cool stare
 04,3,IDOL,SunoMan - Fukazawa,Fukazawa Tatsuya (Snow Man),young japanese man brown hair casual jacket calm
@@ -90,15 +90,15 @@ set,id,type,name,ref,desc
 04,13,PRODUCER,Rino Nakason,Rino Nakasone (choreographer),japanese woman in a mirrored dance studio counting steps
 04,14,PRODUCER,Maeyamada Kenichi,Maeyamada Kenichi,japanese producer glasses at a keyboard in a small boothy room
 04,15,PRODUCER,Iijima Naoki,Iijima Naoki,japanese man headphones at a mixing desk with strings samples
-04,16,EVENT,La firma de los fans nuevos,una firma para los fans nuevos,signing tables in a theatre foyer with fans queueing
-04,17,EVENT,El escenario del teatro grande,el escenario del gran teatro de la nueva era,grand theatre stage seen from the audience with gilding and velvet
-04,18,EVENT,De la nueva era,un photobook de la nueva era,photoshoot in a traditional hall with modern lighting
-04,19,EVENT,El directo de la nueva era,un directo por streaming de la nueva era,small room lit by a ring light while the group talks to a camera
-04,20,EVENT,En el domo de Tokio,un concierto propio en el domo de Tokio,dome arena with a revolving stage and a waterfall of light
-04,21,EVENT,La portada del nuevo teatro,una portada de revista del nuevo teatro,cover shoot on a theatre stage with a painted backdrop
-04,22,EVENT,El escenario nuevo,la cancion que estrena el escenario nuevo,rehearsal on a bare stage with ropes and counterweights overhead
-04,23,EVENT,La coreografia nueva,la coreografia de la nueva generacion,dance rehearsal on a stage with mirrors and tape marks
-04,24,EVENT,El plato del domingo,una entrevista en el plato del domingo,tv studio set with lit signage and a live audience
+04,16,EVENT,"Autógrafo por número","evento de apretones de manos","japanese major debut aesthetic, sky blue and silver, shaking a hand across the table, both smiling"
+04,17,EVENT,"En directo del programa","emisión de una cadena de televisión","japanese major debut aesthetic, sky blue and silver, walking through a lit venue mid-performance, mic in hand"
+04,18,EVENT,"El libro claro","photobook de un anime","japanese major debut aesthetic, sky blue and silver, posing with a prop on a shelf-lit studio background"
+04,19,EVENT,"Directo de la espera","contenido en directo","japanese major debut aesthetic, sky blue and silver, sitting at a desk in a dim room lit by a ring light and a monitor"
+04,20,EVENT,"El show del Arena","concierto en el Budokan","japanese major debut aesthetic, sky blue and silver, front row of a stage, singing with the band visible behind"
+04,21,EVENT,"Retrato entre tomas","sesión para una revista de moda","japanese major debut aesthetic, sky blue and silver, in front of a step-and-repeat wall, hands in pockets"
+04,22,EVENT,"Ride On Timee","single de debut de una agencia grande","japanese major debut aesthetic, sky blue and silver, leaning over a music stand while singing, sheet music visible"
+04,23,EVENT,"El paso del ending","coreografía de un vídeo musical","japanese major debut aesthetic, sky blue and silver, dancing in formation with a mirrored wall behind"
+04,24,EVENT,"La pregunta dura","entrevista de un magazine","japanese major debut aesthetic, sky blue and silver, seated at a desk with notes and a water glass, talking animatedly"
 05,1,IDOL,Akanishi Jin,Akanishi Jin (ex-KAT-TUN),japanese man 2010s solo artist bleached hair black leather jacket mic in hand
 05,2,IDOL,Nishikido Ryo,Nishikido Ryo (ex-KANJANI8),japanese man 2020s solo singer short dark hair simple shirt quiet stare
 05,3,IDOL,Taguchi Junnosuke,Taguchi Junnosuke (ex-KAT-TUN),japanese man 2010s solo performer short black hair dark suit dance pose
@@ -114,15 +114,15 @@ set,id,type,name,ref,desc
 05,13,PRODUCER,Yoshida Kenji,Yoshida Kenji (producer),japanese man glasses arranging strings at a console late at night
 05,14,PRODUCER,Kawai Kenji,Kawai Kenji (composer),japanese man at a grand piano with a score and a pencil
 05,15,PRODUCER,Yoshii Kazuya,Yoshii Kazuya (THE YELLOW MONKEY),japanese man wild hair sunglasses singing into a vintage microphone
-05,16,EVENT,El primer disco en solitario,el lanzamiento del primer disco en solitario,solo artist holding the first solo album in a studio full of flowers
-05,17,EVENT,La gira en solitario,una gira en solitario por todo Japon,solo singer on a long tour stage with one spotlight and a big crowd
-05,18,EVENT,El recital de piano,un recital en solitario con piano,solo singer at a grand piano in a small hall with warm lights
-05,19,EVENT,La sesion acustica,una sesion acustica para los fans,acoustic session on stools with guitars and a small audience close by
-05,20,EVENT,El fotolibro personal,un fotolibro de la carrera personal,personal photobook shoot in a quiet room with film cameras and soft light
-05,21,EVENT,La unidad nueva,la formacion de una unidad nueva,two japanese idols rehearsing as a new unit with a shared microphone
-05,22,EVENT,El escenario de teatro,un papel protagonista en el teatro,theatre stage with a single singer under a follow spot and heavy curtains
-05,23,EVENT,La colaboracion,una colaboracion con un artista invitado,two artists sharing a studio session with headphones and a mixing desk
-05,24,EVENT,El directo del aniversario,un directo por el aniversario de la carrera,anniversary live stream with balloons and a solo artist talking to the camera
+05,16,EVENT,"La sesión de televisión","emisión de una cadena de televisión","japanese major debut aesthetic, sky blue and silver, on a television studio floor with the camera visible, singing live"
+05,17,EVENT,"Foto del teatro","photobook de un anime","japanese major debut aesthetic, sky blue and silver, seated on a styled chair against a painted backdrop"
+05,18,EVENT,"Grabando en la sala","contenido en directo","japanese major debut aesthetic, sky blue and silver, on a sofa with a laptop open, mid-wave"
+05,19,EVENT,"El show final","concierto en el Budokan","japanese major debut aesthetic, sky blue and silver, walking the stage during an encore, band lights behind"
+05,20,EVENT,"Instantánea de la gala","sesión para una revista de moda","japanese major debut aesthetic, sky blue and silver, on a set dressed as a street, hands on hips"
+05,21,EVENT,"Idoleeee","single de debut de una agencia grande","japanese major debut aesthetic, sky blue and silver, holding the mic in both hands at chest height, looking up"
+05,22,EVENT,"Patinaje sobre el hielo","coreografía de un vídeo musical","japanese major debut aesthetic, sky blue and silver, mid-choreography with legs apart and arms out, sweat visible"
+05,23,EVENT,"Charla del Arena","entrevista de un magazine","japanese major debut aesthetic, sky blue and silver, sitting on a couch, leaning forward, hands clasped"
+05,24,EVENT,"El club del anime","evento de apretones de manos","japanese major debut aesthetic, sky blue and silver, at a signing desk with a stack of photocards, mid-signature"
 06,1,IDOL,TorabisuJipan - Nakamura,Kaito Nakamura (Travis Japan),young japanese man 2020s bright stage outfit short dark hair energetic dance pose
 06,2,IDOL,TorabisuJipan - Matsukura,Kaito Matsukura (Travis Japan),young japanese man 2020s acrobatic dancer light brown hair white tee confident grin
 06,3,IDOL,TorabisuJipan - Noel,Noel Kawashima (Travis Japan),young japanese man 2020s long dark hair elegant black jacket calm gaze
@@ -138,12 +138,12 @@ set,id,type,name,ref,desc
 06,13,PRODUCER,Kenmochi Hidefumi,Kenmochi Hidefumi (Wednesday Campanella),japanese man with glasses and a laptop on a desk full of toys
 06,14,PRODUCER,TeddyLoid,TeddyLoid,japanese man with long hair and headphones in a neon-lit studio
 06,15,PRODUCER,Ayase,Ayase (YOASOBI),japanese man in a hoodie at a keyboard with software glowing on screen
-06,16,EVENT,La nueva camada,un photobook de la nueva camada,young japanese idols in white shirts posing for a photobook in a bright hall
-06,17,EVENT,El directo del aprendiz,un directo de los aprendices desde la sala de ensayo,young japanese trainees answering comments to a phone camera in a practice room
-06,18,EVENT,El concierto del debut,el concierto con el que se presentan,first concert stage with a brand new banner and a crowd holding lightsticks
-06,19,EVENT,El dia del debut,las fotos oficiales del dia del debut,debut day photo call with cameras and a white backdrop full of logos
-06,20,EVENT,La primera cancion,la primera cancion propia del grupo,recording booth with the group around one microphone singing together
-06,21,EVENT,El baile del debut,la coreografia del primer escenario,hard choreography in a mirrored practice room with tape marks on the floor
-06,22,EVENT,La primera entrevista,la primera entrevista del grupo,press interview table with microphones and young idols bowing politely
-06,23,EVENT,La primera firma de manos,el primer encuentro a estrechar manos con los fans,handshake event hall with numbered tables and a long queue of fans
-06,24,EVENT,El primer live en el teatro,el primer directo en el teatro de la casa,theatre stage during a live show seen from the audience with young idols on stage
+06,16,EVENT,"El libro suave","photobook de un anime","japanese major debut aesthetic, sky blue and silver, leaning against a wall in a corridor set, looking to the side"
+06,17,EVENT,"Directo del Arena","contenido en directo","japanese major debut aesthetic, sky blue and silver, at a streaming setup with a microphone on a boom arm"
+06,18,EVENT,"Aplauso del teatro","concierto en el Budokan","japanese major debut aesthetic, sky blue and silver, under a single followspot in a dark hall, mic to the crowd"
+06,19,EVENT,"La portada de seda","sesión para una revista de moda","japanese major debut aesthetic, sky blue and silver, posing against a seamless backdrop with a light stand at the edge"
+06,20,EVENT,"Aitaitee","single de debut de una agencia grande","japanese major debut aesthetic, sky blue and silver, sitting on a stool with a guitar, eyes closed, mid-phrase"
+06,21,EVENT,"La apertura","coreografía de un vídeo musical","japanese major debut aesthetic, sky blue and silver, pointing at the camera while stepping sideways"
+06,22,EVENT,"Respuesta incómoda","entrevista de un magazine","japanese major debut aesthetic, sky blue and silver, standing beside a camera crew, talking with one hand raised"
+06,23,EVENT,"La preventa del single","evento de apretones de manos","japanese major debut aesthetic, sky blue and silver, holding up a photocard and pointing at it, seated"
+06,24,EVENT,"Cantando en el Arena","emisión de una cadena de televisión","japanese major debut aesthetic, sky blue and silver, at a radio booth window, singing into the microphone"

@@ -18,15 +18,15 @@ set,id,type,name,ref,desc
 01,13,PRODUCER,Hitchihaika,Hitchhiker (SM),quirky korean producer sunglasses headphones strange instruments lab
 01,14,PRODUCER,Dem Joint,Dem Jointz,producer in cap and headphones mixing console dark room
 01,15,PRODUCER,EruDiEn,LDN Noise,two producers at a studio console city lights through the window
-01,16,EVENT,El single de debut,el primer single del grupo,1990s korean debut stage white outfits confetti idol singing bright lights
-01,17,EVENT,Concurso en la plaza,un concurso de baile en directo,open air plaza crowd korean teens synchronized dance white outfits summer
-01,18,EVENT,En la radio,una entrevista en el programa de madrugada,cozy radio booth microphone headphones warm lamp idol laughing
-01,19,EVENT,La firma de discos,una firma de autografos en una tienda,record store signing table cassette tapes stack fans queue idol smiling
-01,20,EVENT,El directo en la television,una actuacion en el programa musical,1990s music show stage glittering backdrop idol singing crowd
-01,21,EVENT,El poster,un poster promocional de revista juvenil,teen bedroom wall poster shooting pastel props idol posing playful
-01,22,EVENT,El video de estreno,el primer video musical,bold music video shoot dark set 1990s korean idol dramatic lighting
-01,23,EVENT,SM Town,el concierto de familia de la casa,company family concert arena huge stage many idols group bow lights
-01,24,EVENT,La sesion de portada,una sesion de fotos de portada,photo studio white backdrop elegant 1990s styling idol cover shoot
+01,16,EVENT,"Dynamitee","premiere en un programa de charts","korean music show aesthetic, neon magenta and cobalt, singing into a handheld microphone on a small stage, one hand raised"
+01,17,EVENT,"El paso del tutorial","concurso de baile en televisión","korean music show aesthetic, neon magenta and cobalt, caught between two moves, one leg lifted, motion blur in the limbs"
+01,18,EVENT,"Ronda del ranking","entrevista en una radio musical","korean music show aesthetic, neon magenta and cobalt, at a press table with microphones in front, smiling mid-answer"
+01,19,EVENT,"El fotocard deluxe","fansign con estand de banda","korean music show aesthetic, neon magenta and cobalt, shaking a hand across the table, both smiling"
+01,20,EVENT,"Directo del ranking","emisión del Chart Show","korean music show aesthetic, neon magenta and cobalt, walking through a lit venue mid-performance, mic in hand"
+01,21,EVENT,"El libro oro","photobook de un álbum número uno","korean music show aesthetic, neon magenta and cobalt, posing with a prop on a shelf-lit studio background"
+01,22,EVENT,"Directo del backstage","directo desde el backstage","korean music show aesthetic, neon magenta and cobalt, sitting at a desk in a dim room lit by a ring light and a monitor"
+01,23,EVENT,"El encore deluxe","gira por arenas","korean music show aesthetic, neon magenta and cobalt, front row of a stage, singing with the band visible behind"
+01,24,EVENT,"La portada del ranking","sesión de moda para revista","korean music show aesthetic, neon magenta and cobalt, in front of a step-and-repeat wall, hands in pockets"
 02,1,IDOL,TonBanShinki - Uknow,U-Know Yunho (TVXQ),tall korean man sharp jaw black suit powerful dance pose stage light
 02,2,IDOL,TonBanShinki - Chekang,Max Changmin (TVXQ),tall korean man pale skin black shirt dramatic stage light intense
 02,3,IDOL,SuJu - Iteku,Leeteuk (Super Junior),korean man neat black hair silver suit leader pose bright studio
@@ -42,15 +42,15 @@ set,id,type,name,ref,desc
 02,13,PRODUCER,Tak Yonjun,Tak Young-jun (SM),korean man smart casual office whiteboard plans
 02,14,PRODUCER,Kimu Yonmin,Kim Young-min (SM),older korean man suit office window press conference
 02,15,PRODUCER,Kurisu I,Chris Lee (SM A&R),korean man glasses notebook recording booth glass window
-02,16,EVENT,Los premios MAMA,la gala de premios asiática,awards show stage dance performance spotlights idol group formation
-02,17,EVENT,El morning show,una entrevista en el programa matinal,morning tv studio bright set hosts idol in pastel outfit laughing
-02,18,EVENT,La firma de albumes,una firma de autografos de album,album signing table fans queue idol signing photocard bright hall
-02,19,EVENT,La sala de conciertos,un concierto propio en el gran pabellon,seoul concert hall stage purple lights idol silhouette crowd
-02,20,EVENT,De invierno,un photobook de invierno,winter photobook photoshoot snow pale idols in wool coats soft light
-02,21,EVENT,El directo en la plataforma,un directo en la plataforma de fans,idol alone in a small room talking to a phone camera soft lights
-02,22,EVENT,Madison Square Garden,el pabellón de Nueva York,new york arena interior stage crowd idol performing night lights
-02,23,EVENT,La revista de moda,una portada de revista de moda,fashion magazine cover shoot idol in designer coat studio strobe
-02,24,EVENT,La cancion del aniversario,la cancion de aniversario del grupo,anniversary studio session warm lights group singing together
+02,16,EVENT,"La rutina del teaser","concurso de baile en televisión","korean music show aesthetic, neon magenta and cobalt, spinning with the jacket flying open"
+02,17,EVENT,"Charla de radio","entrevista en una radio musical","korean music show aesthetic, neon magenta and cobalt, in a hallway interview, a microphone held towards the face"
+02,18,EVENT,"El fansign de premios","fansign con estand de banda","korean music show aesthetic, neon magenta and cobalt, bent over a table writing, hands of fans reaching into frame"
+02,19,EVENT,"La emisión del music","emisión del Chart Show","korean music show aesthetic, neon magenta and cobalt, on a television studio floor with the camera visible, singing live"
+02,20,EVENT,"El libro del mes","photobook de un álbum número uno","korean music show aesthetic, neon magenta and cobalt, seated on a styled chair against a painted backdrop"
+02,21,EVENT,"Directo con los fans","directo desde el backstage","korean music show aesthetic, neon magenta and cobalt, on a sofa with a laptop open, mid-wave"
+02,22,EVENT,"La ovación","gira por arenas","korean music show aesthetic, neon magenta and cobalt, walking the stage during an encore, band lights behind"
+02,23,EVENT,"Retrato del photocall","sesión de moda para revista","korean music show aesthetic, neon magenta and cobalt, on a set dressed as a street, hands on hips"
+02,24,EVENT,"Butterr","premiere en un programa de charts","korean music show aesthetic, neon magenta and cobalt, holding the mic in both hands at chest height, looking up"
 03,1,IDOL,EnSiTi - Teyon,Taeyong (NCT),korean man sharp features white hair bomber jacket dance pose
 03,2,IDOL,EnSiTi - Jeno,Jeno (NCT),young korean man dark hair black tank top dance pose stage smoke
 03,3,IDOL,Esupa - Karina,Karina (aespa),korean woman long black hair futuristic silver outfit cool stare neon
@@ -66,15 +66,15 @@ set,id,type,name,ref,desc
 03,13,PRODUCER,ChaCha Maron,Cha Cha Malone,producer with cap and headphones studio console night city
 03,14,PRODUCER,Buiedo,Vedo,producer with beard and hat at a keyboard warm studio
 03,15,PRODUCER,DiSain,Dsign Music,european producer at a large mixing console blue light
-03,16,EVENT,La prensa mundial,una rueda de prensa internacional,press conference table microphones many journalists idol calm
-03,17,EVENT,El encuentro con los fans,un encuentro de firmas con los fans,photocard trading meet fans binder cards bright hall
-03,18,EVENT,El live en el programa musical,una actuacion en directo en la tele,live tv music show stage neon logo idol performing crowd banners
-03,19,EVENT,De aniversario,un photobook del aniversario del grupo,anniversary photobook studio warm film camera props nostalgia
-03,20,EVENT,El directo de madrugada,un directo de madrugada para los fans,idol in a dim room at night talking to a phone camera cozy
-03,21,EVENT,El concierto de la casa,un concierto de aniversario de la agencia,anniversary concert stage all generations idol families confetti
-03,22,EVENT,Portada internacional,una portada de moda internacional,high fashion editorial shoot idol designer outfit dramatic light
-03,23,EVENT,El single de colaboracion,un single con un artista internacional,collaboration studio two artists mixed styles neon lights console
-03,24,EVENT,La generacion digital,una coreografia para un escenario virtual,virtual concert stage holographic dancers neon crowd digital avatars
+03,16,EVENT,"Pregunta del guion","entrevista en una radio musical","korean music show aesthetic, neon magenta and cobalt, seated at a radio desk with headphones around the neck, gesturing"
+03,17,EVENT,"El stand de discos","fansign con estand de banda","korean music show aesthetic, neon magenta and cobalt, handing something small over the barrier to an outstretched hand"
+03,18,EVENT,"Directo de los premios","emisión del Chart Show","korean music show aesthetic, neon magenta and cobalt, at a broadcast desk with a headset on, talking into the mic"
+03,19,EVENT,"El libro negro","photobook de un álbum número uno","korean music show aesthetic, neon magenta and cobalt, leaning against a wall in a corridor set, looking to the side"
+03,20,EVENT,"Directo del estudio","directo desde el backstage","korean music show aesthetic, neon magenta and cobalt, at a streaming setup with a microphone on a boom arm"
+03,21,EVENT,"Festival del hit","gira por arenas","korean music show aesthetic, neon magenta and cobalt, under a single followspot in a dark hall, mic to the crowd"
+03,22,EVENT,"Retrato del ranking","sesión de moda para revista","korean music show aesthetic, neon magenta and cobalt, posing against a seamless backdrop with a light stand at the edge"
+03,23,EVENT,"Boy With Luff","premiere en un programa de charts","korean music show aesthetic, neon magenta and cobalt, sitting on a stool with a guitar, eyes closed, mid-phrase"
+03,24,EVENT,"Ensayo con la banda","concurso de baile en televisión","korean music show aesthetic, neon magenta and cobalt, pointing at the camera while stepping sideways"
 04,1,IDOL,Aesupa - Jiseru,Giselle (aespa),korean japanese woman long black hair graphic tee confident smirk
 04,2,IDOL,Aesupa - Ningning,Ningning (aespa),chinese woman long dark wavy hair silver top fierce gaze
 04,3,IDOL,Riijeu - Anton,Anton (RIIZE),korean american young man soft brown hair tall gentle smile
@@ -90,15 +90,15 @@ set,id,type,name,ref,desc
 04,13,PRODUCER,Kenzi,Kenzie (SM),korean woman producer headphones at a bright synthesizer
 04,14,PRODUCER,Anduru Choe,Andrew Choi,korean american songwriter at a keyboard with a notebook warm lamp
 04,15,PRODUCER,Kim Yonmin,Kim Young-min (SM),korean man grey suit in a glass office over the city
-04,16,EVENT,La firma de los fans nuevos,una firma para los fans nuevos,signing tables and a long queue in a bright hall
-04,17,EVENT,La gira por el mundo,una gira mundial que pasa por todas partes,world tour stage seen from the roof of the venue at night
-04,18,EVENT,De gran produccion,un photobook de maxima produccion,high production photoshoot with cranes against a white cyclorama
-04,19,EVENT,El directo con avatares,un directo por streaming con avatares,broadcast studio with motion capture suits and screens
-04,20,EVENT,El domo de la casa,un concierto propio en el domo,dome concert with an orchestra of lights and a huge crowd
-04,21,EVENT,La portada de la nueva era,una portada de revista de la nueva era,magazine cover shoot in a white studio with hard light
-04,22,EVENT,Aniversario de casa,la cancion del aniversario de la casa,anniversary session with a choir and gold records on the wall
-04,23,EVENT,La coreografia imposible,una coreografia de dificultad extrema,hard choreography filmed in a mirrored practice room
-04,24,EVENT,La rueda global,una rueda de prensa con la prensa global,press room with many cameras and a white backdrop
+04,16,EVENT,"La banda de los fans","fansign con estand de banda","korean music show aesthetic, neon magenta and cobalt, shaking a hand across the table, both smiling"
+04,17,EVENT,"La noche del ranking","emisión del Chart Show","korean music show aesthetic, neon magenta and cobalt, walking through a lit venue mid-performance, mic in hand"
+04,18,EVENT,"El libro pop","photobook de un álbum número uno","korean music show aesthetic, neon magenta and cobalt, posing with a prop on a shelf-lit studio background"
+04,19,EVENT,"Leyendo los tuits","directo desde el backstage","korean music show aesthetic, neon magenta and cobalt, sitting at a desk in a dim room lit by a ring light and a monitor"
+04,20,EVENT,"El bis del teaser","gira por arenas","korean music show aesthetic, neon magenta and cobalt, front row of a stage, singing with the band visible behind"
+04,21,EVENT,"La sesión de moda","sesión de moda para revista","korean music show aesthetic, neon magenta and cobalt, in front of a step-and-repeat wall, hands in pockets"
+04,22,EVENT,"Spring Lay","premiere en un programa de charts","korean music show aesthetic, neon magenta and cobalt, leaning over a music stand while singing, sheet music visible"
+04,23,EVENT,"El paso ensayado","concurso de baile en televisión","korean music show aesthetic, neon magenta and cobalt, dancing in formation with a mirrored wall behind"
+04,24,EVENT,"La charla breve","entrevista en una radio musical","korean music show aesthetic, neon magenta and cobalt, seated at a desk with notes and a water glass, talking animatedly"
 05,1,IDOL,Ekuso - Kai,Kai (EXO solo),korean man 2020s solo dancer red suit sharp moves confident
 05,2,IDOL,Ekuso - Dio,D.O. (EXO solo),korean man 2020s soft solo vocalist short black hair light grey knit
 05,3,IDOL,Ekuso - Suho,Suho (EXO solo),korean man 2020s warm solo vocalist black hair oversized white shirt gentle
@@ -114,15 +114,15 @@ set,id,type,name,ref,desc
 05,13,PRODUCER,Eren Beruku,Ellen Berg,swedish woman 2020s songwriter long dark hair headphones warm studio
 05,14,PRODUCER,Diseu,Deez (SM),korean man 2020s producer cap dark hoodie studio console night
 05,15,PRODUCER,Eidorian Makkinon,Adrian McKinnon,british man 2020s songwriter headphones at a vocal booth console
-05,16,EVENT,El primer single en solitario,el debut en solitario de un miembro,solo artist alone on a small stage with one spotlight and a mic stand
-05,17,EVENT,La gira en solitario,una gira propia sin el grupo,solo tour stage with a lone figure and a wall of phone lights
-05,18,EVENT,El concierto acustico,un concierto acustico en un teatro,acoustic concert in a small hall with a grand piano and warm light
-05,19,EVENT,El disco de versiones,un album de versiones de sus canciones,solo studio session with a mic a guitar and handwritten lyric sheets
-05,20,EVENT,El recital de invierno,un recital de invierno para los fans,winter recital hall with a piano candles and a small audience
-05,21,EVENT,El musical,un papel protagonista en un musical,musical theatre stage with a solo singer in costume and a small orchestra
-05,22,EVENT,La sesion de fotos sola,un fotolibro en solitario,solo photobook shoot with simple props and one soft light
-05,23,EVENT,La colaboracion a duo,un single a duo con otro artista,duo recording session two singers at one microphone in a warm booth
-05,24,EVENT,El escenario propio,un escenario propio para la unidad,unit stage for two performers with matching outfits and a bold backdrop
+05,16,EVENT,"En vivo del programa","emisión del Chart Show","korean music show aesthetic, neon magenta and cobalt, on a television studio floor with the camera visible, singing live"
+05,17,EVENT,"Fotografía de oro","photobook de un álbum número uno","korean music show aesthetic, neon magenta and cobalt, seated on a styled chair against a painted backdrop"
+05,18,EVENT,"Directo a la 1am","directo desde el backstage","korean music show aesthetic, neon magenta and cobalt, on a sofa with a laptop open, mid-wave"
+05,19,EVENT,"La noche del Arena","gira por arenas","korean music show aesthetic, neon magenta and cobalt, walking the stage during an encore, band lights behind"
+05,20,EVENT,"La portada pop","sesión de moda para revista","korean music show aesthetic, neon magenta and cobalt, on a set dressed as a street, hands on hips"
+05,21,EVENT,"Blood Suckerr","premiere en un programa de charts","korean music show aesthetic, neon magenta and cobalt, holding the mic in both hands at chest height, looking up"
+05,22,EVENT,"La rutina del grupo","concurso de baile en televisión","korean music show aesthetic, neon magenta and cobalt, mid-choreography with legs apart and arms out, sweat visible"
+05,23,EVENT,"Ronda matinal","entrevista en una radio musical","korean music show aesthetic, neon magenta and cobalt, sitting on a couch, leaning forward, hands clasped"
+05,24,EVENT,"El cartel del chart","fansign con estand de banda","korean music show aesthetic, neon magenta and cobalt, at a signing desk with a stack of photocards, mid-signature"
 06,1,IDOL,Riijeu - Shotaro,Shotaro (RIIZE),young japanese man 2020s rookie dancer cropped black hair bomber jacket sharp move
 06,2,IDOL,Riijeu - Unseok,Eunseok (RIIZE),young korean man 2020s new group member dark wavy hair white tee calm gaze
 06,3,IDOL,Riijeu - Sonchan,Sungchan (RIIZE),tall korean man 2020s rookie rapper black hair oversized shirt confident stance
@@ -138,12 +138,12 @@ set,id,type,name,ref,desc
 06,13,PRODUCER,Anne Judith Wik,Anne Judith Wik,european woman songwriter at a microphone in a warm studio booth
 06,14,PRODUCER,Jamil Digi Chammas,Jamil Digi Chammas,korean american man producer headphones at a console with neon light
 06,15,PRODUCER,Jan Chor-hyoku,Jang Cheol-hyuk (SM),korean man 2020s label chief grey suit in a glass office above the city
-06,16,EVENT,La evaluacion mensual,una evaluacion mensual de la casa,practice room with numbered mats and evaluators watching a line of trainees
-06,17,EVENT,El dia del debut,el dia en que el grupo se presenta,debut showcase stage with a brand new logo and a full press row
-06,18,EVENT,El primer escenario,el primer escenario propio,small stage with a first crowd and a row of phone lights raised
-06,19,EVENT,La primera firma,una firma de discos para los fans nuevos,signing tables with a short queue and nervous first fans in a bright hall
-06,20,EVENT,El primer programa,la primera actuacion en la television,live tv music show stage with rookie outfits and a small banner
-06,21,EVENT,La primera victoria,el primer numero uno en un programa de musica,music show stage with confetti falling over a surprised young group
-06,22,EVENT,La primera gira,una primera gira corta por el pais,small tour bus outside a venue at night under a lit marquee
-06,23,EVENT,El primer aniversario,el primer aniversario del grupo,first anniversary party with a cake and confetti in a practice room
-06,24,EVENT,El primer fotolibro,un primer fotolibro del grupo,photobook shoot with pastel props and a playful young group
+06,16,EVENT,"Álbum de charts","photobook de un álbum número uno","korean music show aesthetic, neon magenta and cobalt, leaning against a wall in a corridor set, looking to the side"
+06,17,EVENT,"Directo del camerino","directo desde el backstage","korean music show aesthetic, neon magenta and cobalt, at a streaming setup with a microphone on a boom arm"
+06,18,EVENT,"El show del hit","gira por arenas","korean music show aesthetic, neon magenta and cobalt, under a single followspot in a dark hall, mic to the crowd"
+06,19,EVENT,"La portada dorada","sesión de moda para revista","korean music show aesthetic, neon magenta and cobalt, posing against a seamless backdrop with a light stand at the edge"
+06,20,EVENT,"Super Shiy","premiere en un programa de charts","korean music show aesthetic, neon magenta and cobalt, sitting on a stool with a guitar, eyes closed, mid-phrase"
+06,21,EVENT,"El paso en la recta","concurso de baile en televisión","korean music show aesthetic, neon magenta and cobalt, pointing at the camera while stepping sideways"
+06,22,EVENT,"Del buen humor","entrevista en una radio musical","korean music show aesthetic, neon magenta and cobalt, standing beside a camera crew, talking with one hand raised"
+06,23,EVENT,"Autógrafo del love","fansign con estand de banda","korean music show aesthetic, neon magenta and cobalt, holding up a photocard and pointing at it, seated"
+06,24,EVENT,"El directo del music","emisión del Chart Show","korean music show aesthetic, neon magenta and cobalt, at a radio booth window, singing into the microphone"

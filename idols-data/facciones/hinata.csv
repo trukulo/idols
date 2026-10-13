@@ -1,5 +1,5 @@
 # HINATA (HNT) — la casa del TEATRO Y DE LAS MANOS ESTRECHADAS (parodia del estilo AKB48 / Avex). Oro.
-# 日向 = el sol que da de frente: la casa-máquina de grupos numerosos, elecciones y encuentros con los fans.
+# 日向 = el sol que da de frente: la casa de las voces, la balada y el recital.
 # Columnas: set,id,type,name,ref,desc  (ver la cabecera de haneul.csv)
 # Era de cada set: 01 las madrugadoras (1998-2006) · 02 las elecciones (2006-2016) · 03 los equipos hermanos (2017-hoy) · 04 la era de los relevos · 05 los solistas y las unidades · 06 la nueva ola
 set,id,type,name,ref,desc
@@ -18,15 +18,15 @@ set,id,type,name,ref,desc
 01,13,PRODUCER,Komuro Tetsuya,Tetsuya Komuro,japanese man 1990s long hair sunglasses keyboard synthesizer studio neon
 01,14,PRODUCER,Inoue Yoshimasa,Yoshimasa Inoue,japanese composer at a piano with score sheets warm light
 01,15,PRODUCER,Kawaura Masahiro,Masahiro Kawaura,japanese composer headphones synthesizer bright studio
-01,16,EVENT,La cancion del teatro,la primera cancion del teatro propio,small japanese theater stage young idols debut red seats bright
-01,17,EVENT,El baile en el teatro,la coreografia del teatro propio,japanese theater stage synchronized dance idols colorful costumes bright
-01,18,EVENT,La radio de casa,una entrevista en la radio propia,small japanese radio booth microphones idol talking warm light
-01,19,EVENT,La firma de fotos,una sesion de firmas con los fans,japanese signing event table fans queue idol smiling 2000s
-01,20,EVENT,El Tokio Dome,el primer domo lleno del grupo,tokyo dome arena interior full crowd penlights idol center stage
-01,21,EVENT,De revista,una sesion para una revista juvenil,japanese photo studio pink backdrop idol posing 2000s styling
-01,22,EVENT,El video de estreno,el primer video musical,japanese music video shoot colorful set 2000s idol group dancing
-01,23,EVENT,El concierto de verano,un concierto de verano en un gran recinto,summer stadium concert fireworks crowd lightsticks idols
-01,24,EVENT,La sesion de portada,una sesion de fotos de portada,japanese studio cover shoot idols in matching outfits bright light
+01,16,EVENT,"Lemmon","balada para una serie","japanese ballad aesthetic, plum and warm gold, singing into a handheld microphone on a small stage, one hand raised"
+01,17,EVENT,"El telón del recital","coreografía de un recital","japanese ballad aesthetic, plum and warm gold, caught between two moves, one leg lifted, motion blur in the limbs"
+01,18,EVENT,"La charla nocturna","entrevista en un programa nocturno","japanese ballad aesthetic, plum and warm gold, at a press table with microphones in front, smiling mid-answer"
+01,19,EVENT,"El fansign del recital","evento de firmas de un recital","japanese ballad aesthetic, plum and warm gold, shaking a hand across the table, both smiling"
+01,20,EVENT,"El directo de la noche","recital en directo","japanese ballad aesthetic, plum and warm gold, walking through a lit venue mid-performance, mic in hand"
+01,21,EVENT,"El libro otoño","photobook de un recital de otoño","japanese ballad aesthetic, plum and warm gold, posing with a prop on a shelf-lit studio background"
+01,22,EVENT,"Directo de la fanbase","directo acústico en abierto","japanese ballad aesthetic, plum and warm gold, sitting at a desk in a dim room lit by a ring light and a monitor"
+01,23,EVENT,"En el estadio","concierto en el Nippon Budokan","japanese ballad aesthetic, plum and warm gold, front row of a stage, singing with the band visible behind"
+01,24,EVENT,"La portada suave","sesión de fotos para el álbum","japanese ballad aesthetic, plum and warm gold, in front of a step-and-repeat wall, hands in pockets"
 02,1,IDOL,EkeBi - Maeda,Maeda Atsuko (AKB48),japanese woman 2010s straight dark hair white dress serious gentle gaze
 02,2,IDOL,EkeBi - Oshima,Oshima Yuko (AKB48),japanese woman 2010s short hair bright smile energetic stage pose
 02,3,IDOL,EkeBi - Watanabe,Watanabe Mayu (AKB48),young japanese woman 2010s twin tails blue dress cute stage pose
@@ -42,15 +42,15 @@ set,id,type,name,ref,desc
 02,13,PRODUCER,Ito Shintaro,Shintaro Ito,japanese composer guitar studio warm light
 02,14,PRODUCER,Nakata Yasutaka,Yasutaka Nakata,japanese producer glasses synthesizers neon studio
 02,15,PRODUCER,Osawa Shinichi,Shinichi Osawa,japanese man sunglasses dj turntables dark club
-02,16,EVENT,La coreografia de las manos,la coreografia del grupo numeroso,japanese theater stage large group synchronized dance bright costumes
-02,17,EVENT,El programa de tarde,una entrevista en el programa de la tarde,japanese afternoon tv studio set idol in pastel outfit hosts
-02,18,EVENT,Manos estrechadas,un encuentro de manos con los fans,handshake event hall fans queue idols smiling table bright
-02,19,EVENT,El live en el gran teatro,una actuacion en directo en el teatro,japanese theater stage musical lights idol group red seats
-02,20,EVENT,El photobook de verano,un photobook de verano en la playa,beach photoshoot summer photobook swimwear japanese idols sun
-02,21,EVENT,La elección general,la votación anual del grupo,theater stage ranking board fans vote idol bowing spotlight
-02,22,EVENT,La gira por todo Japon,una gira por las ciudades de Japon,japanese tour stage lights idols waving crowd night
-02,23,EVENT,La portada de la revista,una portada de revista juvenil,japanese magazine cover shoot studio light idol group in white
-02,24,EVENT,La cancion electoral,la cancion de la campana de elecciones,japanese election campaign song poster wall idols in sashes bright hall
+02,16,EVENT,"El paso de la balada","coreografía de un recital","japanese ballad aesthetic, plum and warm gold, spinning with the jacket flying open"
+02,17,EVENT,"Micro de la radio","entrevista en un programa nocturno","japanese ballad aesthetic, plum and warm gold, in a hallway interview, a microphone held towards the face"
+02,18,EVENT,"El turno del fans","evento de firmas de un recital","japanese ballad aesthetic, plum and warm gold, bent over a table writing, hands of fans reaching into frame"
+02,19,EVENT,"La emisión del Nippon","recital en directo","japanese ballad aesthetic, plum and warm gold, on a television studio floor with the camera visible, singing live"
+02,20,EVENT,"El libro oto","photobook de un recital de otoño","japanese ballad aesthetic, plum and warm gold, seated on a styled chair against a painted backdrop"
+02,21,EVENT,"Directo del canal","directo acústico en abierto","japanese ballad aesthetic, plum and warm gold, on a sofa with a laptop open, mid-wave"
+02,22,EVENT,"En el teatro","concierto en el Nippon Budokan","japanese ballad aesthetic, plum and warm gold, walking the stage during an encore, band lights behind"
+02,23,EVENT,"Retrato en el Nippon","sesión de fotos para el álbum","japanese ballad aesthetic, plum and warm gold, on a set dressed as a street, hands on hips"
+02,24,EVENT,"Shinunoga E-Waa","balada para una serie","japanese ballad aesthetic, plum and warm gold, holding the mic in both hands at chest height, looking up"
 03,1,IDOL,EkeBi - Oguri,Oguri Yui (AKB48),japanese woman 2020s short hair modern stage outfit confident pose
 03,2,IDOL,EichiKeiTi - Sakura,Miyawaki Sakura (HKT48),japanese woman 2020s pink hair elegant stage dress idol pose
 03,3,IDOL,Nogizaka - Saito,Saito Asuka (Nogizaka46),japanese woman 2020s long dark hair red dress elegant gaze
@@ -66,15 +66,15 @@ set,id,type,name,ref,desc
 03,13,PRODUCER,Kuranoo Narumi,Kuranoo Narumi (AKB48),japanese woman short hair modern idol costume confident pose
 03,14,PRODUCER,Sashihara Rino,Sashihara Rino (HKT48),japanese woman wavy hair producer sunglasses meeting room notes
 03,15,PRODUCER,DJ Koo,DJ Koo (TRF),japanese man sunglasses dj turntables stage lights crowd
-03,16,EVENT,El programa matinal,una entrevista en el programa matinal,japanese morning tv studio bright set idol smiling hosts
-03,17,EVENT,Los apretones de manos,los apretones en el teatro,theater lobby handshake line fans idol smiling name tags
-03,18,EVENT,El live en el teatro,una actuacion en directo en el teatro,japanese theater live stage lights idol group in costume bowing
-03,19,EVENT,De graduacion,un photobook de graduacion,graduation photobook flowers white dress idol emotional soft light
-03,20,EVENT,El directo de madrugada,un directo de madrugada para los fans,idol alone in a small room at night talking to a phone camera
-03,21,EVENT,En el gran domo,un concierto en el gran domo de Tokyo,tokyo dome concert sea of lightsticks idols on stage epic
-03,22,EVENT,La portada de moda,una portada de revista de moda,japanese fashion magazine cover shoot idol in elegant white styling
-03,23,EVENT,Del equipo nuevo,la cancion del equipo hermano nuevo,new japanese idol group debut song stage young girls in white confetti
-03,24,EVENT,El baile del equipo nuevo,la coreografia del equipo hermano nuevo,young japanese dance crew synchronized choreography bright rehearsal
+03,16,EVENT,"Ronda del magazine","entrevista en un programa nocturno","japanese ballad aesthetic, plum and warm gold, seated at a radio desk with headphones around the neck, gesturing"
+03,17,EVENT,"El cartel del Nippon","evento de firmas de un recital","japanese ballad aesthetic, plum and warm gold, handing something small over the barrier to an outstretched hand"
+03,18,EVENT,"Directo del recital","recital en directo","japanese ballad aesthetic, plum and warm gold, at a broadcast desk with a headset on, talking into the mic"
+03,19,EVENT,"El libro frío","photobook de un recital de otoño","japanese ballad aesthetic, plum and warm gold, leaning against a wall in a corridor set, looking to the side"
+03,20,EVENT,"Leyendo los wishes","directo acústico en abierto","japanese ballad aesthetic, plum and warm gold, at a streaming setup with a microphone on a boom arm"
+03,21,EVENT,"Festival de hielo","concierto en el Nippon Budokan","japanese ballad aesthetic, plum and warm gold, under a single followspot in a dark hall, mic to the crowd"
+03,22,EVENT,"La sesión del recital","sesión de fotos para el álbum","japanese ballad aesthetic, plum and warm gold, posing against a seamless backdrop with a light stand at the edge"
+03,23,EVENT,"Sukimma","balada para una serie","japanese ballad aesthetic, plum and warm gold, sitting on a stool with a guitar, eyes closed, mid-phrase"
+03,24,EVENT,"Ensayo con el piano","coreografía de un recital","japanese ballad aesthetic, plum and warm gold, pointing at the camera while stepping sideways"
 04,1,IDOL,Nogizaka - Asuka,Saito Asuka (Nogizaka46),young japanese woman short black hair white dress calm elegant
 04,2,IDOL,Nogizaka - Ikuta,Ikuta Erika (Nogizaka46),young japanese woman long dark hair blue dress graceful
 04,3,IDOL,Nogizaka - Yoda,Yoda Yuki (Nogizaka46),young japanese woman bob hair playful smirk casual
@@ -90,15 +90,15 @@ set,id,type,name,ref,desc
 04,13,PRODUCER,Miyawaki Sakura,Miyawaki Sakura (ex-HKT48),japanese woman long hair casual chic calm stare
 04,14,PRODUCER,Matsui Jurina,Matsui Jurina (ex-SKE48),japanese woman long dark hair stage outfit focused
 04,15,PRODUCER,Abe Natsumi,Abe Natsumi (ex-Morning Musume),japanese woman long hair pastel cardigan in a bright rehearsal room
-04,16,EVENT,Firmas en el teatro,una sesion de firmas en el teatro nuevo,long tables of handshake queues in a huge bright hall
-04,17,EVENT,Verano en el teatro,un concierto de verano al aire libre,open air stage under festival lanterns with a standing crowd
-04,18,EVENT,De la nueva era,un photobook de la nueva era,photoshoot in a temple ground with stone steps and paper lamps
-04,19,EVENT,Directo con las fans,un directo de madrugada para las fans,idol in a dim room at night talking to a phone camera
-04,20,EVENT,La gira de la era,un concierto propio de la nueva era,stadium in the round with a runway out into the audience
-04,21,EVENT,La portada de la nueva era,una portada de moda de la nueva era,high fashion shoot in a concrete studio with hard light
-04,22,EVENT,Estreno de la era,la cancion que estrena la nueva era,studio session with a small band and paper lanterns on the floor
-04,23,EVENT,La nueva generacion,el baile de la nueva generacion,street dance on a rooftop with paper lanterns strung overhead
-04,24,EVENT,La mesa redonda,una mesa redonda con la prensa,press table with microphones and many reporters
+04,16,EVENT,"La lista de la gira","evento de firmas de un recital","japanese ballad aesthetic, plum and warm gold, shaking a hand across the table, both smiling"
+04,17,EVENT,"La noche en el Arena","recital en directo","japanese ballad aesthetic, plum and warm gold, walking through a lit venue mid-performance, mic in hand"
+04,18,EVENT,"El libro calma","photobook de un recital de otoño","japanese ballad aesthetic, plum and warm gold, posing with a prop on a shelf-lit studio background"
+04,19,EVENT,"Directo del atril","directo acústico en abierto","japanese ballad aesthetic, plum and warm gold, sitting at a desk in a dim room lit by a ring light and a monitor"
+04,20,EVENT,"El show del Nippon","concierto en el Nippon Budokan","japanese ballad aesthetic, plum and warm gold, front row of a stage, singing with the band visible behind"
+04,21,EVENT,"Retrato de otoño","sesión de fotos para el álbum","japanese ballad aesthetic, plum and warm gold, in front of a step-and-repeat wall, hands in pockets"
+04,22,EVENT,"Yasashiisa","balada para una serie","japanese ballad aesthetic, plum and warm gold, leaning over a music stand while singing, sheet music visible"
+04,23,EVENT,"La coreografía suave","coreografía de un recital","japanese ballad aesthetic, plum and warm gold, dancing in formation with a mirrored wall behind"
+04,24,EVENT,"Pregunta difícil","entrevista en un programa nocturno","japanese ballad aesthetic, plum and warm gold, seated at a desk with notes and a water glass, talking animatedly"
 05,1,IDOL,Itano Tomomi,Itano Tomomi (ex-AKB48),japanese woman 2010s long brown hair sequin dress cool solo stage
 05,2,IDOL,Matsui Rena,Matsui Rena (ex-SKE48),japanese woman 2010s long black hair white dress composed solo stage
 05,3,IDOL,Nishino Nanase,Nishino Nanase (ex-Nogizaka46),japanese woman 2010s long dark hair soft knit gentle solo light
@@ -114,15 +114,15 @@ set,id,type,name,ref,desc
 05,13,PRODUCER,Daisuke Asakura,Daisuke Asakura (Avex),japanese man sunglasses synthesizer stack neon studio bright lights
 05,14,PRODUCER,Shoichiro Hirata,Shoichiro Hirata (Avex),japanese man producer at a rack of synthesizers with a laptop
 05,15,PRODUCER,Kotaro Egami,Kotaro Egami (Avex),japanese man composer at a grand piano with sheet music warm
-05,16,EVENT,El primer disco en solitario,el primer disco en solitario de la casa,solo artist holding her first album in a small record shop
-05,17,EVENT,La gira en solitario,una gira por teatros de una solista,solo tour stage with a small band and one spotlight on the singer
-05,18,EVENT,El recital acustico,un recital acustico de la solista,acoustic recital on a wooden stage with a guitar and soft lights
-05,19,EVENT,La actuacion teatral,una actuacion en solitario en el teatro,japanese theater stage one idol alone in the spotlight red seats
-05,20,EVENT,La unidad nueva,la primera cancion de la unidad nueva,two idols on a small stage singing together into one microphone
-05,21,EVENT,El fotolibro personal,un fotolibro de la solista,photoshoot of one idol in a summer town with film cameras around
-05,22,EVENT,El directo de la graduada,un directo de una miembro graduada,graduated idol alone at night talking to a phone camera in a room
-05,23,EVENT,La portada en solitario,una portada de revista en solitario,magazine cover shoot with one idol in white styling hard light
-05,24,EVENT,La despedida del grupo,la ceremonia de graduacion de una miembro,graduation ceremony on a theater stage with the whole group bowing
+05,16,EVENT,"En directo de la radio","recital en directo","japanese ballad aesthetic, plum and warm gold, on a television studio floor with the camera visible, singing live"
+05,17,EVENT,"Foto del Nippon","photobook de un recital de otoño","japanese ballad aesthetic, plum and warm gold, seated on a styled chair against a painted backdrop"
+05,18,EVENT,"Directo del Nippon","directo acústico en abierto","japanese ballad aesthetic, plum and warm gold, on a sofa with a laptop open, mid-wave"
+05,19,EVENT,"El show largo","concierto en el Nippon Budokan","japanese ballad aesthetic, plum and warm gold, walking the stage during an encore, band lights behind"
+05,20,EVENT,"Retrato entre temas","sesión de fotos para el álbum","japanese ballad aesthetic, plum and warm gold, on a set dressed as a street, hands on hips"
+05,21,EVENT,"Otona no Ryouguri","balada para una serie","japanese ballad aesthetic, plum and warm gold, holding the mic in both hands at chest height, looking up"
+05,22,EVENT,"El paso del silencio","coreografía de un recital","japanese ballad aesthetic, plum and warm gold, mid-choreography with legs apart and arms out, sweat visible"
+05,23,EVENT,"Charla del Nippon","entrevista en un programa nocturno","japanese ballad aesthetic, plum and warm gold, sitting on a couch, leaning forward, hands clasped"
+05,24,EVENT,"El club de la balada","evento de firmas de un recital","japanese ballad aesthetic, plum and warm gold, at a signing desk with a stack of photocards, mid-signature"
 06,1,IDOL,EkkusuJii - Jurin,Jurin (XG),young japanese woman 2020s long black hair streetwear jacket fierce gaze
 06,2,IDOL,EkkusuJii - Chisa,Chisa (XG),young japanese woman 2020s dark wavy hair leather jacket powerful voice pose
 06,3,IDOL,EkkusuJii - Hinata,Hinata (XG),young japanese woman 2020s bob hair urban outfit cool stare stage
@@ -138,12 +138,12 @@ set,id,type,name,ref,desc
 06,13,PRODUCER,Kameda Seiji,Seiji Kameda,japanese man 2020s producer at an analogue console with a tape machine warm light
 06,14,PRODUCER,Sasaki Kumi,Sasaki Kumi (Hinatazaka46),japanese woman 2020s short hair team jacket with a clipboard in a theatre lobby
 06,15,PRODUCER,Takahashi Ai,Takahashi Ai (ex-Morning Musume),japanese woman 2020s long hair blazer at a desk full of schedules
-06,16,EVENT,El examen del mes,la evaluacion mensual de las aprendices,practice hall with numbered floor mats and evaluators at a long table
-06,17,EVENT,El primer escenario,el primer escenario de la nueva generacion,small theatre stage with a fresh banner and a new group bowing together
-06,18,EVENT,La clase del amanecer,las clases de baile al amanecer,dance class at dawn with striped flooring and mirrors full of trainees
-06,19,EVENT,El dia del debut,el dia del debut de la nueva generacion,backstage corridor on debut day with costumes on a rail and a nervous queue
-06,20,EVENT,La primera firma,el primer encuentro de manos de la nueva generacion,long tables of name tags and a queue of fans at a first handshake
-06,21,EVENT,La cancion del debut,la cancion que estrena a la nueva generacion,studio session with a small band and a whiteboard of choreography notes
-06,22,EVENT,El dormitorio nuevo,la vida en el dormitorio nuevo,shared dormitory room with bunk beds and practice clothes drying on a rail
-06,23,EVENT,La gira de los nuevos,la primera gira de la nueva generacion,small regional theatre stage with paper lanterns and a standing crowd
-06,24,EVENT,La foto del equipo,la foto oficial del equipo nuevo,group photo on a theatre staircase with everyone in matching white outfits
+06,16,EVENT,"El libro del atril","photobook de un recital de otoño","japanese ballad aesthetic, plum and warm gold, leaning against a wall in a corridor set, looking to the side"
+06,17,EVENT,"En directo del atril","directo acústico en abierto","japanese ballad aesthetic, plum and warm gold, at a streaming setup with a microphone on a boom arm"
+06,18,EVENT,"La última nota","concierto en el Nippon Budokan","japanese ballad aesthetic, plum and warm gold, under a single followspot in a dark hall, mic to the crowd"
+06,19,EVENT,"El retrato suave","sesión de fotos para el álbum","japanese ballad aesthetic, plum and warm gold, posing against a seamless backdrop with a light stand at the edge"
+06,20,EVENT,"Marigoldt","balada para una serie","japanese ballad aesthetic, plum and warm gold, sitting on a stool with a guitar, eyes closed, mid-phrase"
+06,21,EVENT,"Bailando en el atardecer","coreografía de un recital","japanese ballad aesthetic, plum and warm gold, pointing at the camera while stepping sideways"
+06,22,EVENT,"Ronda amable","entrevista en un programa nocturno","japanese ballad aesthetic, plum and warm gold, standing beside a camera crew, talking with one hand raised"
+06,23,EVENT,"La preventa del álbum","evento de firmas de un recital","japanese ballad aesthetic, plum and warm gold, holding up a photocard and pointing at it, seated"
+06,24,EVENT,"Cantando en el Budokan","recital en directo","japanese ballad aesthetic, plum and warm gold, at a radio booth window, singing into the microphone"
